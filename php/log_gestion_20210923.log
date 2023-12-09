@@ -1,0 +1,93 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+03/12/2020
+10:00:00
+Acepto
+23-01 Se le hizo el mantenimieto el 3 dic y aun no se hizo cobro
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/06/2020
+12:00:00
+Acepto
+ACEPTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+11:20:00
+Volver a llamar
+06-03-2020 ...
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/03/2020
+10:00:00
+Volver a llamar
+05-03-2020 volver a llamar y consultar si esta bien promoción de 40
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/03/2020
+10:00:00
+Volver a llamar
+18-02-2020 Señor indicó que si nos recuerda pero que desistió de nuestro servicio porque tuvo un inconveniente.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/02/2020
+11:30:00
+Volver a llamar
+18-02-2020 el señor esta en reunión dijo la Secre.. Evelin
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/02/2020
+14:00:00
+Volver a llamar
+17-02-2020 el Señor salio a almorzar.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/02/2020
+08:35:00
+Volver a llamar
+14-02-2020 dijo la asistente que se la llame el día lunes, que la Sra esta en reunión
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/02/2020
+09:20:00
+Volver a llamar
+13-02-2020 no se encuentra el señor
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/01/2020
+09:22:00
+Volver a llamar
+HACER LLAMAR A DANIEL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/01/2020
+14:00:00
+Volver a llamar
+14/01/2020 contetso la esposa e indica q no quiere nada con nosotros porq e hemos ofrecido enviar fotos y no lo han hecho q no quiere saber nada
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/09/2019
+12:00:00
+Acepto
+02/09/2019 el sr acepto mediante whatsapp 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/05/2019
+12:30:00
+Acepto
+1/5/2019 acepto para el dia martes 7 d mayo
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 07/05/201911:30:00Acepto1/5/2019 acepto para el dia martes 7 d mayo----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 07/05/201911:00:00Acepto1/5/2019 acepto para el dia martes 7 d mayo----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 07/05/201910:00:00Acepto1/5/2019 acepto para el dia martes 7 d mayo----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 07/05/201909:00:00Acepto1/5/2019 acepto para el dia martes 7 d mayo----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 07/05/201909:30:00Acepto01/05/2019 acepto para el martes 7 de mayo ----------TERMINA COMENTARIO-----------5-10-18 SRA LLEGA A LAS 6 PM-LLAME AL CELULAR Y SRA INDICA Q NO ESTA" Q LLAME EL MARTES ------   29/08/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LAS 14H30',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n24/09/2021 11:00:00 - Acepto\n23/9/21 Sr. Juan indica que se le tome una foto antes de la limpieza y se la envien y tomar otra foto despues de la limpieza y se la envien tambien al celular 09994304\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='08919RDBAM000212'
+res:1

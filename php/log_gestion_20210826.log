@@ -1,0 +1,66 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+10/08/2021
+09:00:00
+Volver a llamar
+prueba
+----------TERMINA COMENTARIO-----------
+
+28-09-2015 no existe',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n27/08/2021 09:00:00 - Acepto\nprueba\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='07238LSOLM000A001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+10/08/2021
+10:00:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/08/2019
+17:12:00
+Acepto
+Ase test
+----------TERMINA COMENTARIO-----------
+',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n27/08/2021 10:00:00 - Acepto\nprueba 2da venta\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='11027FRIOM018014'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+27/12/2021
+06:30:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/11/2020
+10:00:00
+Acepto
+26-01 cleinte del grupo de CC 35 mas iva hizo el 4 nov
+----------TERMINA COMENTARIO-----------
+
+Cliente de campaña de captar clientes 35 mas iva',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n27/08/2021 12:00:00 - Cobros\nprueba\n----------TERMINA COMENTARIO-----------',`estado`='Cobros' WHERE codigo='09056CCRIM003001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+23/06/2020
+16:24:39
+Rechazó
+CONTRATO CON AMAGUA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/07/2019
+09:00:00
+Acepto
+01/07/2019  ACEPTO PARA EL DIA JUEVES A LAS 09:00 26/06/2019 LA SRA DICE Q LE LLAME MAS TARDE  , Q LE LLAME EL LUNES TIENE GENTE TRABAJANDO Y NO SABE CUANDO LO HARA 10/06/2019 LA SRA ETSA CANSADA QELLA ME DIJO LA EMPLEADA Q YA HABLO CON ANDREA  06/06/2019 q ya hicieron el mantenimiento  28/05/2019 LLAMAR DESPUES D UN MES Y MEDIO  07/05/2019 q le llamen en junio la sra esta enojada  30/04/2019 lalmar en la tarde, llame la sra dice q lo hace cada 6 meses y q ella ya lo hizo hace dos meses  llamar en junio talvez  29/04/2019 llamar mañana en la mañana  22/04/2019 Q ELLA LLAMA A DANIEL Q VA A REVUSAR SU AGENDA  11/04/2019 llamar en dos semanas  23/01/2019 acepto para mañana a las 09:30  16/01/201llamar el otro miercoles 9 15/01/2019 q no sabe nada ella e sla emleada q le llame a las 3 o 4  14/01/2019 la emleada no sabe a q hora llega ero en todo caso q llame mañana  11/01/2019 LLAMAR LE LUNE SLA SRA NO EST  10/01/2019 q le llame mañana esta en mal momento   04/01/2019  Q NO ESTA Q LA LLAME DESPUES30/10/2018 llamar en enero  17/09/2018 el se queda con el sr rivadeneira  24/08/2018 llamar despues por el momento no nevcesita 17/07/2018 QUE NO QUIERE Q ELLA LLAMA 27/06/2018 contesto la misma q no se acuerda exactamente cuand hizo el mantenimiento  20/06/2018 Contesto la misma q ya hizo el mantenimiento q no se acuerda la fecha  03/01/2018 contesto la misma q ya hace poco le hicieron el mantenimiento y q la llame despues  30-06-2017 se le realizo la limpieza 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/05/2019
+11:20:00
+Volver a llamar
+CLIENTE INDICA QUE ELLA NOS LLAMA XQ TIENE EL NUMERO DE NOSOTROS 
+----------TERMINA COMENTARIO-----------
+16/11/2015 se realizo limpieza',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n27/08/2021 15:00:00 - Acepto\n\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='01574LDORM000017'
+res:1

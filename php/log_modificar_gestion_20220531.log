@@ -1,0 +1,16 @@
+
+---------fecha:2022-05-31 17:25:34-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1334'
+sin err 1
+tiene dataFecha anterior:30/05/2022 Hora anterior:10:00:00\nmodificado por :andyfer\n
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '09:00:00', `fecha_acepto` = '30/05/2022' WHERE primaryk = '1334'
+
+---------fecha:2022-05-31 17:28:00-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1334'
+sin err 1
+tiene dataFecha anterior:30/05/2022 Hora anterior:09:00:00\nmodificado por :andyfer\n
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '09:00:00', `fecha_acepto` = '31/05/2022' WHERE primaryk = '1334'

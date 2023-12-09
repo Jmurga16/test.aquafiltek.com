@@ -1,0 +1,2 @@
+UPDATE `DatosClientes` SET `comentarios`='el señor indica que vive en un condominio y me dio el numero de la administradora raquel espinoza pbx. 2880533  raquel.espinoza@lhenriques.com;26/06 no desea el servicio',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='00500ENRIM0000000'
+res:1

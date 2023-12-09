@@ -1,0 +1,84 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+10/09/2021
+09:00:00
+Volver a llamar Importante
+prueba de importante
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/09/2021 11:00:00 Inspección
+Fecha anterior:08/09/2021 Hora anterior:11:00:00
+modificado por :andyfer
+ED
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/09/2021 11:00:00 - Inspección
+07092021
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/09/2021
+08:00:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2021 09:00:00 - Acepto
+sfsdf
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/02/2020
+10:46:00
+Volver a llamar
+14/02/2020EL SR DEVUELVE LAMADA E INDICA Q NO LE ESTEN LLAMANDO PORQ EL AVISA Q YA  HA DICHO MUUUCHAS VECES 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/02/2020
+10:21:00
+Volver a llamar
+05/02/2020 el sr dice q el avisa cuando
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/02/2020
+09:04:00
+Volver a llamar
+30/01/2020 la asistente dice q el sr esta de viaje y no sabe cusndo vuelve q ella avisa cuando el sr quiera
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/01/2020
+11:08:00
+Volver a llamar
+24/01/2020 LA SRTA DIANA DICE Q LE LLAMEN LA PROX SEMANA PORQ EL SR ESTA DE VIAJE 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/01/2020
+08:04:00
+Volver a llamar
+09/01/2020 EL AVISA
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 16/12/201910:20:00Volver a llamar----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 12/12/201904:10:00Volver a llamar04/12/2019 TODAVIA NO QUIERE----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 12/11/201911:00:00Volver a llamar12/11/2019 martha llega n 15 minutos----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 19/06/201910:00:00Acepto----------TERMINA COMENTARIO-----------18/06/2019 acepto para el dia d mañana a las 10:00am  19/02/2019 Q AHORA NOQ  UCHAS GRACIAS  26/11/2018 acepto para el dia jueves a las 10:30  SE HABLA CON EL 5/12/17 secretaria me indica que llame el dia de mañana para ver si se coordina///19/07 señor no se encuentra empleada cojio los numeros y el recado y que el se comunicara///20-05-2017 el esposo maneja ese tema y hay q hablar directamente con el - 22-03-2017 la señora dijo que en un mes aproximadamente lo van a haer, pero que el espooso se encargará de contactar hay dio los numeros de la ofi llamar det tarde dijo - 21-03-2017 la hija dice q sus papas estan en un duelo y que les va a dar el recado',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n16/09/2021 09:00:00 - Acepto\nprueba\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='05002ALMEM000017'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+07/10/2019
+12:10:00
+Volver a llamar
+02710/2019 la sra dice q no hara porq la ultima vcez q fueron las cosas q llevaron estaban oxidadas y no le gusto lo  qhicieron q le diga al sr Rivadeneira eso y q  acda arato la llaman
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/05/2019
+14:0:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 15/05/201913:0:00Acepto----------TERMINA COMENTARIO-----------14/05/2019 ACEPTO PARA EL DIA D MAÑANA',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n11/09/2021 09:00:00 - Inspección\n\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='09359VAPAM000069'
+res:1

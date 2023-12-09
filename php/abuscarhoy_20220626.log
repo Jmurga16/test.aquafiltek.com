@@ -1,0 +1,334 @@
+ inicia:21:15:59
+hoy_actual:2022-06-26 21:15:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-26 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-26 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:01
+hoy_actual:2022-06-26 21:16:01
+ BUSCAR SIGUIENTE:1
+NUEVA FECHA:2022-06-27 21:16:01 MIN:2022-06-27 00:00:00 -MAX:2022-06-27 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-27 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-27 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:03
+hoy_actual:2022-06-26 21:16:03
+ BUSCAR SIGUIENTE:2
+NUEVA FECHA:2022-06-28 21:16:03 MIN:2022-06-28 00:00:00 -MAX:2022-06-28 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-28 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-28 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:04
+hoy_actual:2022-06-26 21:16:04
+ BUSCAR SIGUIENTE:3
+NUEVA FECHA:2022-06-29 21:16:04 MIN:2022-06-29 00:00:00 -MAX:2022-06-29 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-29 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-29 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:06
+hoy_actual:2022-06-26 21:16:06
+ BUSCAR SIGUIENTE:4
+NUEVA FECHA:2022-06-30 21:16:06 MIN:2022-06-30 00:00:00 -MAX:2022-06-30 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-30 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-30 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:08
+hoy_actual:2022-06-26 21:16:08
+ BUSCAR SIGUIENTE:5
+NUEVA FECHA:2022-07-01 21:16:08 MIN:2022-07-01 00:00:00 -MAX:2022-07-01 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-01 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-01 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:09
+hoy_actual:2022-06-26 21:16:09
+ BUSCAR SIGUIENTE:6
+NUEVA FECHA:2022-07-02 21:16:09 MIN:2022-07-02 00:00:00 -MAX:2022-07-02 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-02 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-02 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:11
+hoy_actual:2022-06-26 21:16:11
+ BUSCAR SIGUIENTE:7
+NUEVA FECHA:2022-07-03 21:16:11 MIN:2022-07-03 00:00:00 -MAX:2022-07-03 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-03 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-03 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:16:13
+hoy_actual:2022-06-26 21:16:13
+ BUSCAR SIGUIENTE:8
+NUEVA FECHA:2022-07-04 21:16:13 MIN:2022-07-04 00:00:00 -MAX:2022-07-04 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-04 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-04 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:35
+hoy_actual:2022-06-26 21:36:35
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-26 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-26 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:37
+hoy_actual:2022-06-26 21:36:37
+ BUSCAR SIGUIENTE:1
+NUEVA FECHA:2022-06-27 21:36:37 MIN:2022-06-27 00:00:00 -MAX:2022-06-27 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-27 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-27 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:39
+hoy_actual:2022-06-26 21:36:39
+ BUSCAR SIGUIENTE:2
+NUEVA FECHA:2022-06-28 21:36:39 MIN:2022-06-28 00:00:00 -MAX:2022-06-28 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-28 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-28 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:40
+hoy_actual:2022-06-26 21:36:40
+ BUSCAR SIGUIENTE:3
+NUEVA FECHA:2022-06-29 21:36:40 MIN:2022-06-29 00:00:00 -MAX:2022-06-29 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-29 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-29 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:42
+hoy_actual:2022-06-26 21:36:42
+ BUSCAR SIGUIENTE:4
+NUEVA FECHA:2022-06-30 21:36:42 MIN:2022-06-30 00:00:00 -MAX:2022-06-30 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-30 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-30 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:44
+hoy_actual:2022-06-26 21:36:44
+ BUSCAR SIGUIENTE:5
+NUEVA FECHA:2022-07-01 21:36:44 MIN:2022-07-01 00:00:00 -MAX:2022-07-01 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-01 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-01 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:46
+hoy_actual:2022-06-26 21:36:46
+ BUSCAR SIGUIENTE:6
+NUEVA FECHA:2022-07-02 21:36:46 MIN:2022-07-02 00:00:00 -MAX:2022-07-02 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-02 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-02 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:48
+hoy_actual:2022-06-26 21:36:48
+ BUSCAR SIGUIENTE:7
+NUEVA FECHA:2022-07-03 21:36:48 MIN:2022-07-03 00:00:00 -MAX:2022-07-03 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-03 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-03 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:36:50
+hoy_actual:2022-06-26 21:36:50
+ BUSCAR SIGUIENTE:8
+NUEVA FECHA:2022-07-04 21:36:50 MIN:2022-07-04 00:00:00 -MAX:2022-07-04 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-04 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-04 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:38:10
+hoy_actual:2022-06-26 21:38:10
+ BUSCAR SIGUIENTE:8
+NUEVA FECHA:2022-07-04 21:38:10 MIN:2022-07-04 00:00:00 -MAX:2022-07-04 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-04 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-04 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:50:52
+hoy_actual:2022-06-26 21:50:52
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-26 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-26 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:50:54
+hoy_actual:2022-06-26 21:50:54
+ BUSCAR SIGUIENTE:1
+NUEVA FECHA:2022-06-27 21:50:54 MIN:2022-06-27 00:00:00 -MAX:2022-06-27 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-27 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-27 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:50:56
+hoy_actual:2022-06-26 21:50:56
+ BUSCAR SIGUIENTE:2
+NUEVA FECHA:2022-06-28 21:50:56 MIN:2022-06-28 00:00:00 -MAX:2022-06-28 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-28 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-28 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:50:58
+hoy_actual:2022-06-26 21:50:58
+ BUSCAR SIGUIENTE:3
+NUEVA FECHA:2022-06-29 21:50:58 MIN:2022-06-29 00:00:00 -MAX:2022-06-29 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-29 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-29 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:51:00
+hoy_actual:2022-06-26 21:51:00
+ BUSCAR SIGUIENTE:4
+NUEVA FECHA:2022-06-30 21:51:00 MIN:2022-06-30 00:00:00 -MAX:2022-06-30 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-30 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-30 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:51:02
+hoy_actual:2022-06-26 21:51:02
+ BUSCAR SIGUIENTE:5
+NUEVA FECHA:2022-07-01 21:51:02 MIN:2022-07-01 00:00:00 -MAX:2022-07-01 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-01 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-01 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:51:04
+hoy_actual:2022-06-26 21:51:04
+ BUSCAR SIGUIENTE:6
+NUEVA FECHA:2022-07-02 21:51:04 MIN:2022-07-02 00:00:00 -MAX:2022-07-02 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-02 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-02 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:51:06
+hoy_actual:2022-06-26 21:51:06
+ BUSCAR SIGUIENTE:7
+NUEVA FECHA:2022-07-03 21:51:06 MIN:2022-07-03 00:00:00 -MAX:2022-07-03 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-03 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-03 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:51:08
+hoy_actual:2022-06-26 21:51:08
+ BUSCAR SIGUIENTE:8
+NUEVA FECHA:2022-07-04 21:51:08 MIN:2022-07-04 00:00:00 -MAX:2022-07-04 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-04 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-04 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:44
+hoy_actual:2022-06-26 21:52:44
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-26 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-26 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:46
+hoy_actual:2022-06-26 21:52:46
+ BUSCAR SIGUIENTE:1
+NUEVA FECHA:2022-06-27 21:52:46 MIN:2022-06-27 00:00:00 -MAX:2022-06-27 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-27 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-27 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:48
+hoy_actual:2022-06-26 21:52:48
+ BUSCAR SIGUIENTE:2
+NUEVA FECHA:2022-06-28 21:52:48 MIN:2022-06-28 00:00:00 -MAX:2022-06-28 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-28 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-28 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:50
+hoy_actual:2022-06-26 21:52:50
+ BUSCAR SIGUIENTE:3
+NUEVA FECHA:2022-06-29 21:52:50 MIN:2022-06-29 00:00:00 -MAX:2022-06-29 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-29 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-29 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:51
+hoy_actual:2022-06-26 21:52:51
+ BUSCAR SIGUIENTE:4
+NUEVA FECHA:2022-06-30 21:52:51 MIN:2022-06-30 00:00:00 -MAX:2022-06-30 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-06-30 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-06-30 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:53
+hoy_actual:2022-06-26 21:52:53
+ BUSCAR SIGUIENTE:5
+NUEVA FECHA:2022-07-01 21:52:53 MIN:2022-07-01 00:00:00 -MAX:2022-07-01 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-01 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-01 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:55
+hoy_actual:2022-06-26 21:52:55
+ BUSCAR SIGUIENTE:6
+NUEVA FECHA:2022-07-02 21:52:55 MIN:2022-07-02 00:00:00 -MAX:2022-07-02 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-02 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-02 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:57
+hoy_actual:2022-06-26 21:52:57
+ BUSCAR SIGUIENTE:7
+NUEVA FECHA:2022-07-03 21:52:57 MIN:2022-07-03 00:00:00 -MAX:2022-07-03 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-03 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-03 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:21:52:59
+hoy_actual:2022-06-26 21:52:59
+ BUSCAR SIGUIENTE:8
+NUEVA FECHA:2022-07-04 21:52:59 MIN:2022-07-04 00:00:00 -MAX:2022-07-04 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-04 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-04 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  
+ inicia:22:14:24
+hoy_actual:2022-06-26 22:14:24
+ BUSCAR SIGUIENTE:8
+NUEVA FECHA:2022-07-04 22:14:24 MIN:2022-07-04 00:00:00 -MAX:2022-07-04 23:59:59
+SELECT primaryk, `codigo`,`coordenadas`, `nombre_completo`,fecha_acepto,hora_acepto,id_tipo_gestion FROM `DatosClientes` 
+LEFT JOIN Gestion_acepto ON Gestion_acepto.codigo_cliente = DatosClientes.codigo WHERE 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') <= '2022-07-04 23:59:59' AND 
+STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') >= '2022-07-04 00:00:00' 
+ORDER BY STR_TO_DATE(Gestion_acepto.fecha_acepto,'%d/%m/%Y') , Gestion_acepto.hora_acepto  

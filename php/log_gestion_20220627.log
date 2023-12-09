@@ -1,0 +1,124 @@
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n10/06/2022 08:00:00 - Acepto\nrthn\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/06/2022 16:12:00 - Acepto
+Reactivado 1 MG
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/02/2019
+08:30:00
+Volver a llamar
+Daniel se contactará con ella
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/02/2019
+09:00:00
+Volver a llamar
+30-01-19 sra enojada indico q ella ya nos ha dicho q tiene contrato con amagua y q gracias y colgó---
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/01/2019
+11:00:00
+Volver a llamar
+30-01-19 sra llega a partir de las 11am---
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 30/01/201910:10:00Volver a llamar --como referencia Daniel me comenta q anteriorment le hizo limp la copia y q se le habian cogido unos mangos de la mata, cosa q a la sra no le gusto y le hizo parar el trabajo-------------TERMINA COMENTARIO-----------18-09-2015    Indican que se llame la promesa semana de octubre para poder agendar la limpieza    --   03/08/2015 llamarla la proximo lunes 10 ------------------325/02/2015 se le ralizo la limpieza 27/10/2014 la señora es amable y contesta que la llame la primera semana de diciembre para hacerlo 15-05-2014 La señora aceptó el servicio para mañana a las 12', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08919RDBAC002110'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n25/06/2022 13:00:00 - Cobros\nCliente paga via transferencia\n----------TERMINA COMENTARIO-----------
+01/04/2016 no contesta 16/10/2015 cliente no contesta//15/10/2015 cliente no contesta//02/09/2015 no responde nadie en el domicilio ', `comentarios_gestion`='',`estado`='Cobros' WHERE codigo='00500ENRIM0Z1023'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n01/07/2022 14:00:00 - Acepto\nAcepto por un precio de $45,00 Cliente indica que pagará el proximo mes, cuando retorne al pais\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/09/2019
+12:20:00
+Volver a llamar
+04/09/2019 la sra esta ocupada volver a llamar
+----------TERMINA COMENTARIO-----------
+
+1903-04-29 00:00:00', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00K006'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n29/06/2022 11:00:00 - Inspección\n27/06/2022 Inspeccion de boya\n----------TERMINA COMENTARIO-----------
+5-10-18 SRA ESTA DE VIAJE, LLEGA EL MARTES-----    31/08/2016 NUMERO INCORRECTO O HA SIDO DESCONECTADO 9H14  29/08/2016 SUENA OCUPADO 12H11', `comentarios_gestion`='',`estado`='Inspección' WHERE codigo='08919RDBAM000104'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n28/06/2022 13:00:00 - Inspección\n28-06--2022 el sr permitio que vayan a inspeccionar para posible impermeabilizacion\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/01/2020
+13:20:00
+Volver a llamar
+28/11/2019 EN LA BASE URBANO ESTA CON EL NOMBRE DE CARIDAD ROCIO AROSEMENA , APARECE EN EL PROGRAMA ,  CON OTROS NOMBRES , PERO ES EL MISMO CONVENCIONAL . 20/11/2019 SEÑORA CONTESTA DICE QUE ELLA NOS RESPONDIO POR WHSTAP QUE NOS DIO FECHA(SEGURO FUE CON LA COMPETENCIA)  09/07/2019 no contesta 
+----------TERMINA COMENTARIO-----------
+
+1-OCT-18 NO CONTESTA----- 17/09/18 NO CONTESTA -  14/09/18 NUMER NO CONTESTA - 05/04/2016 NUMERO EQUIVOCADO', `comentarios_gestion`='',`estado`='Inspección' WHERE codigo='07238LSOLM00D004'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n30/06/2022 12:05:00 - Acepto\n27/06/2022 Se ofrece un precio promocional con argumento de que estaremos por la zona\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/08/2020
+10:05:00
+Volver a llamar
+NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/08/2020
+10:04:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/07/2020
+10:01:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/07/2020
+11:54:00
+No responde
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/07/2020
+09:00:00
+No responde
+SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/07/2020
+09:02:00
+Volver a llamar
+SE ENVIO WP SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/07/2020
+10:01:00
+Volver a llamar
+HACER SEGUIMEINTO LE TOCA LIMPIEZA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/07/2020
+10:02:00
+Volver a llamar
+SEGUIMIENTO HIZO EN OCTUBRE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/10/2019
+09:00:00
+Acepto
+$40 ACPETO EN ESE VALOR
+----------TERMINA COMENTARIO-----------
+
+07/02/2019 llamada desviada 21/12/2018 NO CO NTESTA 07/12/2018 no contesta  14/11/2018 celular apgado13/10/2018 hable con el empleado q dijo q cordinaba oara el lunes a ñlas 12;30...05/09/2018 CELULAR APAGADO EN LA CASA NO CONTESTAN 18/07/2018 no se encuentra y no sabe a q hora regresa 18-08-17 ya lo realizaron con Sr. daniel, 24-03.2017 la sra acepta la limpieza de cisterna par el viernes 31 15/03/2017 contesto la empleada q la sra regresa el dia viernes de viaje y q mejor la llame el dia lunes  06/03/2017 contesto la empleada q la sra regresa por la noche y al cell contesto la misma q la llame a las 17:00 para tenerme una confirmacion xq no sabe si va a ver alguien en la casa a esa hora , contesto la misma q la llame aprtir del 20  04/03/2017 contesto la empleada q la sra no esta y q posiblemente regrese tipo 18:00  08/09/2016 CLIENTE SE LE CAMBIO LA HORA, ES A LAS 9AM 08/09/2016 CONFIRME LA LIMPIEZA PARA EL VIERNES 10H14  MARIUXI EMPLEADA VA ATENDER, VA A PAGAR EN EFECTIVO  06/09/2016 CLIENTE ACEPTA LA LIMPIEZA PARA EL DIA VIERNES 9 DE SEPTIEMBRE A LAS 10H00 A NOMBRE DE LA CLIENTE SILVIA 0906341383  02/09/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA EN LA NOCHE 15H03  1/09/2016 CLIENTE DICE QUE LE ENVIE TODA LA INFORMACION AL CORREO Y QUE LA LLAME MAÑANA A LAS 9AM QUE QUIERE CONSULTARLO CON EL ESPOSO 9H42', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08919RDBAM000129'
+res:1

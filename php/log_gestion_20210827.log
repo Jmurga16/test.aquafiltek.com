@@ -1,0 +1,68 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+20/08/2021 16:31:00 - Inspección
+2008 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 16:31:00 - Inspección
+2008 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 16:31:00 - Inspección
+2008 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 16:31:00 - Inspección
+2008 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 16:31:00 - Inspección
+2008 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 16:31:00 - Inspección
+2008 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/08/2020
+08:48:00
+Volver a llamar
+CLIENTE SE COMUNICA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+29/07/2020
+09:01:00
+Volver a llamar
+CLIENTE VA A RESPONDER POR WP SI RECIBIO MENSAJE LLAMA CUANDO VAYA A REALIZAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/07/2020
+16:00:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/07/2020
+15:00:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/02/2020
+11:00:00
+Acepto
+14/02/2020 LA SRA DE WEISSON ACEPTO PARA EL DIA MARTES FACILITÓ SU NÚMERO CELULAR Y DATOS DE FACTURA
+----------TERMINA COMENTARIO-----------
+
+18/06 la esposa cinthia cevallos a las 16:45, no contesta',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n28/08/2021 13:10:00 - Inspección\ntest\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='01574LDORM000036'
+res:1

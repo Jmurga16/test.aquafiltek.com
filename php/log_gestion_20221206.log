@@ -1,0 +1,14 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+19/02/2020
+15:15:45
+Rechazó
+CLIENTE INDICA QUE NO TIENE CISTERNA
+----------TERMINA COMENTARIO-----------
+
+09/01/16 No desa por el momento 07/12/15 llamar 8 am 30/11/15 llamar la proxima semana puesto que se encuentra de viaje 05/11/15 LLAMAR PRIMEROS DIAS DE DICIEMBRE04/11/15 llamar nuevamente a las 8:30 22/10/15 LLAMAR SABADO16/06/2015 limpieza para el dia miercoles 17 de junio',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00D013'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-06-24 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM0H1004'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-08-18 00:00:00',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='00500ENRIM0Y1027'
+res:1

@@ -1,0 +1,8 @@
+
+---------fecha:2021-08-20 00:20:42-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1135'
+sin err 1
+tiene dataFecha anterior:20/08/2021 Hora anterior:11:00:00\nmodificado por :andyfer\nPRUEBA
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '11:00:00', `fecha_acepto` = '21/08/2021' WHERE primaryk = '1135'

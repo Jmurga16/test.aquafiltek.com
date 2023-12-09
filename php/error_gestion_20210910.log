@@ -1,0 +1,7 @@
+fecha:2021-09-10 22:00:47
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2021-09-10' AND `id_operador`=5 AND tipo_geston = 'ac' 
+Unknown column 'tipo_geston' in 'where clause'fecha:2021-09-10 22:02:14
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2021-09-10' AND `id_operador`=5 AND tipo_geston = 'ac' 
+Unknown column 'tipo_geston' in 'where clause'fecha:2021-09-10 22:03:44
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2021-09-10' AND `id_operador`=5 AND tipo_geston = 'ac' 
+Unknown column 'tipo_geston' in 'where clause'

@@ -1,0 +1,72 @@
+--------2022-06-27 08:33:12-------------
+operador:5-cliente:08919RDBAC002110-tiempo:00:00:39-tipo:2
+--correcto
+--------2022-06-27 08:34:04-------------
+operador:5-cliente:04302EDRIM000013-tiempo:00:00:27-tipo:1
+--correcto
+--------2022-06-27 08:35:25-------------
+operador:5-cliente:-tiempo:00:01:41-tipo:2
+--correcto
+--------2022-06-27 08:35:35-------------
+operador:5-cliente:-tiempo:00:00:10-tipo:2
+--correcto
+--------2022-06-27 08:35:38-------------
+operador:5-cliente:-tiempo:00:00:03-tipo:2
+--correcto
+--------2022-06-27 08:35:43-------------
+operador:5-cliente:-tiempo:00:00:05-tipo:2
+--correcto
+--------2022-06-27 08:35:49-------------
+operador:5-cliente:-tiempo:00:00:05-tipo:2
+--correcto
+--------2022-06-27 08:36:32-------------
+operador:5-cliente:09056CCRIM009017-tiempo:00:00:27-tipo:8
+--correcto
+--------2022-06-27 08:37:13-------------
+operador:5-cliente:00500ENRIM0Z1023-tiempo:00:00:27-tipo:10
+--correcto
+--------2022-06-27 08:38:37-------------
+operador:5-cliente:07850VSOLM00K002-tiempo:00:01:22-tipo:3
+--correcto
+--------2022-06-27 08:38:59-------------
+operador:5-cliente:07850VSOLM00K006-tiempo:00:00:12-tipo:2
+--correcto
+--------2022-06-27 08:40:13-------------
+operador:5-cliente:06326LCASM001001-tiempo:00:01:00-tipo:1
+--correcto
+--------2022-06-27 08:40:58-------------
+operador:5-cliente:04533GTENM002000-tiempo:00:00:24-tipo:5
+--correcto
+--------2022-06-27 08:41:30-------------
+operador:5-cliente:00500ENRIM0J1028-tiempo:00:00:20-tipo:5
+--correcto
+--------2022-06-27 08:42:12-------------
+operador:5-cliente:03483CDRIM002025-tiempo:00:00:29-tipo:6
+--correcto
+--------2022-06-27 08:43:43-------------
+operador:5-cliente:00500ENRIM00C1006-tiempo:00:01:03-tipo:8
+--correcto
+--------2022-06-27 08:44:52-------------
+operador:5-cliente:09066CCCRM012015-tiempo:00:03:34-tipo:8
+--correcto
+--------2022-06-27 08:47:09-------------
+operador:5-cliente:-tiempo:00:02:28-tipo:1
+--correcto
+--------2022-06-27 08:47:44-------------
+operador:5-cliente:02292ERIOM000038-tiempo:00:00:45-tipo:3
+--correcto
+--------2022-06-27 08:48:29-------------
+operador:5-cliente:08919RDBAM000104-tiempo:00:00:40-tipo:9
+--correcto
+--------2022-06-27 08:48:30-------------
+operador:5-cliente:08919RDBAM000104-tiempo:00:00:01-tipo:9
+--correcto
+--------2022-06-27 08:49:47-------------
+operador:5-cliente:-tiempo:00:01:16-tipo:8
+--correcto
+--------2022-06-27 08:50:50-------------
+operador:5-cliente:07238LSOLM00D004-tiempo:00:01:12-tipo:9
+--correcto
+--------2022-06-27 08:51:08-------------
+operador:5-cliente:08919RDBAM000129-tiempo:00:00:55-tipo:2
+--correcto

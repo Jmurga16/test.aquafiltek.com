@@ -1,0 +1,360 @@
+--------2023-04-20 15:34:29-------------
+operador:2-cliente:08210LDSOM00L004-tiempo:00:04:44-tipo:8
+--correcto
+--------2023-04-20 15:35:09-------------
+operador:2-cliente:08210LDSOM00L033-tiempo:00:00:34-tipo:10
+--correcto
+--------2023-04-20 15:35:47-------------
+operador:2-cliente:08210LDSOM00K024-tiempo:00:00:34-tipo:1
+--correcto
+--------2023-04-20 15:36:16-------------
+operador:2-cliente:08210LDSOM00E023-tiempo:00:00:22-tipo:6
+--correcto
+--------2023-04-20 15:37:02-------------
+operador:2-cliente:08210LDSOM00I008-tiempo:00:00:39-tipo:1
+--correcto
+--------2023-04-20 15:37:23-------------
+operador:2-cliente:08210LDSOM00K011-tiempo:00:00:12-tipo:3
+--correcto
+--------2023-04-20 15:37:48-------------
+operador:2-cliente:08210LDSOM00K033-tiempo:00:00:11-tipo:1
+--correcto
+--------2023-04-20 15:38:14-------------
+operador:2-cliente:08210LDSOM00M010-tiempo:00:00:13-tipo:8
+--correcto
+--------2023-04-20 15:38:49-------------
+operador:2-cliente:08210LDSOM00E017-tiempo:00:00:24-tipo:2
+--correcto
+--------2023-04-20 15:39:28-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:32-tipo:2
+--correcto
+--------2023-04-20 15:39:41-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:10-tipo:2
+--correcto
+--------2023-04-20 15:39:52-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:08-tipo:2
+--correcto
+--------2023-04-20 15:40:23-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:17-tipo:2
+--correcto
+--------2023-04-20 15:40:27-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:04-tipo:2
+--correcto
+--------2023-04-20 15:41:00-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:32-tipo:2
+--correcto
+--------2023-04-20 15:41:04-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:03-tipo:2
+--correcto
+--------2023-04-20 15:41:09-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:04-tipo:2
+--correcto
+--------2023-04-20 15:42:09-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:25-tipo:2
+--correcto
+--------2023-04-20 15:42:31-------------
+operador:2-cliente:08210LDSOM00A003-tiempo:00:00:21-tipo:2
+--correcto
+--------2023-04-20 15:42:56-------------
+operador:2-cliente:08210LDSOM00F022-tiempo:00:00:19-tipo:2
+--correcto
+--------2023-04-20 15:43:46-------------
+operador:2-cliente:08210LDSOM00K026-tiempo:00:00:41-tipo:1
+--correcto
+--------2023-04-20 15:44:52-------------
+operador:2-cliente:08210LDSOM00L019-tiempo:00:00:49-tipo:1
+--correcto
+--------2023-04-20 15:46:21-------------
+operador:2-cliente:08210LDSOM00J002-tiempo:00:01:05-tipo:5
+--correcto
+--------2023-04-20 15:47:35-------------
+operador:2-cliente:08210LDSOM00L012-tiempo:00:00:54-tipo:6
+--correcto
+--------2023-04-20 15:48:00-------------
+operador:2-cliente:08210LDSOM00K037-tiempo:00:00:13-tipo:8
+--correcto
+--------2023-04-20 15:48:35-------------
+operador:2-cliente:08210LDSOM000014-tiempo:00:00:16-tipo:1
+--correcto
+--------2023-04-20 15:49:05-------------
+operador:2-cliente:08210LDSOM00E001-tiempo:00:00:18-tipo:6
+--correcto
+--------2023-04-20 15:50:01-------------
+operador:2-cliente:04533GTENM00J002-tiempo:00:00:41-tipo:2
+--correcto
+--------2023-04-20 15:52:56-------------
+operador:12-cliente:08210LDSOM00E017-tiempo:00:01:31-tipo:2
+--correcto
+--------2023-04-20 15:55:42-------------
+operador:5-cliente:04533GTENM00J002-tiempo:00:04:42-tipo:1
+--correcto
+--------2023-04-20 15:56:36-------------
+operador:5-cliente:08210LDSOM00A003-tiempo:00:00:50-tipo:1
+--correcto
+--------2023-04-20 15:57:18-------------
+operador:5-cliente:08210LDSOM00E017-tiempo:00:00:40-tipo:8
+--correcto
+--------2023-04-20 15:57:27-------------
+operador:12-cliente:-tiempo:00:01:23-tipo:2
+--correcto
+--------2023-04-20 15:58:07-------------
+operador:5-cliente:08210LDSOM00F022-tiempo:00:00:44-tipo:8
+--correcto
+--------2023-04-20 15:58:59-------------
+operador:5-cliente:08210LDSOM00L033-tiempo:00:00:49-tipo:2
+--correcto
+--------2023-04-20 15:59:53-------------
+operador:5-cliente:08210LDSOM00L004-tiempo:00:00:52-tipo:5
+--correcto
+--------2023-04-20 16:00:36-------------
+operador:5-cliente:08210LDSOM00M010-tiempo:00:00:40-tipo:5
+--correcto
+--------2023-04-20 16:01:16-------------
+operador:5-cliente:08210LDSOM00K037-tiempo:00:00:37-tipo:9
+--correcto
+--------2023-04-20 16:01:17-------------
+operador:5-cliente:08210LDSOM00K037-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 16:02:23-------------
+operador:5-cliente:08210LDSOM00I007-tiempo:00:01:01-tipo:2
+--correcto
+--------2023-04-20 16:03:03-------------
+operador:5-cliente:08210LDSOM00C011-tiempo:00:00:36-tipo:2
+--correcto
+--------2023-04-20 16:03:47-------------
+operador:5-cliente:08210LDSOM00K027-tiempo:00:00:40-tipo:8
+--correcto
+--------2023-04-20 16:04:56-------------
+operador:5-cliente:08210LDSOM00F016-tiempo:00:01:02-tipo:7
+--correcto
+--------2023-04-20 16:05:42-------------
+operador:5-cliente:08210LDSOM00A008-tiempo:00:00:38-tipo:7
+--correcto
+--------2023-04-20 16:07:07-------------
+operador:12-cliente:-tiempo:00:09:36-tipo:2
+--correcto
+--------2023-04-20 16:07:14-------------
+operador:5-cliente:08210LDSOM00J016-tiempo:00:01:09-tipo:6
+--correcto
+--------2023-04-20 16:07:21-------------
+operador:12-cliente:-tiempo:00:00:13-tipo:2
+--correcto
+--------2023-04-20 16:07:25-------------
+operador:12-cliente:-tiempo:00:00:03-tipo:2
+--correcto
+--------2023-04-20 16:08:18-------------
+operador:5-cliente:08210LDSOM00M011-tiempo:00:00:46-tipo:3
+--correcto
+--------2023-04-20 16:08:58-------------
+operador:12-cliente:-tiempo:00:01:31-tipo:2
+--correcto
+--------2023-04-20 16:09:21-------------
+operador:12-cliente:-tiempo:00:00:23-tipo:2
+--correcto
+--------2023-04-20 16:10:04-------------
+operador:12-cliente:-tiempo:00:00:32-tipo:1
+--correcto
+--------2023-04-20 16:10:08-------------
+operador:5-cliente:08210LDSOM00B015-tiempo:00:00:35-tipo:10
+--correcto
+--------2023-04-20 16:10:57-------------
+operador:12-cliente:-tiempo:00:00:30-tipo:2
+--correcto
+--------2023-04-20 16:11:08-------------
+operador:12-cliente:-tiempo:00:00:11-tipo:2
+--correcto
+--------2023-04-20 16:11:34-------------
+operador:5-cliente:08210LDSOM00I005-tiempo:00:01:24-tipo:2
+--correcto
+--------2023-04-20 16:11:59-------------
+operador:12-cliente:-tiempo:00:00:51-tipo:8
+--correcto
+--------2023-04-20 16:13:05-------------
+operador:12-cliente:-tiempo:00:01:00-tipo:8
+--correcto
+--------2023-04-20 16:13:37-------------
+operador:5-cliente:08210LDSOM00L034-tiempo:00:01:03-tipo:8
+--correcto
+--------2023-04-20 16:13:48-------------
+operador:12-cliente:-tiempo:00:00:37-tipo:7
+--correcto
+--------2023-04-20 16:14:14-------------
+operador:5-cliente:08210LDSOM00F019-tiempo:00:00:24-tipo:2
+--correcto
+--------2023-04-20 16:15:10-------------
+operador:5-cliente:08210LDSOM00K025-tiempo:00:00:51-tipo:1
+--correcto
+--------2023-04-20 16:15:41-------------
+operador:12-cliente:07850VSOLM00E004-tiempo:00:06:32-tipo:2
+--correcto
+--------2023-04-20 16:15:54-------------
+operador:5-cliente:08210LDSOM00D010-tiempo:00:00:26-tipo:5
+--correcto
+--------2023-04-20 16:19:04-------------
+operador:5-cliente:08210LDSOM00B019-tiempo:00:00:26-tipo:2
+--correcto
+--------2023-04-20 16:20:32-------------
+operador:12-cliente:-tiempo:00:03:35-tipo:1
+--correcto
+--------2023-04-20 16:21:04-------------
+operador:5-cliente:08210LDSOM00E019-tiempo:00:01:56-tipo:8
+--correcto
+--------2023-04-20 16:23:35-------------
+operador:12-cliente:-tiempo:00:02:23-tipo:8
+--correcto
+--------2023-04-20 16:23:50-------------
+operador:5-cliente:08210LDSOM00L040-tiempo:00:00:59-tipo:8
+--correcto
+--------2023-04-20 16:24:43-------------
+operador:5-cliente:08210LDSOM00L023-tiempo:00:00:32-tipo:1
+--correcto
+--------2023-04-20 16:26:18-------------
+operador:5-cliente:08210LDSOM00G001-tiempo:00:00:55-tipo:8
+--correcto
+--------2023-04-20 16:28:01-------------
+operador:5-cliente:08210LDSOM00F014-tiempo:00:01:16-tipo:5
+--correcto
+--------2023-04-20 16:29:03-------------
+operador:5-cliente:08210LDSOM00E008-tiempo:00:00:47-tipo:10
+--correcto
+--------2023-04-20 16:29:47-------------
+operador:5-cliente:08210LDSOM00K016-tiempo:00:00:41-tipo:8
+--correcto
+--------2023-04-20 16:30:07-------------
+operador:12-cliente:01378LRIBM00F020-tiempo:00:12:57-tipo:2
+--correcto
+--------2023-04-20 16:30:27-------------
+operador:5-cliente:08210LDSOM00N005-tiempo:00:00:24-tipo:5
+--correcto
+--------2023-04-20 16:31:26-------------
+operador:12-cliente:09046CCDEM000000-tiempo:00:01:06-tipo:2
+--correcto
+--------2023-04-20 16:32:40-------------
+operador:12-cliente:09048CCESM017010-tiempo:00:01:09-tipo:8
+--correcto
+--------2023-04-20 16:33:23-------------
+operador:12-cliente:09048CCESM001018-tiempo:00:00:22-tipo:1
+--correcto
+--------2023-04-20 16:35:07-------------
+operador:12-cliente:00254LPUNM00B012-tiempo:00:00:25-tipo:2
+--correcto
+--------2023-04-20 16:36:58-------------
+operador:12-cliente:00254LPUNC001405-tiempo:00:01:27-tipo:2
+--correcto
+--------2023-04-20 16:38:46-------------
+operador:12-cliente:11027FRIOM022012-tiempo:00:01:42-tipo:2
+--correcto
+--------2023-04-20 16:39:25-------------
+operador:12-cliente:03483CDRIM002025-tiempo:00:00:36-tipo:10
+--correcto
+--------2023-04-20 16:41:03-------------
+operador:12-cliente:09046CCDEM000004-tiempo:00:01:33-tipo:2
+--correcto
+--------2023-04-20 16:41:34-------------
+operador:12-cliente:00500ENRIM0J1037-tiempo:00:00:30-tipo:1
+--correcto
+--------2023-04-20 16:42:16-------------
+operador:12-cliente:00810VARIM000003-tiempo:00:00:21-tipo:2
+--correcto
+--------2023-04-20 16:44:46-------------
+operador:12-cliente:02292ERIOM001086-tiempo:00:02:28-tipo:2
+--correcto
+--------2023-04-20 16:47:57-------------
+operador:12-cliente:00254LPUNM00B012-tiempo:00:03:09-tipo:8
+--correcto
+--------2023-04-20 16:49:06-------------
+operador:12-cliente:09066CCCRM12014-tiempo:00:00:21-tipo:5
+--correcto
+--------2023-04-20 16:49:56-------------
+operador:12-cliente:02292ERIOM000166-tiempo:00:00:19-tipo:8
+--correcto
+--------2023-04-20 16:51:47-------------
+operador:12-cliente:09048CCESM003007-tiempo:00:00:21-tipo:3
+--correcto
+--------2023-04-20 16:53:11-------------
+operador:12-cliente:07442ELAGM00E020-tiempo:00:00:35-tipo:6
+--correcto
+--------2023-04-20 16:53:46-------------
+operador:12-cliente:1670339498251-tiempo:00:00:24-tipo:9
+--correcto
+--------2023-04-20 16:53:47-------------
+operador:12-cliente:1670339498251-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 16:53:47-------------
+operador:12-cliente:1670339498251-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 16:53:48-------------
+operador:12-cliente:1670339498251-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 16:54:32-------------
+operador:12-cliente:09048CCESM016024-tiempo:00:00:44-tipo:9
+--correcto
+--------2023-04-20 16:54:33-------------
+operador:12-cliente:09048CCESM016024-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 16:55:18-------------
+operador:12-cliente:00758RGRAM000031-tiempo:00:00:45-tipo:2
+--correcto
+--------2023-04-20 16:56:52-------------
+operador:12-cliente:02675FONTM000008-tiempo:00:00:12-tipo:2
+--correcto
+--------2023-04-20 16:57:49-------------
+operador:12-cliente:10025EDRIM00A034-tiempo:00:00:53-tipo:8
+--correcto
+--------2023-04-20 16:58:18-------------
+operador:12-cliente:00758RGRAC00S009-tiempo:00:00:15-tipo:7
+--correcto
+--------2023-04-20 16:58:52-------------
+operador:12-cliente:00758RGRAM00B047-tiempo:00:00:18-tipo:2
+--correcto
+--------2023-04-20 16:59:28-------------
+operador:12-cliente:05546CASC000001-tiempo:00:00:35-tipo:10
+--correcto
+--------2023-04-20 17:00:12-------------
+operador:12-cliente:00500ENRIM0000000-tiempo:00:00:41-tipo:5
+--correcto
+--------2023-04-20 17:00:43-------------
+operador:12-cliente:1670339498166-tiempo:00:00:21-tipo:8
+--correcto
+--------2023-04-20 17:01:23-------------
+operador:12-cliente:08076TESOM00I023-tiempo:00:00:29-tipo:2
+--correcto
+--------2023-04-20 17:02:10-------------
+operador:12-cliente:01378LRIBM00N016-tiempo:00:00:44-tipo:1
+--correcto
+--------2023-04-20 17:10:13-------------
+operador:12-cliente:04186SDRIM038013-tiempo:00:00:36-tipo:9
+--correcto
+--------2023-04-20 17:10:14-------------
+operador:12-cliente:04186SDRIM038013-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 17:10:16-------------
+operador:12-cliente:04186SDRIM038013-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 17:10:18-------------
+operador:12-cliente:04186SDRIM038013-tiempo:00:00:00-tipo:9
+--correcto
+--------2023-04-20 17:21:37-------------
+operador:12-cliente:07442ELAGM00F009-tiempo:00:06:49-tipo:2
+--correcto
+--------2023-04-20 17:29:43-------------
+operador:12-cliente:09048CCESM003016-tiempo:00:08:04-tipo:1
+--correcto
+--------2023-04-20 17:33:28-------------
+operador:12-cliente:00500ENRIM00C1006-tiempo:00:00:16-tipo:2
+--correcto
+--------2023-04-20 17:34:04-------------
+operador:12-cliente:02677FONTM000008-tiempo:00:00:35-tipo:1
+--correcto
+--------2023-04-20 17:35:01-------------
+operador:12-cliente:00938ISSOM000016-tiempo:00:00:25-tipo:2
+--correcto
+--------2023-04-20 17:36:04-------------
+operador:12-cliente:11700POVIM162121-tiempo:00:01:02-tipo:5
+--correcto
+--------2023-04-20 17:36:31-------------
+operador:12-cliente:1670339498223-tiempo:00:00:12-tipo:3
+--correcto
+--------2023-04-20 17:38:33-------------
+operador:12-cliente:08076TESOM00J001-tiempo:00:00:18-tipo:2
+--correcto

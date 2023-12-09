@@ -1,0 +1,77 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+27/10/2021 09:00:00 - Acepto
+test
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/10/2020
+10:05:00
+Volver a llamar
+01-10 hoy se hablo con la cliente en la mañama y de tarde se dejó mensaje por wspp
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/09/2020
+11:40:00
+Volver a llamar
+VERIFICAR SI SIGUE DE VIAJE Y SI VA A HACER, SE LE ENVIO MENSAJE DE WP
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/07/2020
+16:01:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/06/2020
+09:00:00
+No responde
+NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/06/2020
+09:03:00
+Volver a llamar
+INSITIR NO CONTESTA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/06/2020
+10:00:00
+No responde
+NO CONTESTA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/06/2020
+08:00:00
+No responde
+NO CONTESTA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/06/2020
+09:01:00
+No responde
+NC
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/09/2019
+14:00:00
+Acepto
+26/09/2019 ACEPTO CON DANIEL DESINFECCION DE LINEAS DE AGUA POTABLE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/07/2019
+11:00:00
+Acepto
+17/07/2019 sra acepto con daniel la limpieza y cambio de filtros grandes , triple filtro big blue 20´... 17/01/2019 lo realizo en esta fecha 26-11-18 Sra llamó a Daniel a pedirle limpieza para mañna-----  26-10-18  llame a la casa y sra no se encuentra y la empleada no me quiso dar numer de la oficina(le deje el mensaje con la sra de la casa) /NC----  15-10-18 NC----  12-10-18 NO CONTESTA----  9-OCT-18 LLAMAR LUEGO NO CONTESTA----  2-OCT-18 SRA DICE Q ESTA SEMANA NO VA A VER NADIE EN SU CASA, LA OTRA SEMANA LE AVISA (EMPLEADA ESTA DE VIAJE)---  27-02-2018 mañana limpieza y cambio de filtros -   7/9/17 clienta me indica que ya la hizo con el jardinero/--  /1/9/17 empleada me indica que la llame a medio dia//27/07 clienta indica que realizara la limpieza para fines de agosto//26/07 clienta me indica que llame el dia de mañana 8:30------    13/12/17 CLIENTA ME INDICA QUE LA LLAME EN ENERO///11/12/17 clienta llamarla 15h00///27/11/17 clienta me indica que le escriba via whatsapp que ahí me avisa que dia///02-06-2017 la señora llamo a pedir cambio de filtros y limpieza para el lunes tipo 11am le dije 
+----------TERMINA COMENTARIO-----------
+7/9/17 clienta me indica que ya la hizo con el jardinero//1/9/17 empleada me indica que la llame a medio dia//27/07 clienta indica que realizara la limpieza para fines de agosto//26/07 clienta me indica que llame el dia de mañana 8:30',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n27/10/2021 10:00:00 - Acepto\ntest\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='07442ELAGM00F010'
+res:1

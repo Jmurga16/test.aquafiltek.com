@@ -1,0 +1,201 @@
+--------2022-11-22 00:11:15-------------
+operador:5-cliente:07850VSOLM00C003-tiempo:00:01:04-tipo:3
+--correcto
+--------2022-11-22 00:19:18-------------
+operador:5-cliente:00500ENRIM00O031-tiempo:00:00:43-tipo:5
+--correcto
+--------2022-11-22 00:23:02-------------
+operador:5-cliente:07850VSOLM00A020-tiempo:00:00:33-tipo:6
+--correcto
+--------2022-11-22 00:42:31-------------
+operador:5-cliente:07850VSOLM00K018-tiempo:00:00:27-tipo:7
+--correcto
+--------2022-11-22 09:00:07-------------
+operador:8-cliente:07850VSOLM00B003-tiempo:00:03:12-tipo:2
+--correcto
+--------2022-11-22 09:09:13-------------
+operador:8-cliente:07850VSOLM00F018-tiempo:00:05:39-tipo:2
+--correcto
+--------2022-11-22 09:16:04-------------
+operador:8-cliente:07850VSOLM00G006-tiempo:00:06:23-tipo:2
+--correcto
+--------2022-11-22 09:20:59-------------
+operador:2-cliente:07850VSOLM00I017-tiempo:00:02:41-tipo:1
+--correcto
+--------2022-11-22 09:21:28-------------
+operador:2-cliente:07850VSOLM00B002-tiempo:00:00:27-tipo:5
+--correcto
+--------2022-11-22 09:21:41-------------
+operador:2-cliente:00500ENRIM0S1026-tiempo:00:00:15-tipo:8
+--correcto
+--------2022-11-22 09:22:31-------------
+operador:2-cliente:00500ENRIM0U1011-tiempo:00:00:49-tipo:2
+--correcto
+--------2022-11-22 09:22:46-------------
+operador:2-cliente:00500ENRIM00E022-tiempo:00:00:16-tipo:5
+--correcto
+--------2022-11-22 09:23:08-------------
+operador:2-cliente:00500ENRIM0Y1030-tiempo:00:00:18-tipo:2
+--correcto
+--------2022-11-22 09:34:24-------------
+operador:8-cliente:07850VSOLM00N027-tiempo:00:00:22-tipo:8
+--correcto
+--------2022-11-22 09:34:42-------------
+operador:8-cliente:07850VSOLM00B008-tiempo:00:00:16-tipo:1
+--correcto
+--------2022-11-22 09:35:32-------------
+operador:8-cliente:07850VSOLM00J016-tiempo:00:00:48-tipo:5
+--correcto
+--------2022-11-22 09:36:36-------------
+operador:8-cliente:07850VSOLM00E007-tiempo:00:00:50-tipo:10
+--correcto
+--------2022-11-22 09:37:27-------------
+operador:2-cliente:00500ENRIM0S1026-tiempo:00:03:10-tipo:2
+--correcto
+--------2022-11-22 09:43:09-------------
+operador:2-cliente:07850VSOLM00B002-tiempo:00:00:09-tipo:5
+--correcto
+--------2022-11-22 09:43:34-------------
+operador:2-cliente:07850VSOLM00I017-tiempo:00:00:08-tipo:3
+--correcto
+--------2022-11-22 09:43:34-------------
+operador:2-cliente:07850VSOLM00B002-tiempo:00:00:10-tipo:6
+--correcto
+--------2022-11-22 09:43:59-------------
+operador:2-cliente:00500ENRIM00E022-tiempo:00:00:11-tipo:7
+--correcto
+--------2022-11-22 09:49:21-------------
+operador:2-cliente:00500ENRIM00E022-tiempo:00:00:12-tipo:6
+--correcto
+--------2022-11-22 09:49:52-------------
+operador:2-cliente:00500ENRIM00E022-tiempo:00:00:18-tipo:1
+--correcto
+--------2022-11-22 09:50:49-------------
+operador:2-cliente:07850VSOLM00L005-tiempo:00:00:39-tipo:5
+--correcto
+--------2022-11-22 09:53:00-------------
+operador:8-cliente:07850VSOLM00G007-tiempo:00:00:11-tipo:3
+--correcto
+--------2022-11-22 09:54:14-------------
+operador:8-cliente:07850VSOLM00G007-tiempo:00:00:53-tipo:2
+--correcto
+--------2022-11-22 09:55:07-------------
+operador:2-cliente:00500ENRIM00E022-tiempo:00:00:11-tipo:8
+--correcto
+--------2022-11-22 09:55:29-------------
+operador:2-cliente:07850VSOLM00L005-tiempo:00:00:12-tipo:2
+--correcto
+--------2022-11-22 09:56:36-------------
+operador:2-cliente:00500ENRIM00E022-tiempo:00:00:14-tipo:7
+--correcto
+--------2022-11-22 09:58:30-------------
+operador:2-cliente:07850VSOLM00E008-tiempo:00:00:15-tipo:2
+--correcto
+--------2022-11-22 10:00:38-------------
+operador:2-cliente:07850VSOLM00F016-tiempo:00:00:38-tipo:2
+--correcto
+--------2022-11-22 10:04:02-------------
+operador:2-cliente:07850VSOLM00H001-tiempo:00:00:14-tipo:6
+--correcto
+--------2022-11-22 10:04:29-------------
+operador:2-cliente:07850VSOLM00J003-tiempo:00:00:11-tipo:1
+--correcto
+--------2022-11-22 10:04:45-------------
+operador:8-cliente:07000PUAZM0E2034-tiempo:00:00:15-tipo:5
+--correcto
+--------2022-11-22 10:04:53-------------
+operador:2-cliente:07850VSOLM00H015-tiempo:00:00:17-tipo:2
+--correcto
+--------2022-11-22 10:04:57-------------
+operador:8-cliente:07850VSOLM00F001-tiempo:00:00:11-tipo:3
+--correcto
+--------2022-11-22 10:05:03-------------
+operador:2-cliente:07850VSOLM00H015-tiempo:00:00:10-tipo:2
+--correcto
+--------2022-11-22 10:05:22-------------
+operador:8-cliente:04129PDRIM00E107-tiempo:00:00:23-tipo:10
+--correcto
+--------2022-11-22 10:06:44-------------
+operador:2-cliente:07850VSOLM00H015-tiempo:00:00:15-tipo:2
+--correcto
+--------2022-11-22 10:07:07-------------
+operador:8-cliente:03597CLARM0C000-tiempo:00:01:44-tipo:1
+--correcto
+--------2022-11-22 10:07:38-------------
+operador:8-cliente:07850VSOLM00GF008-tiempo:00:00:29-tipo:10
+--correcto
+--------2022-11-22 10:08:02-------------
+operador:2-cliente:07850VSOLM000009-tiempo:00:02:05-tipo:5
+--correcto
+--------2022-11-22 10:08:27-------------
+operador:8-cliente:00254LPUNC001405-tiempo:00:00:46-tipo:8
+--correcto
+--------2022-11-22 10:08:40-------------
+operador:2-cliente:07850VSOLM00H010-tiempo:00:00:28-tipo:3
+--correcto
+--------2022-11-22 10:08:53-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:25-tipo:9
+--correcto
+--------2022-11-22 10:08:54-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:02-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:03-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:03-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:03-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:03-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:04-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:04-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:04-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:04-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:05-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:05-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:05-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:05-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:05-------------
+operador:8-cliente:07850VSOLM00K013-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-11-22 10:09:47-------------
+operador:2-cliente:07850VSOLM000009-tiempo:00:00:16-tipo:3
+--correcto
+--------2022-11-22 10:10:15-------------
+operador:2-cliente:07850VSOLM000009-tiempo:00:00:19-tipo:7
+--correcto
+--------2022-11-22 10:10:15-------------
+operador:8-cliente:09054CCSEM002009-tiempo:00:00:23-tipo:1
+--correcto
+--------2022-11-22 10:10:44-------------
+operador:8-cliente:07850VSOLM00C006-tiempo:00:00:22-tipo:8
+--correcto
+--------2022-11-22 10:11:04-------------
+operador:8-cliente:07850VSOLM00E014-tiempo:00:00:16-tipo:9
+--correcto
+--------2022-11-22 10:11:07-------------
+operador:2-cliente:07850VSOLM00H001-tiempo:00:00:12-tipo:2
+--correcto

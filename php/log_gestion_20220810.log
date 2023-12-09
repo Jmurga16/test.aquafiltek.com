@@ -1,0 +1,7 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+29/06/2022 11:00:00 - Inspección
+27/06/2022 Inspeccion de boya
+----------TERMINA COMENTARIO-----------
+5-10-18 SRA ESTA DE VIAJE, LLEGA EL MARTES-----    31/08/2016 NUMERO INCORRECTO O HA SIDO DESCONECTADO 9H14  29/08/2016 SUENA OCUPADO 12H11', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='08919RDBAM000104'
+res:1

@@ -1,0 +1,15 @@
+body {
+    background-image: url(../img/CU.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fondo {
+    background-color: rgb(0, 0, 0, .7);
+    color: white;
+}
+.fondo table{
+margin-top: 40px;
+}

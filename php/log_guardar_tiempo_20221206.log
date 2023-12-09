@@ -1,0 +1,69 @@
+--------2022-12-06 11:18:07-------------
+operador:5-cliente:07850VSOLM00D013-tiempo:00:01:13-tipo:1
+--correcto
+--------2022-12-06 11:49:13-------------
+operador:5-cliente:00500ENRIM0K1009-tiempo:00:00:11-tipo:8
+--correcto
+--------2022-12-06 11:49:28-------------
+operador:5-cliente:00500ENRIM0G1027-tiempo:00:00:13-tipo:1
+--correcto
+--------2022-12-06 11:49:57-------------
+operador:5-cliente:07850VSOLM00E016-tiempo:00:00:24-tipo:1
+--correcto
+--------2022-12-06 11:50:45-------------
+operador:5-cliente:00500ENRIM0K1009-tiempo:00:00:13-tipo:1
+--correcto
+--------2022-12-06 11:51:17-------------
+operador:5-cliente:07850VSOLM00D013-tiempo:00:00:10-tipo:2
+--correcto
+--------2022-12-06 11:51:41-------------
+operador:5-cliente:00500ENRIM0I1022-tiempo:00:00:17-tipo:6
+--correcto
+--------2022-12-06 11:51:54-------------
+operador:5-cliente:00500ENRIM0K1033-tiempo:00:00:08-tipo:1
+--correcto
+--------2022-12-06 11:52:40-------------
+operador:5-cliente:00500ENRIM0L1005-tiempo:00:00:15-tipo:6
+--correcto
+--------2022-12-06 11:53:25-------------
+operador:5-cliente:00500ENRIM0H1004-tiempo:00:00:37-tipo:2
+--correcto
+--------2022-12-06 11:53:44-------------
+operador:5-cliente:00500ENRIM0L1005-tiempo:00:00:17-tipo:7
+--correcto
+--------2022-12-06 11:54:01-------------
+operador:5-cliente:00500ENRIM0Y1027-tiempo:00:00:15-tipo:9
+--correcto
+--------2022-12-06 11:54:02-------------
+operador:5-cliente:00500ENRIM0Y1027-tiempo:00:00:00-tipo:9
+--correcto
+--------2022-12-06 11:54:32-------------
+operador:5-cliente:00500ENRIM0L1005-tiempo:00:00:28-tipo:8
+--correcto
+--------2022-12-06 11:54:52-------------
+operador:5-cliente:00500ENRIM0Y1027-tiempo:00:00:11-tipo:3
+--correcto
+--------2022-12-06 11:55:58-------------
+operador:5-cliente:00500ENRIM0J1026-tiempo:00:00:21-tipo:1
+--correcto
+--------2022-12-06 11:56:20-------------
+operador:5-cliente:00500ENRIM0L1005-tiempo:00:00:15-tipo:8
+--correcto
+--------2022-12-06 11:56:56-------------
+operador:5-cliente:00500ENRIM0K1033-tiempo:00:00:21-tipo:8
+--correcto
+--------2022-12-06 11:57:43-------------
+operador:5-cliente:00500ENRIM0J1026-tiempo:00:00:11-tipo:8
+--correcto
+--------2022-12-06 11:58:22-------------
+operador:5-cliente:00500ENRIM0L1005-tiempo:00:00:20-tipo:1
+--correcto
+--------2022-12-06 12:02:12-------------
+operador:5-cliente:00500ENRIM0H1004-tiempo:00:03:43-tipo:1
+--correcto
+--------2022-12-06 12:03:19-------------
+operador:5-cliente:00500ENRIM0H1004-tiempo:00:00:56-tipo:8
+--correcto
+--------2022-12-06 12:03:55-------------
+operador:5-cliente:00500ENRIM0J1026-tiempo:00:00:25-tipo:8
+--correcto

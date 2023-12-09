@@ -1,0 +1,528 @@
+body {
+    background-image: url(../img/font.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fondo label,
+.fondo small {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.col-auto {
+    margin: 0px;
+}
+
+.fondo form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.t-success {
+    margin-top: 10px;
+    color: #13FF00;
+    font-weight: 700;
+}
+
+.t-errno {
+    margin-top: 10px;
+    color: #FF1700;
+    font-weight: 700;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-center {
+    width: 40%;
+}
+
+.logoGeneral {
+    margin: 2% 5% 0% 5%;
+    width: 10%;
+    height: 10%;
+}
+
+.botonForm {
+    margin: -10px 0px 30px 0px;
+}
+
+.msj {
+    margin: -20px 0px 30px 0px;
+    padding-bottom: 20px;
+}
+
+.fondo {
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 15px;
+}
+
+.regresar {
+    margin-top: 1%;
+    margin-left: 3%;
+    height: 70px;
+}
+
+.margin {
+    position: relative;
+    margin: 10px 20% 0px 20%;
+    width: 50%;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('http://mitsubishipuertorico.com/wp-content/plugins/360View/assets/images/loading-2.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: .8;
+}
+
+.history_ge {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: url('http://24.media.tumblr.com/515de21cce3036d9ef9c3fdb41c912f8/tumblr_mhr5wyNb0t1rvr9sko1_500.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: .7;
+}
+
+.search {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('https://www.intelligentvc.co.uk/wp-content/uploads/2015/11/animat-search-color.gif') 50% 50% no-repeat rgb(0, 0, 0);
+    opacity: .7;
+}
+
+.btn-top {
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#imga {
+    margin-left: 20%;
+    width: 60%;
+    height: auto;
+}
+
+.btn-left {
+    margin-left: 20%;
+}
+
+.text-link {
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.accordion-margin {
+    margin: 50px 0px 50px 0px;
+}
+
+#comentarios,
+#comentariosU,
+#comentariosG,
+#comentariosUG {
+    width: 45%;
+    height: 150px;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+#modal-xlg,
+.modal-lg {
+    width: 80% !important;
+}
+
+#tabla_clienteU {
+    position: relative;
+}
+
+#Cliente_gestionado {
+    background-color: rgb(0, 0, 0, .7);
+    margin: 10px 0px 20px 0px;
+    border-radius: 20px;
+    padding: 5px 0px 5px 0px;
+}
+
+.hora {
+    width: 40px;
+    height: 40px;
+}
+
+#collapseThree,
+#collapseTwo,
+#collapseOne {
+    /*  overflow: scroll;
+    height: 250px; */
+    width: 100%;
+    overflow:auto;
+}
+
+#comentarios {
+    float: right;
+}
+
+#comentariosG,
+#comentariosUG {
+    float: left;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden;
+    /* Hidden by default. Visible on click */
+    min-width: 250px;
+    /* Set a default minimum width */
+    margin-left: -125px;
+    /* Divide value of min-width by 2 */
+    background-color: #333;
+    /* Black background color */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    /* Centered text */
+    border-radius: 2px;
+    /* Rounded borders */
+    padding: 16px;
+    /* Padding */
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 40%;
+    /* Center the snackbar */
+    bottom: 30px;
+    /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible;
+    /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+   However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 2s, fadeout 2s 10s;
+    animation: fadein 2s, fadeout 2s 10s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.img_motivacional {
+    margin-left: 15%;
+    max-height: 600px;
+}
+
+.fl {
+    margin-left: 15%;
+    float: left;
+}
+
+.fr {
+    margin-right: 15%;
+    float: right;
+}
+
+.contenedorC {
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, .7);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.contenedorC h5 {
+    color: #FFF;
+}
+
+#inputNuevo {
+    margin-left: 36%;
+}
+
+#postv {
+    background-color: rgb(0, 0, 0, .8);
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#ckehboxesTrabajo,
+#ckehboxesPago,
+#fechaPV,
+#Add_pdf,
+#reprogramarPV {
+    margin-left: 30%;
+}
+
+#postv h4,
+#postv .btn-lg {
+    margin-left: 40%;
+}
+
+.txt-center {
+    margin-left: 40%;
+}
+
+#resumenH {
+    width: 100%;
+    height: 400px;
+}
+
+#alto {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.modal {
+    overflow-y: scroll;
+}
+
+#SubirArchivo {
+    background-color: rgb(255, 255, 255, .6);
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+#DescargarArchivo {
+    background-color: rgb(0, 0, 0, .7);
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: white;
+}
+
+#SubirArchivo input {
+    margin-left: 25%;
+}
+
+#btn-head {
+    position: relative;
+    float: right;
+    margin: -3px 0px 10px 0px;
+}
+
+#BP {
+    width: 50%;
+    margin-left: 37%;
+}
+
+.h7 {
+    font-size: 12px;
+    color: #00ff00;
+}
+
+#estadistica_gestion {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+#estadistica_gestion a img {
+    width: 150px;
+    height: auto;
+}
+
+#estadistica_gestion a {
+    font-size: 23px;
+    color: #000;
+}
+
+#estadistica_gestion:hover {
+    cursor: pointer;
+}
+
+.radio-inline {
+    margin-right: 10px;
+}
+
+.conta {
+    margin-left: 25%;
+    width: 50%;
+    height: 60px;
+    background-color: rgb(255, 255, 255, .3);
+    border-radius: 20px;
+}
+
+.conta .btn {
+    height: 40px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.lote {
+    background-color: rgb(255, 255, 255, .9);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#operador_seleccionado {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+
+#change_operators {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+#inputNuevoO {
+    margin-left: 43%;
+}
+
+#containerGR {
+    margin-top: 40px;
+}
+
+.reportes {
+    margin-left: 40%;
+}
+
+#generarReporte,
+#generarReporte2 {
+    width: 15%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#alert_date {
+    display: none;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#tipo_archivo,
+#usuario_report,
+#tipo_export,
+#tipo_ordenamiento {
+    width: 25%;
+    margin-left: 40%;
+}
+
+#containerGR .badge {
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.report {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0, .6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#reportrange {
+    cursor: pointer;
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+}
+input{
+    width:100%;
+}
+.operator_name{
+	color: #00ff00;
+	margin-left: 30%;
+	margin-bottom:5px;
+	font-size: 18px;
+}
+.Cbody {
+    padding :15px;
+}
+.Cbody table{
+    margin-bottom:0;
+}
+.select2.select2-container{
+	width: 100%!important;
+}
+span.select2-container .select2-selection--single{
+	height: 38px;
+}
+#postv .form-check-inline .form-check-input{
+	position: absolute;
+	margin-left: -10px;
+}
+#postv .form-check-inline .form-check-label{
+	margin-left: 23px;
+}
+#clienteAnterior,#clienteNXT, #clienteNXT2{
+	padding:0px 50px;
+}
+#collapseOne{
+	border-bottom: 1px solid #eee;
+}

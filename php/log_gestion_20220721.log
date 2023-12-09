@@ -1,0 +1,91 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/03/2020
+12:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/03/2020
+09:02:00
+Volver a llamar
+05/02/2020 sra lo hara en abril
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/01/2020
+11:01:00
+Volver a llamar
+09/01/2020 la sra dice q no hara por el momento
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/01/2020
+11:00:00
+Volver a llamar
+09/01/2020 la sra dice 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/01/2020
+07:47:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/11/2019
+12:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/11/2019
+10:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/10/2019
+10:40:00
+Volver a llamar
+22/10/2019 la sra dice q no quiere q llame en dos meses
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/10/2019
+10:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/09/2019
+13:40:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/09/2019
+03:50:00
+Volver a llamar
+10/09/2019 la sra dijo q no esta interesada, hacer llamar d daniel mañana
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 29/08/201911:40:00Volver a llamar14/08/2019 Q AUN NO ESTA INTERESADA----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 12/03/201910:00:00AceptoCLIENTE YA REALIZO LIMPIEZA EN EL MES DE MARZO ----------TERMINA COMENTARIO-----------17/06/2019 3 MESES MAS  19/02/2019 acpeto la limpieza 					----------INICIA COMENTARIO----------- 18/02/201908:00:00Volver a llamar15/02/19 volver  a llamar lunes----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 15/02/201910:20:00Volver a llamarNO CONTESTO ----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 14/02/201909:30:00Volver a llamarllamar cerca de quincena para coordinar mantenimiento.----------TERMINA COMENTARIO-----------18/04/2015 limpieza para el martes 19 de mayo                                                                                                                                                              05/05/2015 llamar el 18 de mayo                                                                  27/04/2015 LLAMAR EN MAYO POR QUINCENA ESTAN DE VACACIONES                                16/04/2015 NO SE ENCUENTRA LLEGA MAÑANA DE VIAJE           07/07/2014 sra coordino limpieza para mañana a las 12am12-05-2014 pidió hacer la limpieza en junio - 24/02/2014 contesto la misma q la llame en unso 2 meses  //no tiene ksa en la playa 17/09/2013 la sra acpeto la impermeabilizacion para el dia martes 18 /09/2013   Lorena marun es la encaragada de la ksa llegua a partir de las 14:00 la sra patricia ramirez vive en babahoyo …..   acepto la inspeccion para el jueves 15 a las 10:0  23/08/2013  la sra en la ksa llamar a las 14:30  y enel celular me cerro 2 veces   23/08/2013  contesto ella y me dice q lka llame mañana y q le reenvie el correo  26/08/2013  en la ksa no esta y en el celular cero llamar a las 14:30... es para la tapa y impermeabilizacion 27/08/2013  la sra esta almorzando llmar a las 13:20   09/09/2013 llamar a las 10:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00758RGRAM00B112'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+14/03/2019
+09:10:00
+Volver a llamar
+12/02/19 por ahora no desea el servicio.
+----------TERMINA COMENTARIO-----------
+
+07/12/15 enviar correo de presupuesto de tapa 28-09-2015 jueves llamar para coordinar limpieza viernes 2 oct, solicitar num cel',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00254LPUNM00A000'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='24/08/2016 CONMUTADOR EMPRESA 13/10/2015 cliente no contesta ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00254LPUNM00O007'
+res:1

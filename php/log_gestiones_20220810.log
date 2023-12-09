@@ -1,0 +1,30 @@
+fecha:2022-08-10 22:41:44
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-08-10' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-08-10 22:55:12
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-08-10' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-08-10 22:55:21
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-08-10' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-08-10 22:59:17
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-08-10' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-08-10 23:14:22
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-08-10' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'

@@ -1,0 +1,36 @@
+--------2022-07-01 21:49:16-------------
+operador:5-cliente:00500ENRIM00C1006-tiempo:00:00:31-tipo:8
+--correcto
+--------2022-07-01 22:08:37-------------
+operador:5-cliente:00500ENRIM0000000-tiempo:00:00:15-tipo:3
+--correcto
+--------2022-07-01 22:12:23-------------
+operador:5-cliente:00500ENRIDPALMIR-tiempo:00:00:13-tipo:3
+--correcto
+--------2022-07-01 22:19:07-------------
+operador:5-cliente:00500ENRIM00C1006-tiempo:00:00:23-tipo:1
+--correcto
+--------2022-07-01 22:20:06-------------
+operador:5-cliente:00938ISSOM000025-tiempo:00:00:19-tipo:1
+--correcto
+--------2022-07-01 22:31:32-------------
+operador:5-cliente:00938ISSOM000025-tiempo:00:00:17-tipo:2
+--correcto
+--------2022-07-01 22:58:58-------------
+operador:5-cliente:00938ISSOM000025-tiempo:00:08:30-tipo:5
+--correcto
+--------2022-07-01 22:59:50-------------
+operador:5-cliente:00938ISSOM000025-tiempo:00:00:22-tipo:2
+--correcto
+--------2022-07-01 23:08:31-------------
+operador:5-cliente:07850VSOLM00A030-tiempo:00:00:21-tipo:2
+--correcto
+--------2022-07-01 23:08:49-------------
+operador:5-cliente:07850VSOLM00A030-tiempo:00:00:18-tipo:2
+--correcto
+--------2022-07-01 23:09:02-------------
+operador:5-cliente:07850VSOLM00A030-tiempo:00:00:12-tipo:2
+--correcto
+--------2022-07-01 23:10:14-------------
+operador:5-cliente:07850VSOLM00A030-tiempo:00:00:38-tipo:2
+--correcto

@@ -1,0 +1,284 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+02/09/2021
+09:00:00
+Volver a llamar
+josejuan coordina
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/08/2021 09:00:00 - Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021
+11:00:00
+Volver a llamar
+SEGUIMEINTO clinte repetidp
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021
+10:00:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 15:37:00 - Acepto
+1808 1200
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/06/2020
+14:00:00
+Acepto
+ACEPTO PRECIO DE $98
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/03/2020
+12:00:00
+Acepto
+acepto con Daniel
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/11/2019
+11:00:00
+Acepto
+13/11/2019 CLIENTE ACEPTA LA LIMPIEZA PARA EL DIA JUEVES POR LA MAÑANA . 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/01/2020
+10:20:00
+Volver a llamar
+05/11/2019 el sr dice q hara cada 6 mrses
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/11/2019
+08:30:00
+Acepto
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2019
+09:00:00
+Acepto
+1/07/2019 ACEPTO PARA EL DIA D MAÑANA  26/06/2019 Q LE LLAME EL LUNES PORQ ESTA FUERA D LA CIUDAD  25/06/2019 NO CONTESTA  hoy pago domicilio---  18-02-19 Sr acepta limpieza para el dia de  mañna---   24-01-19 sr desea q lo llame en febrero xq no va a estar aqui----  29-09-18 SR ORTIZ ACEPTA LIMPIEZA PARA EL DIA MARTES A LAS 9AM (MIENTRAS MAS TEMPRANO MEJOR)---- 14/3/18 CLIENTE ACEPTA LIMPIEZA PARA EL VIENRES 16 DE MARZO///21/07/2016 NO DESEA DICE EL CLIENTE 24/02/2016 no contesta 22/10/15 El cliente indica tener convenio con amagua 30-9-15 ESPOSA FACILITA NUMERO PERO SUGIERE LLAMADA EN LA TARDE POR QU ESTA OCUPADO 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/02/2019
+10:30:00
+Acepto
+18-02-18 sr. acepta limpieza.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/02/2019
+10:30:00
+Volver a llamar
+18-02-19 Sr. acepta limpieza para mañna---
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/02/2019
+08:40:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+24-01-19 sr desea q lo llame a principios de febrero xq no va a estar aqui----  29-09-18 SR ORTIZ ACEPTA LIMPIEZA PARA EL DIA MARTES A LAS 9AM (MIENTRAS MAS TEMPRANO MEJOR)---- 14/3/18 CLIENTE ACEPTA LIMPIEZA PARA EL VIENRES 16 DE MARZO///21/07/2016 NO DESEA DICE EL CLIENTE 24/02/2016 no contesta 22/10/15 El cliente indica tener convenio con amagua 30-9-15 ESPOSA FACILITA NUMERO PERO SUGIERE LLAMADA EN LA TARDE POR QUE ESTA OCUPADO---',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n03/09/2021 09:00:00 - Acepto\n\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='08076TESOM00R008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+31/08/2021
+08:00:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/08/2021
+08:02:00
+Volver a llamar Importante
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/08/2021
+12:02:00
+Volver a llamar Importante
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/08/2021 09:00:00 - Cobros
+COBRA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/08/2021
+10:02:00
+Volver a llamar Importante
+OIUHOU PRUEBA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021
+08:00:00
+Volver a llamar Importante
+PRUEBA DE URGENTE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/08/2021 09:50:00 - Inspección
+1908 0044
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/08/2021
+16:26:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+26-09-18 SRES ESTAN DE VIAJE LLEGAN AL 18-OCT--- 6/10/17 cliente me indica que la ue se encarga de eso es la esposa que la llame en la tarde//27/07/2016 CLIENTE NO SE ENCUENTRA, HABLE CON LA ESPOSA Y DICE QUE NO DESEA QUE RECIEN HIZO LA LIMPIEZA  30/10/15 La empleada indica que el sr esta de viaje, llamar a la esposa el sabado',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n03/09/2021 10:00:00 - Acepto\n\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='00938ISSOM000038'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+31/08/2021
+10:00:00
+Volver a llamar
+prueba
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+08:00:00
+Volver a llamar
+prueba
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/02/2020
+11:09:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/02/2020
+13:06:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/02/2020
+11:03:00
+Volver a llamar
+27/01/2020 JOSEPH DICE Q YA LE MINDICARA A LA JEFA Q EL AVISA Q PIUEDE SER EN FERIADO D CARNAVAL Q AHI NO ESTÁN ELLOS PORQ COMO SE QUEDARAN SIN AGUA LA SRA NO QUIERE ESTAR EN CASA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/01/2020
+09:03:00
+Volver a llamar
+24/01/2020 JOSEPH DICE Q LA SRA QUIERE VACIAOD Y Q CUANTO LE VANA  COBRAR 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/01/2020
+09:04:00
+Volver a llamar
+13/01/2020 DICE JOSEPH Q LOS SEÑORES SIGUEN D VIAJE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/01/2020
+11:50:00
+Volver a llamar
+05/12/2019 DANIEL LO CONTACTO Q EN ENERO HARA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/11/2019
+10:00:00
+Volver a llamar
+16/10/2019 q el se comunica con el sr Rivadeneira porq solo lo hacen una  ds veces al año
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/07/2019
+10:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+27/06/2019 ACEPTA PARA EL DIA D HOY',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n03/09/2021 12:00:00 - Acepto\n\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='04129PDRIM000107'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+31/08/2021
+14:24:00
+No responde
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/08/2021
+11:05:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/01/2021
+11:00:00
+Acepto
+30-01 aceptó con andyfer el 18 enero, trabaja en el municipio de guayaquil
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/09/2020
+09:03:00
+Volver a llamar
+SEGUIMIENTO CLIENTE NO DESEA RECIBIR A NADIE EN CASA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/07/2020
+10:40:00
+Volver a llamar
+CLIENTE INDICA QUE SE LE LLAME EN ESA FECHA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/12/2019
+14:00:00
+Acepto
+LO HIZO CON AQUACLEAN
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/08/2019
+09:00:00
+Acepto
+EL SR ACEPTO PARA EL DIA LUNES , DIJO Q LE ENVIE UN MSJ PARA DEJAR EL DINERO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/04/2019
+8:30:00
+Acepto
+LA REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+03/07/2019 EL SR DICE Q VA A TRABAJAR CON NOSOTROS Y Q LE PASE , WHATSAPP LE PASE EL MSJ DE MI PERSONAL PORQ EL SR TIENE BLOQUEADO NUESTRO NUMERO  19/06/2019 hable con la sra jalil y dijo q esperen dos meses mas  16/04/2019 ya la hizo con andrea  28/03/2019 NO QUIERE Q AGRADECE LA LLAMADA   20/03/2019 apagado  28/11/2018 se escribio al whatsapp , contesto y acepto para el dia d mañana  a las 11:30  ..23/11/2018 CONTESTO AL WHtspp q le llame el miercoles13/11/2017 no disponible09/07/2018 acepto la limpieza para mañana 10/07/2018 ......12/06/2018 me manda a buzon  08/06/2018 me manda a buzon  04/01/2018 contesto el mismo y acepto la limpieza para el dia 05/01 a las 10 :00  16-11-2017 llamar en el mes de enero 21-10-17 llamar en la tarde no esta interesado en el servicio no llamar mas, 11-10-17 no contesta, 12-09-17 llamar despues de 1 mes, 07-09-17 no contestan, 04-09-17 no contesta, 14/06/17 cell señor estaba hablando cuando me cerro  empleada los señores se van a las 7 am y llegan de noche  23/01/2017 contesto la esposa q el sr no esta y q regresa por la noche y al cell contesto el mismo y acepto la limpieza para el dia 25/01/2017 la hora el prefiere q le hagan despues a las 16:00 q el esta ahi  12/01/2017 me mand aa buzon  05/01/2017 contesto la empleada q el sr no se encuentra y q lo puedo llamar en la tarde y al cell me manda a buzon   05/12/2016 contesto la empleada q el sr no esta y no sabe a q hora regrese  02/12/2016 contesto la empleada q el sr no esta en la casa y q normalmente el regresa por la noche y q mejor lo llame mañana  24/11/2016 contesto la empleada q el sr no regresa hasta la noche y al cell me contesto el mismo q lo llame mañama xq el ahorita esta en una capacitacion  20/10/2016 contesto la empleada q el sr parece q ya salio xq ya no se lo escucha  07/10/2016 salio la contestadora  07/06/2016 contesto el mismo e indico q deseaba la limpieza preventiva no mas se la coordino para el dia 08/06/2016 a las 16:00  06/06/2016 contesto el mismo al cell q el quiere q se le haga la limpieza por la tarde q el va a estar ahi tipo 16:00 ,  26/05/2016 contesto el mismo al cell e indico q lo llame despues del feriado para ver cuando se la puede hacer  10/05/2016 contesto la empleada q el sr regresa por la noche  08/04/2016 contesto la emplada q el sr regresa x la noche  08/03/2016 contesto el hijo e indico q la llame dentro de 10 minutos  11/11/2015 se coordina limpieza para el viernes 13/11/2015 a las 16h00// 21-04-2015 acepto limpieza y inspeccion de filtros para el dia viernes 24_04-2015 ; de Se dejó recado con la empleada - 20-02-2015 El sr estaba manejando - 27/10/2014 el señor indica que reviso la cisterna y aun esta limpia que lo llame despues 07/10/2014 el señor indica que lo llame en 2 semanas 03/05/2014 confirmo limpieza para el martes a las 8 am11/11/2015 se coordina limpieza para el viernes 13/11/2015 a las 16h00// 21-04-2015 acepto limpieza y inspeccion de filtros para el dia viernes 24_04-2015 ; de Se dejó recado con la empleada - 20-02-2015 El sr estaba manejando - 27/10/2014 el señor indica que reviso la cisterna y aun esta limpia que lo llame despues 07/10/2014 el señor indica que lo llame en 2 semanas 03/05/2014 confirmo limpieza para el martes a las 8 am',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n03/09/2021 15:00:00 - Acepto\n\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='03552PMALM00C003'
+res:1

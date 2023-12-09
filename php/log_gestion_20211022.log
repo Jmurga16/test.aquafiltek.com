@@ -1,0 +1,104 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+27/02/2020
+09:13:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/01/2020
+09:07:00
+Volver a llamar
+22/01/2020 LA SRA SOLO SE COMUNICA CON ANDREA Y Q LE LLAMEN DE LOS NUMEROS Q SIEMPRE LLAMAN , OFRECER ALGUNA PROMOCION A LA SRA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/01/2020
+10:08:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/09/2019
+17:00:00
+Acepto
+22/10/2019 la sra dice q ya lo hizo y q esta en clases no puede atender 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/09/2019
+15:00:00
+Acepto
+22/10/2019 la sra dice q ya lo hizo y q esta en clases no puede atender 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/09/2019
+10:10:00
+Acepto
+22/10/2019 la sra dice q ya lo hizo y q esta en clases no puede atender 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/11/2019
+09:10:00
+Volver a llamar
+21/08/2019 LA SRA PATRICIA DICE Q ELLA YA LO HIZO Q TIENE REGISTRADOS LOS NUMEROS Y Q SOLO CON ESA PERSONA HACE , Q IGUAL LE LLAME DESPUES PARA VER SI HACE 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/08/2019
+10:10:00
+Volver a llamar
+16-08-2019 CLIENTE INDICO QUE SE LE LLAME EL LUNES
+----------TERMINA COMENTARIO-----------
+
+03/07/2019 HABLE CON EL SR DICE Q VA A PREGUNTAR A LA ESPOSA  02/07/2019 q le llame mas tarde q la empleada es la q sabe d eso 07/03/2019 la hizo con andrea  06/03/2019 mo contesta, acepto para el dia lunes en la tarde   21/02/2019 q le llame la quincena d marzo  19/11/2018  acepto para  el dia d emañana a las 2:30    19/07/2018  cliente acepro la limpieza para el dia viernes 		19/11/2018  acepto para  el dia d emañana a las 2:30    19/07/2018  cliente acepro la limpieza para el dia viernes',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n23/10/2021 09:00:00 - Acepto\ntest\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='09359VAPAM00A040'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+07/09/2020
+08:00:00
+Volver a llamar
+CLIENTE NO DESEA QUE LE LLAMEN ELLA LLAMA CUANDO NECESITA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/10/2019
+11:00:00
+Acepto
+PROMOCION $35
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/07/2019
+8:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/07/2019
+9:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/07/2019
+10:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/07/2019
+11:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+10/07/2019 el sr richard dice q andrea ya le hizo el mantenimiento y q la proxima sera',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n24/10/2021 10:00:00 - Acepto\ntest\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='09359VAPAM00A056'
+res:1

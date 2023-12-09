@@ -1,0 +1,75 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+29/07/2021
+18:19:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+29/07/2021
+09:00:00
+No responde
+prueba
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/10/2019
+03:20:00
+No responde
+17/0972019 NUMERO SUENA OCUPADO
+----------TERMINA COMENTARIO-----------
+
+26-09-18 NUMERO NO ACEPTA LLAMADA----    20/07/2016 NO CONTESTA 24/02/2016 numero no esta en servicio  15-02-2016 El empleado dice q han limpiado recien - 13/02/2016 q lo llamen en otro momento esta durmiendo 06/11/15 LLamamo y nos colocaron en espera, no quis}zieron atender20/10/15 Contesta el señor Victor bacher (trabajador) indicando que se encontraban de viaje y no sabia el dia de retorno30-09-2015 HIJA INDICA QUE SU PAPA NO SE ENCUENTRA Y NO FACILITA NUMERO 29-09-2015 empleada indica que el sr solo se encuentra en la 9 am ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08076TESOM00B014'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-12-18 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRID0D03B'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-12-23 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0V1021'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='22/06/2016 NO CONTESTA 08/06/2016 NO CONTESTA ',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='00500ENRIM0S1001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+28/05/2022
+10:00:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/12/2019
+15:00:00
+Acepto
+REALIZO PROMOCION 2X1 CON EL PAPA OSCAR MOSQUERA PALACIOS Q VIVE EN ESTANCIAS 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/10/2019
+10:20:00
+Volver a llamar
+15/10/2019 sra grosera pregunta quien es y cuelga
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/09/2019
+07:10:00
+Volver a llamar
+02/09/2019 Daniel estuvo en laguna del sol y fue a habalr con la sra e indico q ella misma llama
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/08/2019
+10:10:00
+Volver a llamar
+12/08/2019 hable con la sra mosquera y dijo q ella avisa a daniel
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/03/2019
+14:30:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+19/07/2019 LA SRA DIJO Q SE COMUNICARA CON EL MISMO  26/03/2019 acepto para el dia d hoy  08/06/2016 contesto un asistente q la sra regres atipo 15:00  06/05/2016 no contestan  26/04/2016 numero ocupado  25/04/2016 tono de ocupado , numero ocupado  18/04/2016 en ksa un niño indica q el sr no esta y al cell me contetso el asistente q el sr esta en una reunion y q lo llame dentro de una hora  29/03/2016 contesto la empleads q la sra esta dormida aun pero q segun ya hemos hablado con el sr q no desea mantenimiento por ahora  24/03/2016 contesto la esposa del sr q el sr no esta pero q la puede llamar la proxima smena para coordinar porq va a salir de viaje hoy  16/03/2016 al cell no me conetstan y a la ksa tampoco  10/03/2016 contesto un joven q el sr no se encuentra pero q lo llame en 1 hora , salio la contestadora  06-11-2015 realizo la limpieza 15/07/2015--------07/07/2015 va hablar con el esposo , que ella se contacta o que la llamemos mañana-----------------03/07/2015 LLEGAN A PARTIR DE LA 5 PM 11/02/2019 celular apagado  31/05/2016 contesto la empleada q la sra salio y q cuando la sra sale no tiene horario de llegada  30/05/2016 contesto la empleada q la sra esta bañandose q la llame en mdia hora , contesto la empleada q la sra salio y no regresa hasta la noche   21/04/2016 contesto la empleada q la sra esta dormida y q la llame en media hora , contesto la empleada q la sra no esta q regresa a las 15:30  20/04/2016 contesto la esposa del sr e indico q si tenia pensado pero q la llame en la tarde para poder coordinar algo , contesto el empleado q la sra aun no llega y q la puedo llamar a las 16:00 , aun no llega la sra  18/04/2016 tono de ocipado   04/04/2016 en ksa me ayudaron con el numero de la oficina y a la oficina no contestan  24/03/2016 contesto un joven q el sr esta en la playa y regrsa la proxima asemana  22/03/2016 no contestan  16/03/2016 contesto la empelada q segun el sr ya no estaba en ksa pero en el fondo se escuchaba la voz del sr diciendo q no q diga q ya se habia ido  15/03/2016 cpontesto la empelada q el sr no se encuentar pero q me puedo comunicar con el en la ncohe  06-11-2015 realizo la limpieza 15/07/2015--------07/07/2015 va hablar con el esposo , que ella se contacta o que la llamemos mañana-----------------03/07/2015 LLEGAN A PARTIR DE LA 5 PM',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00C004'
+res:1

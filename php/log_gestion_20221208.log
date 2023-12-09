@@ -1,0 +1,885 @@
+UPDATE `DatosClientes` SET `comentarios`='1900-01-21 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0J1026'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='14/10/2015 numero ocupado',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='01378LRIBM00G010'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='11027FRIOM017012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+14/07/2020
+09:00:00
+Acepto
+ACEPTO 40
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/07/2020
+12:00:00
+Volver a llamar
+LLAMAR PARA AGENDAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/07/2020
+10:01:00
+Volver a llamar
+LLAMAR PARA AGENDAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/07/2020
+16:01:00
+Volver a llamar
+SOLO HABLA CON DANEIL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/02/2020
+13:00:00
+Acepto
+SRA ACEPTÓ CON DANIEL E INDICA Q SOLO LA LLAME EL
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 05/03/202008:45:00Volver a llamar14-02-2020 la Señora dijo que saldría de viaje y que regresa dentro de 15 días----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 09/09/201905:00:00Volver a llamar04/09/2019 no contesta----------TERMINA COMENTARIO-----------24/7/18 clienta acepta limpieza para el dia de mañana 25 de julio////8/2/18 clienta me indica que lo hizo con la copia en enero///16/11/17 cliente me indica que se llame para los primeros dias de diciembre///24/10/17 clienta me indica que la llame en 15 dias seguro hace la limpieza///08-03-2017 la señora acepta via wspp la limpieza para mañana a las 9am  VIAS WSPP - 02-03-2017 la señora esta al tanto de todo lo sucedido y dijo que le llame la proxima semana - 06-02-2017 la hermana indica que no esta en casa, llega tipo 6pm',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00L016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+24/09/2019
+12:00:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/09/2019
+07:30:00
+Volver a llamar
+02/09/2019 la sra dice q ella misma llamara , q no le esten llamando tan seguido q ella ya tiene nuestro numero y ahi nos puede avisar
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/09/2019
+08:40:00
+Volver a llamar
+28/08/2019 LLAME A LA SRA DICE Q NO TENDRA EMPLEDA ESTA SEMANA Y ENTONCES Q LE LLAME LA SIGUIENTE  A VER SI PUEDE 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/08/2019
+08:40:00
+Volver a llamar
+27/08/2019 hable con la sra de Gonzalez , indico q va a consultar con el esposo para ver si vamos mañana a las 3pm 
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 27/08/201916:40:00Volver a llamar27/08/2019 la señora llega a las 4.30 pm dijo la empleada----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 27/08/201916:40:00Volver a llamar27/08/2019 la señora llega a las 4.30 pm dijo la empleada----------TERMINA COMENTARIO-----------1901-07-08 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00D018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='11027FRIOM017012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+14/07/2020
+09:00:00
+Acepto
+ACEPTO 40
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/07/2020
+12:00:00
+Volver a llamar
+LLAMAR PARA AGENDAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/07/2020
+10:01:00
+Volver a llamar
+LLAMAR PARA AGENDAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/07/2020
+16:01:00
+Volver a llamar
+SOLO HABLA CON DANEIL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/02/2020
+13:00:00
+Acepto
+SRA ACEPTÓ CON DANIEL E INDICA Q SOLO LA LLAME EL
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 05/03/202008:45:00Volver a llamar14-02-2020 la Señora dijo que saldría de viaje y que regresa dentro de 15 días----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 09/09/201905:00:00Volver a llamar04/09/2019 no contesta----------TERMINA COMENTARIO-----------24/7/18 clienta acepta limpieza para el dia de mañana 25 de julio////8/2/18 clienta me indica que lo hizo con la copia en enero///16/11/17 cliente me indica que se llame para los primeros dias de diciembre///24/10/17 clienta me indica que la llame en 15 dias seguro hace la limpieza///08-03-2017 la señora acepta via wspp la limpieza para mañana a las 9am  VIAS WSPP - 02-03-2017 la señora esta al tanto de todo lo sucedido y dijo que le llame la proxima semana - 06-02-2017 la hermana indica que no esta en casa, llega tipo 6pm', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='08210LDSOM00L016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+20/05/2020
+12:00:00
+Volver a llamar
+30-01-2020 esta equivocado
+----------TERMINA COMENTARIO-----------
+
+12/02/2019 ya la limpio hace poco llamar en algunos meses 08/02/2019 no contesta  19/10/2018 señora acepta la limpieza para el dia lunes a las 10:30   29/06/17 señor por ahora no  nosotros llamamos 10/06/2014 cliente acepto la limpieza para el lunes 16/06/2014 a las 11 am',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='00614AQUAM000127'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+03/10/2019
+02:30:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/09/2019
+06:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2019
+10:00:00
+Volver a llamar
+14708/2019 NUMERO INCORRECTO
+----------TERMINA COMENTARIO-----------
+
+26-09-18 NUMERO NO EXISTE ----   22/07/2016 NUMERO NO EXISTE 04/07/2016 numero incorrecto o desconectado  24/02/2016 empleada indica q hace 4 meses no hace limpieza de cisterna  09/11/15 La empleada indica que llame a las 11 am 23/10/15 llamar sabado29-09-15 no quiere el servicio ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08076TESOM00I023'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-11-28 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00L13B'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+05/08/2021
+15:30:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/03/2020
+10:00:00
+No responde
+13-03-2020 no contesta manda a buzón
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/03/2020
+11:00:00
+Volver a llamar
+06-03-2020 daniel la gestiona
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/03/2020
+09:15:00
+Volver a llamar
+04-03-2020 no contesta el celular
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/03/2020
+10:10:00
+Volver a llamar
+03-03-2020 no contesta el celular y convencional esta incorrecto
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/03/2020
+11:30:00
+Volver a llamar
+03-03-2020 no contesta volver a intentar
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/02/2020
+12:00:00
+No responde
+20-02-2020 no contesta manda a buzón
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/02/2020
+11:00:00
+No responde
+03-02-2020 suena el celular y no responde
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/02/2020
+09:03:00
+No responde
+31-01-2020 convencional es incorrecto, celular suena y no contesta, volver a llamar
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/01/2020
+09:00:00
+Volver a llamar
+23-01-2020 señora dijo que le llame el lunes que este sábado va revisar la cisterna
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/08/2019
+10:0:00
+Acepto
+07-08-2019 ACEPTO EL MANTENIMIENTO PARA EL DÍA DE MAÑANA
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 07/08/201910:00:00Volver a llamarla sra hablo con alex y dijo q ella confirma esta semana q ha pasado ocupada----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 07/06/201910:00:00Volver a llamar----------TERMINA COMENTARIO-----------1907-11-26 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='06301LABAM000067'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+20/11/2020
+14:00:00
+Acepto
+ojo ajustar acepto rn 20mnov y 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/10/2020
+09:00:00
+Acepto
+26-01 acepto
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+11:00:00
+Acepto
+12/03/2020 LA SRA ACEPTO POR WHATSAPP CON DANIEL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/03/2020
+10:12:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/11/2019
+13:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/10/2019
+10:10:00
+Volver a llamar
+03/10/201o la sra dice q ella ace cada 6 meses 
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 10/07/20199:00:00Acepto----------TERMINA COMENTARIO-----------09/07/2019 Q ELLA AVISA , ACEPTO PARA MAÑANA A LAS 11 AM 29/04/2019 acepto para mañana  13/02/2019 n dos semanas  llamar  01/10/2018 no trabaja con nosotros  23/07/2018 llamar de dos en adelante 10/07/2018 CONTESTO LA EMPLEADA , QUE LA SRA NO ESTA Y NO SABE CUANDO REGRESARA 14/05/2018 me manda a buzon  25-07-17 indica que va a llamar al sr. rivadeneira, 18/07/2017 la señora dice qe esta en reunion q ella llama mas tarde 5 julio 2017 senora al cell  pidio de oficna y el cell que registraria y q llamria yo le dije que llao en quincena 20/06/17  cell no contesta y fijo empleada la señora esta de viaje 15/06/17 no contestan ni cell ni fijo 13/06/17 emplead la señora no esta llega de tarde cell no contesta 09/06/17 no contesto 05/01/2017 Me manda a buzon , la sra llamo y acepto la limpieza paar el dia 10/01/2017 a las 9:00  15/12/2016 contesto la empleada q la sra no esta y q no saben a q hora regresa  10/08/2016 contesto la empleada q la sra no esta y al cell contesto la misma y acepto la limpieza para el dia 10/08/2016 a las 11:00  08/08/2016 contesto la empleada q la sra esta almorzando y q ella le va a dar el mensaje  07/03/2016 la sra acepto la limpieza para eld ia 08/03/2016 a las 10',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='02355BIBLM0D0009'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+11/09/2020
+15:00:00
+Volver a llamar
+11/09/2020 llamé a casa y la sra no está q llame mas tarde indica empleada, llame a la Sra ANDREA y no contesta 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/09/2020
+10:00:00
+Volver a llamar
+10/09/2020 sra teresa dice q ya le hicieron q le llame mañana q va a revisar, llamé a la casa
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/08/2020
+09:00:00
+No responde
+SEGUIMEINTO NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/08/2020
+11:09:00
+No responde
+SEGUIMIENTO NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/08/2020
+09:04:00
+Volver a llamar
+SE ENVIO MENSAJE DE WP NO ESTA RECIBIENDO A NADIE EN CASA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/02/2020
+09:00:00
+Acepto
+11/02/2020 la sra acept por whatsapp para el día Lunes 17 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/02/2020
+11:02:00
+Volver a llamar
+06/02/2020 contesto un sr his esperar en la linea e indico q la sra dijo q n desea por el momento q ella avisa cuando hará
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/02/2020
+09:08:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/12/2019
+13:30:00
+Acepto
+17/12/2019 LA EMPLEADA DICE Q LA SRA LLEGA  A LA 1 O 1:30
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/10/2019
+09:00:00
+Acepto
+la sra andrea acepto por whatsapp
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/06/2019
+13:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+20/06/2019 COORDINO CON DANIEL 5/4/18 llamarla en mayo///3/4/18 llamar el jueves que esta de viaje la señora///9/11/17 clienta acepta limpieza para el dia 13 de nov///19/8/17 clienta me indica que ella nos llamara porque esta gastada//31/08/2016 CLIENTE ESTA FUERA DEL PAIS, LLAMARLA LA PROXIMA SEMANA 29/08/2016 LLAMAR AL MEDIO DIA 26/08/2016 LLAMAR AL MEDIO DIA, ESPOSA DEL CLIENTE NO SE ENCUENTRA 25/08/2016 CLIENTE NO SE ENCUENTRA, LLAMAR EN OTRO MOMENTO 24/08/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA MAS TARDE 24/08/2016 CLIENTE SI ESTA INTERESADA, LLAMARLA EN LA TARDE  15/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LA UNA DE LA TARDE 01/04/2016 lamar a partir de lunes cliente se fue a la playas 01/09/2015 grabadora de cnt indica que el numero esta ocupado',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='00500ENRIC155001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/04/2020
+06:30:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/12/2019
+10:00:00
+Acepto
+A LA SRA SE LE OFRECIÓ UNA PROMOCIÓN 2X1 CON LA HIJA Q VIVE EN CC  LA RIA $49 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/11/2019
+06:30:00
+Volver a llamar
+25/11/2019 la sra die q esta ocupada peor q aun no tiene respuesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/11/2019
+02:30:00
+Volver a llamar
+21/11/2019 q le llame lunes a ver si tiene respuesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/10/2019
+09:00:00
+Volver a llamar
+03/09/2019 LA SRA DICE Q LO HARA CADA 6 MESES
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+21/06/2019
+8:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+21/06/2019 lo hizo con andrea  14/02/2019 no contesta  29/06/2018 Contesto la misma q la llame la proxima semana xq esta semana imposible  28/06/2018 me manda a buzon  13/06/2018 contesto la misma q llame en 2 semanas xq va a pasar por ceibos  05/06/2018 me manda a buzon  28/05/2018 Contesto la misma q la llame de aqui a 2 semanas   09/05/2018 ME MAND a buzon  24/04/2018 me manda a buzon  26/02/2018 contesto al misma q ahoritra no me puede atender q la llame mas tarde  07/02/2018 me manda a buzon  11/01/2018 contesto la misma q joel tambien la llamo y q aun no puede hablar con la hermana  09/01/2018 me manda a buzon  05/01/2018 contesto la misma q la hermana va a salir de viaje y q la llame la otra semana  01-11-17 llamar la proxima semana, 26-10-17 llamar la proxima semana,01-09-17 esta ocupada llamar despues, 14/03/2017 no contestan y al cell me manda a buzon  13/03/2017 n o contestan y al cell me mand a abuzon  10/03/2017 contesto la misma q mejor la llame el dia lunes para tenerme una respuesta  23/02/2017 no contestan y al cell me  mamdo a buzon  02/02/2017 contesto la misma q la lalme el dia martes para tenerme una respuesta xq ahora si la hermana le dijo q si a la limppieza  26/01/2017 al cell me manda a buzon  01/12/2016 no contestan y al cell contesto la misma q ella ahora se va a tener q mudar a al casa de la hija xq esta en estado de embarazo y q por eso la llame despues  30/11/2016 no contestan  23/11/2016 no contestan  21/11/2016 no contestan y al cell me mand a buzon  11/11/2016 no contestan y al cell me mnad aa buzon  27/10/2016 contesto la misma q ella devuelve la llamada hoy xq recien l aherana llega del trab entonces para ver si se puede conversar para hacer la limpieza  24/10/2016 contesto la misma q segun la hermana esta arriba pero q va a tener q ir a dejar a unos parientes al aeropuerto pero para despues será  21/10/2016 contesto la misma q segun va a hacer el mantenimiento el dia lunes  19/10/2016 no contestan y al cell alzan y cuelgan  13/10/2016 no contestan y me manda a buzon  20/09/2016 no contestan y al cell contesto la misma q ella esta fuera del pais segun y regresa por el 5 de octubre  13/09/2016 contesto la misma q aun no ha hablado con la hermana pero q en tal caso ella lalam  07/09/2016 contesto la misma q la llame el dia lunes para coordinar la limpieza  31/08/2016 no contestan y al cell me manda a buzon , contesto la misma q ya va a subir para hablar con la hermana y q la llame mañana  29/08/2016 contesto la misma q no tuvo oportunidad de habñlar con la hermana pero q la llame el di miercoles para tenerme una respuesta  26/08/2016 contesto la misma q la llame el dia lunes a las 12:00 para tenerme una respuesta  05/07/2016 numero tiene averia en la linea  21/06/2016 contetso la misma q aun no s puee hacer pero q la siga llamando para ver cuando se puede hacer  01/06/2016 contesto la misma y acepto la limpieza para 07/06/2016 a las 9:00 30/05/2016 me mando a buzon , contesto la misma al cell q justo ahorita esta con la hermana asi q el dia miercoles la llame  25/05/2016 contesto la misma q la llame el dia lunes para poder coordinar bien q dia podemos hacer la limpieza  05/05/2016 contesto la misma q esta esperando q el gasfitero valla a arreglarle un pequeño inconvniente  15/03/2016 contesto la misma q la llame para la primera semana de mayo  14/03/2016 no contestan  11/03/2016 no contestan  10-09-2015    Cliente acepta el servicio para el dia miercoles  16-09-2015  a las 10 am   --    07-09-2015   Clienta informa que se llame el dia jueves coordinar la visita el viernes y el horario   --   31/07/2015 llamar el miercoles ---------------------------------27/07/2015 llamar el dia viernes  -------------------------------25/06/2015 llamar por el 20 de julio--------------------------------------------------------------------------------------12/06/2015 LLAMAR EN EL TRANSCURSO DE LA PROXIMA                                                                  01/06/2015 aun no me tiene respuesta                                                                28/05/2015 llamar el proximo lunes                                                     20/05/2015 LLAMAR EL PROXIMO JUEVES 28                                                                                                                     11/05/2015 llamar en el transcurso de la semana esta ocupada                                                                             05/05/2015 LLAMAR  EL LUNES 11 DE MAYO                                                                                      15/04/2015 LLAMAR EN EL MES DE MAYO                          11/08/2014 SRA STA GASTADA PREFIERE Q LO DEJEMOS PARA el dia jueves 28a las 9AM Q LE LLAME NUEVAMENTE EL martes para recordar 06/08/2014 sra coordino limpieza para la proxima semana dia jueves 14 quiere q le llame el jueves 7 para reconfirmar 01/08/2014 sra dijo q le llame el martes para coordinar29/07/2014 sra pidio q le llame el viernes12/07/2014 sra va a viajar y no regresa hasta fdm q la llame los primeros dias d agosto apart q amagua sta haciendo trabajos y q si la limpia ahorita igual se le va a ensuciar09/07/2014 sra dijo q la llame mañana al medio dia para conversar mejor23-05-2014 Que para la próxima semana la llame - 20-05-2014 que por favor la llame el viernes enla mañana para ya quedar de acuerdo dijo - 12-05-2014 la señora pidió que la llame el jueves en la mañana para coordinar fecha - 26/04/2014 LA SEÑORA INDICA QUE VA REVISAR LA CISTERNA Y QUE LA LLAME EL DIA LUNES 17/01/2014  25/11/2013  la sra acepto la limpieza para el dia miercoles 27 a las 10:00 18/11/2013 contesto la misma q aun no habla con la hermana   12/11/2013 contesto la misma q no ha hablado con la hermana q la llame el dia lunes   06/11/2013 la sra me indico q no tiene ninguna confirmacion xq no ha podido hablar con la hermana q la llame la prooxima semna para el martes  01/11/2013 contesto la misma q la llame a las 10:15 xq esta sumamente ocupados .... la sra acepto la limpieza para el dia vierenes 8 a las 10:0 pero llamar a confirmar la hora nada mas  vaciado total 28/10/2013 contetso la misma q recien ayer llego de viaje q la llame el dia viernes   15/10/2013 no contetsan   08/10/2013 no contestan  07/10/2013 no contetsan   01/10/2013 no contestan   30/09/2013 no contestan  26/09/2013 no contestan  25/09/2013 no ocntestan  24/09/2013 no contestan    23/09/2013 no contestan   15/04/2015 LLAMAR POR EL MES DE MAYO ESTA ESPERANDO QUE PASEN LAS LLUVIAS              16/09/2013 contestio ella y dijo q la llame el dia jueves para poder habalr con la herman   09/09/2013  contetso la misma y dijo q ella es un poco celosa con su agua y q  la llame el fin de semana para sabe r q respues me da ya q ella vive con la hermana 10-09-2015    Cliente acepta el servicio para el dia miercoles  16-09-2015  a las 10 am   --    07-09-2015   Clienta informa que se llame el dia jueves coordinar la visita el viernes y el horario   --   31/07/2015 llamar el miercoles ---------------------------------27/07/2015 llamar el dia viernes  -------------------------------25/06/2015 llamar por el 20 de julio--------------------------------------------------------------------------------------12/06/2015 LLAMAR EN EL TRANSCURSO DE LA PROXIMA                                                                  01/06/2015 aun no me tiene respuesta                                                                28/05/2015 llamar el proximo lunes                                                     20/05/2015 LLAMAR EL PROXIMO JUEVES 28                                                                                                                     11/05/2015 llamar en el transcurso de la semana esta ocupada                                                                             05/05/2015 LLAMAR  EL LUNES 11 DE MAYO                                                                                      15/04/2015 LLAMAR EN EL MES DE MAYO                          11/08/2014 SRA STA GASTADA PREFIERE Q LO DEJEMOS PARA el dia jueves 28a las 9AM Q LE LLAME NUEVAMENTE EL martes para recordar 06/08/2014 sra coordino limpieza para la proxima semana dia jueves 14 quiere q le llame el jueves 7 para reconfirmar 01/08/2014 sra dijo q le llame el martes para coordinar29/07/2014 sra pidio q le llame el viernes12/07/2014 sra va a viajar y no regresa hasta fdm q la llame los primeros dias d agosto apart q amagua sta haciendo trabajos y q si la limpia ahorita igual se le va a ensuciar09/07/2014 sra dijo q la llame mañana al medio dia para conversar mejor23-05-2014 Que para la próxima semana la llame - 20-05-2014 que por favor la llame el viernes enla mañana para ya quedar de acuerdo dijo - 12-05-2014 la señora pidió que la llame el jueves en la mañana para coordinar fecha - 26/04/2014 LA SEÑORA INDICA QUE VA REVISAR LA CISTERNA Y QUE LA LLAME EL DIA LUNES 17/01/2014  25/11/2013  la sra acepto la limpieza para el dia miercoles 27 a las 10:00 18/11/2013 contesto la misma q aun no habla con la hermana   12/11/2013 contesto la misma q no ha hablado con la hermana q la llame el dia lunes   06/11/2013 la sra me indico q no tiene ninguna confirmacion xq no ha podido hablar con la hermana q la llame la prooxima semna para el martes  01/11/2013 contesto la misma q la llame a las 10:15 xq esta sumamente ocupados .... la sra acepto la limpieza para el dia vierenes 8 a las 10:0 pero llamar a confirmar la hora nada mas  vaciado total 28/10/2013 contetso la misma q recien ayer llego de viaje q la llame el dia viernes   15/10/2013 no contetsan   08/10/2013 no contestan  07/10/2013 no contetsan   01/10/2013 no contestan   30/09/2013 no contestan  26/09/2013 no contestan  25/09/2013 no ocntestan  24/09/2013 no contestan    23/09/2013 no contestan   15/04/2015 LLAMAR POR EL MES DE MAYO ESTA ESPERANDO QUE PASEN LAS LLUVIAS              16/09/2013 contestio ella y dijo q la llame el dia jueves para poder habalr con la herman   09/09/2013  contetso la misma y dijo q ella es un poco celosa con su agua y q  la llame el fin de semana para sabe r q respues me da ya q ella vive con la hermana',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='00500ENRIM0R1016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-08-18 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0Y1027'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+19/05/2022 17:00:00 - Inspección
+LA SRA ACEPTO INSPECCION Y SI ENCONTRAMOS NOVEDADESEN SU CISTERNA QUE LE ENVIEMOS FOTOS PARA PODER SABER SI REALMENTE NECESITA UNA LIMPIEZA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/05/2022
+08:01:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/09/2021
+09:10:00
+Otro estado
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/09/2021
+08:00:00
+Volver a llamar
+prueba
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/09/2021 14:00:00 - Acepto
+sddsfsd
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/09/2021 08:00:00 - Cobros
+sssdd
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/12/2021
+06:30:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/11/2020
+11:00:00
+Acepto
+12-11 acepto para hoy dijo q tenia solo 20 ahi y le dije q no hay problema por pago
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+09:03:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/02/2020
+09:21:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/02/2020
+11:05:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/02/2020
+09:07:00
+Volver a llamar
+10/02/2020 CONTETSO EL ESPOSO Q LE LLAME DEPSUES AUN NO 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/02/2020
+10:09:00
+Volver a llamar
+05/02/2020 la sra indica q le llame la otra semana
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/01/2020
+15:00:00
+Volver a llamar
+31/01/2020 contestaron al celular una señora dice q ha dejado eltelefono la sra maria luisa y q le llame en la tarde , indica q el telefono de casa esta dañado
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/02/2020
+10:07:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/01/2020
+10:06:00
+No responde
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/01/2020
+11:02:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/12/2019
+09:30:00
+Volver a llamar
+05/12/2019 LA EMPLEADADICE Q LA SRA NO ESTA EN EL PAIS VUELVE POR EL 20 MAS O MENOS 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/12/2019
+14:00:00
+Volver a llamar
+02/12/2019 contetso la empleada q ella llego y la sra ya no estaba
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/12/2019
+07:03:00
+Volver a llamar
+29/11/2019 la empleada dice q la sra llego de viaje anoche pero hoy se fue a olon q le llame lunes
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/11/2019
+07:20:00
+Volver a llamar
+11/11/2019 LA EMPLEADA DICE Q LE LLAME FIN DE MES Q AHI LLEGAN D VIAJE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/07/2019
+9:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/06/2019
+11:00:00
+No responde
+SOLO HAY 1 NUMERO Y SALE BUZON DE VOZ INCORRECTO 
+----------TERMINA COMENTARIO-----------
+1927-05-20 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='10025EDRIM00A034'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='19/07/2016 NO CONTESTA 15/07/2016 CLIENTE DICE QUE POR EL MOMENTO NO ME PODRIA DAR UNA RESPUESTA QUE LA LLAME LUEGO QUE VA A CONSULTARLO 19/10/2015 cliente me indica que nos llamara el dia que necesite el servicio///12/10/2015 cliente no contesta numeros/////28-09-2015 contactar al segundo num, ocupada',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='03597CLARM0C000'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+30/09/2019
+09:40:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/09/2019
+09:00:00
+Volver a llamar
+27/08/2019 la sra pregunto precio, luego dijo q no q a ella le hace el sr q limpia la piscina
+----------TERMINA COMENTARIO-----------
+
+28-09-18 CONTESTO EMPLEADA Q LA SRA SALIO, REGRESA EN 2 HORAS (17:30)---- 25-09-18 EMPLEADA CONTESTA Q SRA LLEGA EN LA TARDE DEL TRABAJO. LLAMAR A LAS 15:00 ------  28/06/2016 CLIENTE DICE QUE POR EL MOMENTO NO DESEA 17/06/2016 CLIENTE NO SE ENCUENTRA, LLAMARLO EN OTRO MOMENTO 31/05/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LAS SEIS DE LA TARDE 11/05/2016 NO CONTESTA 09/05/2016 cliente no se encuentra, llamar en otro momento 29/03/2016 llamar manana a las 3h30 cliente solo llega a esa hora 28/03/2016 no contesta nadie 25/02/2016 no contesta se llamo nuevamente e indico q lo realizo con amagua  07/09/2015 señora no se encuentra  llamar en otro momento------//////03/07/2015 no desea el servicio, cortante la señora', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='08210LDSOM00H005'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='08/06/2016 NO EXISTE ', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM00V001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-02-25 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0K1004'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-11-18 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM00T018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-02-24 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM00D017'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+20/11/2020
+14:00:00
+Acepto
+ojo ajustar acepto rn 20mnov y 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/10/2020
+09:00:00
+Acepto
+26-01 acepto
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+11:00:00
+Acepto
+12/03/2020 LA SRA ACEPTO POR WHATSAPP CON DANIEL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/03/2020
+10:12:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/11/2019
+13:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/10/2019
+10:10:00
+Volver a llamar
+03/10/201o la sra dice q ella ace cada 6 meses 
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 10/07/20199:00:00Acepto----------TERMINA COMENTARIO-----------09/07/2019 Q ELLA AVISA , ACEPTO PARA MAÑANA A LAS 11 AM 29/04/2019 acepto para mañana  13/02/2019 n dos semanas  llamar  01/10/2018 no trabaja con nosotros  23/07/2018 llamar de dos en adelante 10/07/2018 CONTESTO LA EMPLEADA , QUE LA SRA NO ESTA Y NO SABE CUANDO REGRESARA 14/05/2018 me manda a buzon  25-07-17 indica que va a llamar al sr. rivadeneira, 18/07/2017 la señora dice qe esta en reunion q ella llama mas tarde 5 julio 2017 senora al cell  pidio de oficna y el cell que registraria y q llamria yo le dije que llao en quincena 20/06/17  cell no contesta y fijo empleada la señora esta de viaje 15/06/17 no contestan ni cell ni fijo 13/06/17 emplead la señora no esta llega de tarde cell no contesta 09/06/17 no contesto 05/01/2017 Me manda a buzon , la sra llamo y acepto la limpieza paar el dia 10/01/2017 a las 9:00  15/12/2016 contesto la empleada q la sra no esta y q no saben a q hora regresa  10/08/2016 contesto la empleada q la sra no esta y al cell contesto la misma y acepto la limpieza para el dia 10/08/2016 a las 11:00  08/08/2016 contesto la empleada q la sra esta almorzando y q ella le va a dar el mensaje  07/03/2016 la sra acepto la limpieza para eld ia 08/03/2016 a las 10',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='02355BIBLM0D0009'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='05/04/2016 NUMERO NO EXISTE / 24-09-18 NO EXIST', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07238LSOLM00B005'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/04/2020
+06:30:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/12/2019
+10:00:00
+Acepto
+A LA SRA SE LE OFRECIÓ UNA PROMOCIÓN 2X1 CON LA HIJA Q VIVE EN CC  LA RIA $49 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/11/2019
+06:30:00
+Volver a llamar
+25/11/2019 la sra die q esta ocupada peor q aun no tiene respuesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/11/2019
+02:30:00
+Volver a llamar
+21/11/2019 q le llame lunes a ver si tiene respuesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/10/2019
+09:00:00
+Volver a llamar
+03/09/2019 LA SRA DICE Q LO HARA CADA 6 MESES
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+21/06/2019
+8:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+21/06/2019 lo hizo con andrea  14/02/2019 no contesta  29/06/2018 Contesto la misma q la llame la proxima semana xq esta semana imposible  28/06/2018 me manda a buzon  13/06/2018 contesto la misma q llame en 2 semanas xq va a pasar por ceibos  05/06/2018 me manda a buzon  28/05/2018 Contesto la misma q la llame de aqui a 2 semanas   09/05/2018 ME MAND a buzon  24/04/2018 me manda a buzon  26/02/2018 contesto al misma q ahoritra no me puede atender q la llame mas tarde  07/02/2018 me manda a buzon  11/01/2018 contesto la misma q joel tambien la llamo y q aun no puede hablar con la hermana  09/01/2018 me manda a buzon  05/01/2018 contesto la misma q la hermana va a salir de viaje y q la llame la otra semana  01-11-17 llamar la proxima semana, 26-10-17 llamar la proxima semana,01-09-17 esta ocupada llamar despues, 14/03/2017 no contestan y al cell me manda a buzon  13/03/2017 n o contestan y al cell me mand a abuzon  10/03/2017 contesto la misma q mejor la llame el dia lunes para tenerme una respuesta  23/02/2017 no contestan y al cell me  mamdo a buzon  02/02/2017 contesto la misma q la lalme el dia martes para tenerme una respuesta xq ahora si la hermana le dijo q si a la limppieza  26/01/2017 al cell me manda a buzon  01/12/2016 no contestan y al cell contesto la misma q ella ahora se va a tener q mudar a al casa de la hija xq esta en estado de embarazo y q por eso la llame despues  30/11/2016 no contestan  23/11/2016 no contestan  21/11/2016 no contestan y al cell me mand a buzon  11/11/2016 no contestan y al cell me mnad aa buzon  27/10/2016 contesto la misma q ella devuelve la llamada hoy xq recien l aherana llega del trab entonces para ver si se puede conversar para hacer la limpieza  24/10/2016 contesto la misma q segun la hermana esta arriba pero q va a tener q ir a dejar a unos parientes al aeropuerto pero para despues será  21/10/2016 contesto la misma q segun va a hacer el mantenimiento el dia lunes  19/10/2016 no contestan y al cell alzan y cuelgan  13/10/2016 no contestan y me manda a buzon  20/09/2016 no contestan y al cell contesto la misma q ella esta fuera del pais segun y regresa por el 5 de octubre  13/09/2016 contesto la misma q aun no ha hablado con la hermana pero q en tal caso ella lalam  07/09/2016 contesto la misma q la llame el dia lunes para coordinar la limpieza  31/08/2016 no contestan y al cell me manda a buzon , contesto la misma q ya va a subir para hablar con la hermana y q la llame mañana  29/08/2016 contesto la misma q no tuvo oportunidad de habñlar con la hermana pero q la llame el di miercoles para tenerme una respuesta  26/08/2016 contesto la misma q la llame el dia lunes a las 12:00 para tenerme una respuesta  05/07/2016 numero tiene averia en la linea  21/06/2016 contetso la misma q aun no s puee hacer pero q la siga llamando para ver cuando se puede hacer  01/06/2016 contesto la misma y acepto la limpieza para 07/06/2016 a las 9:00 30/05/2016 me mando a buzon , contesto la misma al cell q justo ahorita esta con la hermana asi q el dia miercoles la llame  25/05/2016 contesto la misma q la llame el dia lunes para poder coordinar bien q dia podemos hacer la limpieza  05/05/2016 contesto la misma q esta esperando q el gasfitero valla a arreglarle un pequeño inconvniente  15/03/2016 contesto la misma q la llame para la primera semana de mayo  14/03/2016 no contestan  11/03/2016 no contestan  10-09-2015    Cliente acepta el servicio para el dia miercoles  16-09-2015  a las 10 am   --    07-09-2015   Clienta informa que se llame el dia jueves coordinar la visita el viernes y el horario   --   31/07/2015 llamar el miercoles ---------------------------------27/07/2015 llamar el dia viernes  -------------------------------25/06/2015 llamar por el 20 de julio--------------------------------------------------------------------------------------12/06/2015 LLAMAR EN EL TRANSCURSO DE LA PROXIMA                                                                  01/06/2015 aun no me tiene respuesta                                                                28/05/2015 llamar el proximo lunes                                                     20/05/2015 LLAMAR EL PROXIMO JUEVES 28                                                                                                                     11/05/2015 llamar en el transcurso de la semana esta ocupada                                                                             05/05/2015 LLAMAR  EL LUNES 11 DE MAYO                                                                                      15/04/2015 LLAMAR EN EL MES DE MAYO                          11/08/2014 SRA STA GASTADA PREFIERE Q LO DEJEMOS PARA el dia jueves 28a las 9AM Q LE LLAME NUEVAMENTE EL martes para recordar 06/08/2014 sra coordino limpieza para la proxima semana dia jueves 14 quiere q le llame el jueves 7 para reconfirmar 01/08/2014 sra dijo q le llame el martes para coordinar29/07/2014 sra pidio q le llame el viernes12/07/2014 sra va a viajar y no regresa hasta fdm q la llame los primeros dias d agosto apart q amagua sta haciendo trabajos y q si la limpia ahorita igual se le va a ensuciar09/07/2014 sra dijo q la llame mañana al medio dia para conversar mejor23-05-2014 Que para la próxima semana la llame - 20-05-2014 que por favor la llame el viernes enla mañana para ya quedar de acuerdo dijo - 12-05-2014 la señora pidió que la llame el jueves en la mañana para coordinar fecha - 26/04/2014 LA SEÑORA INDICA QUE VA REVISAR LA CISTERNA Y QUE LA LLAME EL DIA LUNES 17/01/2014  25/11/2013  la sra acepto la limpieza para el dia miercoles 27 a las 10:00 18/11/2013 contesto la misma q aun no habla con la hermana   12/11/2013 contesto la misma q no ha hablado con la hermana q la llame el dia lunes   06/11/2013 la sra me indico q no tiene ninguna confirmacion xq no ha podido hablar con la hermana q la llame la prooxima semna para el martes  01/11/2013 contesto la misma q la llame a las 10:15 xq esta sumamente ocupados .... la sra acepto la limpieza para el dia vierenes 8 a las 10:0 pero llamar a confirmar la hora nada mas  vaciado total 28/10/2013 contetso la misma q recien ayer llego de viaje q la llame el dia viernes   15/10/2013 no contetsan   08/10/2013 no contestan  07/10/2013 no contetsan   01/10/2013 no contestan   30/09/2013 no contestan  26/09/2013 no contestan  25/09/2013 no ocntestan  24/09/2013 no contestan    23/09/2013 no contestan   15/04/2015 LLAMAR POR EL MES DE MAYO ESTA ESPERANDO QUE PASEN LAS LLUVIAS              16/09/2013 contestio ella y dijo q la llame el dia jueves para poder habalr con la herman   09/09/2013  contetso la misma y dijo q ella es un poco celosa con su agua y q  la llame el fin de semana para sabe r q respues me da ya q ella vive con la hermana 10-09-2015    Cliente acepta el servicio para el dia miercoles  16-09-2015  a las 10 am   --    07-09-2015   Clienta informa que se llame el dia jueves coordinar la visita el viernes y el horario   --   31/07/2015 llamar el miercoles ---------------------------------27/07/2015 llamar el dia viernes  -------------------------------25/06/2015 llamar por el 20 de julio--------------------------------------------------------------------------------------12/06/2015 LLAMAR EN EL TRANSCURSO DE LA PROXIMA                                                                  01/06/2015 aun no me tiene respuesta                                                                28/05/2015 llamar el proximo lunes                                                     20/05/2015 LLAMAR EL PROXIMO JUEVES 28                                                                                                                     11/05/2015 llamar en el transcurso de la semana esta ocupada                                                                             05/05/2015 LLAMAR  EL LUNES 11 DE MAYO                                                                                      15/04/2015 LLAMAR EN EL MES DE MAYO                          11/08/2014 SRA STA GASTADA PREFIERE Q LO DEJEMOS PARA el dia jueves 28a las 9AM Q LE LLAME NUEVAMENTE EL martes para recordar 06/08/2014 sra coordino limpieza para la proxima semana dia jueves 14 quiere q le llame el jueves 7 para reconfirmar 01/08/2014 sra dijo q le llame el martes para coordinar29/07/2014 sra pidio q le llame el viernes12/07/2014 sra va a viajar y no regresa hasta fdm q la llame los primeros dias d agosto apart q amagua sta haciendo trabajos y q si la limpia ahorita igual se le va a ensuciar09/07/2014 sra dijo q la llame mañana al medio dia para conversar mejor23-05-2014 Que para la próxima semana la llame - 20-05-2014 que por favor la llame el viernes enla mañana para ya quedar de acuerdo dijo - 12-05-2014 la señora pidió que la llame el jueves en la mañana para coordinar fecha - 26/04/2014 LA SEÑORA INDICA QUE VA REVISAR LA CISTERNA Y QUE LA LLAME EL DIA LUNES 17/01/2014  25/11/2013  la sra acepto la limpieza para el dia miercoles 27 a las 10:00 18/11/2013 contesto la misma q aun no habla con la hermana   12/11/2013 contesto la misma q no ha hablado con la hermana q la llame el dia lunes   06/11/2013 la sra me indico q no tiene ninguna confirmacion xq no ha podido hablar con la hermana q la llame la prooxima semna para el martes  01/11/2013 contesto la misma q la llame a las 10:15 xq esta sumamente ocupados .... la sra acepto la limpieza para el dia vierenes 8 a las 10:0 pero llamar a confirmar la hora nada mas  vaciado total 28/10/2013 contetso la misma q recien ayer llego de viaje q la llame el dia viernes   15/10/2013 no contetsan   08/10/2013 no contestan  07/10/2013 no contetsan   01/10/2013 no contestan   30/09/2013 no contestan  26/09/2013 no contestan  25/09/2013 no ocntestan  24/09/2013 no contestan    23/09/2013 no contestan   15/04/2015 LLAMAR POR EL MES DE MAYO ESTA ESPERANDO QUE PASEN LAS LLUVIAS              16/09/2013 contestio ella y dijo q la llame el dia jueves para poder habalr con la herman   09/09/2013  contetso la misma y dijo q ella es un poco celosa con su agua y q  la llame el fin de semana para sabe r q respues me da ya q ella vive con la hermana',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='00500ENRIM0R1016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+20/11/2020
+14:00:00
+Acepto
+ojo ajustar acepto rn 20mnov y 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/10/2020
+09:00:00
+Acepto
+26-01 acepto
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+11:00:00
+Acepto
+12/03/2020 LA SRA ACEPTO POR WHATSAPP CON DANIEL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/03/2020
+10:12:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/11/2019
+13:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/10/2019
+10:10:00
+Volver a llamar
+03/10/201o la sra dice q ella ace cada 6 meses 
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 10/07/20199:00:00Acepto----------TERMINA COMENTARIO-----------09/07/2019 Q ELLA AVISA , ACEPTO PARA MAÑANA A LAS 11 AM 29/04/2019 acepto para mañana  13/02/2019 n dos semanas  llamar  01/10/2018 no trabaja con nosotros  23/07/2018 llamar de dos en adelante 10/07/2018 CONTESTO LA EMPLEADA , QUE LA SRA NO ESTA Y NO SABE CUANDO REGRESARA 14/05/2018 me manda a buzon  25-07-17 indica que va a llamar al sr. rivadeneira, 18/07/2017 la señora dice qe esta en reunion q ella llama mas tarde 5 julio 2017 senora al cell  pidio de oficna y el cell que registraria y q llamria yo le dije que llao en quincena 20/06/17  cell no contesta y fijo empleada la señora esta de viaje 15/06/17 no contestan ni cell ni fijo 13/06/17 emplead la señora no esta llega de tarde cell no contesta 09/06/17 no contesto 05/01/2017 Me manda a buzon , la sra llamo y acepto la limpieza paar el dia 10/01/2017 a las 9:00  15/12/2016 contesto la empleada q la sra no esta y q no saben a q hora regresa  10/08/2016 contesto la empleada q la sra no esta y al cell contesto la misma y acepto la limpieza para el dia 10/08/2016 a las 11:00  08/08/2016 contesto la empleada q la sra esta almorzando y q ella le va a dar el mensaje  07/03/2016 la sra acepto la limpieza para eld ia 08/03/2016 a las 10',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='02355BIBLM0D0009'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/04/2020
+06:30:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/12/2019
+10:00:00
+Acepto
+A LA SRA SE LE OFRECIÓ UNA PROMOCIÓN 2X1 CON LA HIJA Q VIVE EN CC  LA RIA $49 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/11/2019
+06:30:00
+Volver a llamar
+25/11/2019 la sra die q esta ocupada peor q aun no tiene respuesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/11/2019
+02:30:00
+Volver a llamar
+21/11/2019 q le llame lunes a ver si tiene respuesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/10/2019
+09:00:00
+Volver a llamar
+03/09/2019 LA SRA DICE Q LO HARA CADA 6 MESES
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+21/06/2019
+8:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+21/06/2019 lo hizo con andrea  14/02/2019 no contesta  29/06/2018 Contesto la misma q la llame la proxima semana xq esta semana imposible  28/06/2018 me manda a buzon  13/06/2018 contesto la misma q llame en 2 semanas xq va a pasar por ceibos  05/06/2018 me manda a buzon  28/05/2018 Contesto la misma q la llame de aqui a 2 semanas   09/05/2018 ME MAND a buzon  24/04/2018 me manda a buzon  26/02/2018 contesto al misma q ahoritra no me puede atender q la llame mas tarde  07/02/2018 me manda a buzon  11/01/2018 contesto la misma q joel tambien la llamo y q aun no puede hablar con la hermana  09/01/2018 me manda a buzon  05/01/2018 contesto la misma q la hermana va a salir de viaje y q la llame la otra semana  01-11-17 llamar la proxima semana, 26-10-17 llamar la proxima semana,01-09-17 esta ocupada llamar despues, 14/03/2017 no contestan y al cell me manda a buzon  13/03/2017 n o contestan y al cell me mand a abuzon  10/03/2017 contesto la misma q mejor la llame el dia lunes para tenerme una respuesta  23/02/2017 no contestan y al cell me  mamdo a buzon  02/02/2017 contesto la misma q la lalme el dia martes para tenerme una respuesta xq ahora si la hermana le dijo q si a la limppieza  26/01/2017 al cell me manda a buzon  01/12/2016 no contestan y al cell contesto la misma q ella ahora se va a tener q mudar a al casa de la hija xq esta en estado de embarazo y q por eso la llame despues  30/11/2016 no contestan  23/11/2016 no contestan  21/11/2016 no contestan y al cell me mand a buzon  11/11/2016 no contestan y al cell me mnad aa buzon  27/10/2016 contesto la misma q ella devuelve la llamada hoy xq recien l aherana llega del trab entonces para ver si se puede conversar para hacer la limpieza  24/10/2016 contesto la misma q segun la hermana esta arriba pero q va a tener q ir a dejar a unos parientes al aeropuerto pero para despues será  21/10/2016 contesto la misma q segun va a hacer el mantenimiento el dia lunes  19/10/2016 no contestan y al cell alzan y cuelgan  13/10/2016 no contestan y me manda a buzon  20/09/2016 no contestan y al cell contesto la misma q ella esta fuera del pais segun y regresa por el 5 de octubre  13/09/2016 contesto la misma q aun no ha hablado con la hermana pero q en tal caso ella lalam  07/09/2016 contesto la misma q la llame el dia lunes para coordinar la limpieza  31/08/2016 no contestan y al cell me manda a buzon , contesto la misma q ya va a subir para hablar con la hermana y q la llame mañana  29/08/2016 contesto la misma q no tuvo oportunidad de habñlar con la hermana pero q la llame el di miercoles para tenerme una respuesta  26/08/2016 contesto la misma q la llame el dia lunes a las 12:00 para tenerme una respuesta  05/07/2016 numero tiene averia en la linea  21/06/2016 contetso la misma q aun no s puee hacer pero q la siga llamando para ver cuando se puede hacer  01/06/2016 contesto la misma y acepto la limpieza para 07/06/2016 a las 9:00 30/05/2016 me mando a buzon , contesto la misma al cell q justo ahorita esta con la hermana asi q el dia miercoles la llame  25/05/2016 contesto la misma q la llame el dia lunes para poder coordinar bien q dia podemos hacer la limpieza  05/05/2016 contesto la misma q esta esperando q el gasfitero valla a arreglarle un pequeño inconvniente  15/03/2016 contesto la misma q la llame para la primera semana de mayo  14/03/2016 no contestan  11/03/2016 no contestan  10-09-2015    Cliente acepta el servicio para el dia miercoles  16-09-2015  a las 10 am   --    07-09-2015   Clienta informa que se llame el dia jueves coordinar la visita el viernes y el horario   --   31/07/2015 llamar el miercoles ---------------------------------27/07/2015 llamar el dia viernes  -------------------------------25/06/2015 llamar por el 20 de julio--------------------------------------------------------------------------------------12/06/2015 LLAMAR EN EL TRANSCURSO DE LA PROXIMA                                                                  01/06/2015 aun no me tiene respuesta                                                                28/05/2015 llamar el proximo lunes                                                     20/05/2015 LLAMAR EL PROXIMO JUEVES 28                                                                                                                     11/05/2015 llamar en el transcurso de la semana esta ocupada                                                                             05/05/2015 LLAMAR  EL LUNES 11 DE MAYO                                                                                      15/04/2015 LLAMAR EN EL MES DE MAYO                          11/08/2014 SRA STA GASTADA PREFIERE Q LO DEJEMOS PARA el dia jueves 28a las 9AM Q LE LLAME NUEVAMENTE EL martes para recordar 06/08/2014 sra coordino limpieza para la proxima semana dia jueves 14 quiere q le llame el jueves 7 para reconfirmar 01/08/2014 sra dijo q le llame el martes para coordinar29/07/2014 sra pidio q le llame el viernes12/07/2014 sra va a viajar y no regresa hasta fdm q la llame los primeros dias d agosto apart q amagua sta haciendo trabajos y q si la limpia ahorita igual se le va a ensuciar09/07/2014 sra dijo q la llame mañana al medio dia para conversar mejor23-05-2014 Que para la próxima semana la llame - 20-05-2014 que por favor la llame el viernes enla mañana para ya quedar de acuerdo dijo - 12-05-2014 la señora pidió que la llame el jueves en la mañana para coordinar fecha - 26/04/2014 LA SEÑORA INDICA QUE VA REVISAR LA CISTERNA Y QUE LA LLAME EL DIA LUNES 17/01/2014  25/11/2013  la sra acepto la limpieza para el dia miercoles 27 a las 10:00 18/11/2013 contesto la misma q aun no habla con la hermana   12/11/2013 contesto la misma q no ha hablado con la hermana q la llame el dia lunes   06/11/2013 la sra me indico q no tiene ninguna confirmacion xq no ha podido hablar con la hermana q la llame la prooxima semna para el martes  01/11/2013 contesto la misma q la llame a las 10:15 xq esta sumamente ocupados .... la sra acepto la limpieza para el dia vierenes 8 a las 10:0 pero llamar a confirmar la hora nada mas  vaciado total 28/10/2013 contetso la misma q recien ayer llego de viaje q la llame el dia viernes   15/10/2013 no contetsan   08/10/2013 no contestan  07/10/2013 no contetsan   01/10/2013 no contestan   30/09/2013 no contestan  26/09/2013 no contestan  25/09/2013 no ocntestan  24/09/2013 no contestan    23/09/2013 no contestan   15/04/2015 LLAMAR POR EL MES DE MAYO ESTA ESPERANDO QUE PASEN LAS LLUVIAS              16/09/2013 contestio ella y dijo q la llame el dia jueves para poder habalr con la herman   09/09/2013  contetso la misma y dijo q ella es un poco celosa con su agua y q  la llame el fin de semana para sabe r q respues me da ya q ella vive con la hermana 10-09-2015    Cliente acepta el servicio para el dia miercoles  16-09-2015  a las 10 am   --    07-09-2015   Clienta informa que se llame el dia jueves coordinar la visita el viernes y el horario   --   31/07/2015 llamar el miercoles ---------------------------------27/07/2015 llamar el dia viernes  -------------------------------25/06/2015 llamar por el 20 de julio--------------------------------------------------------------------------------------12/06/2015 LLAMAR EN EL TRANSCURSO DE LA PROXIMA                                                                  01/06/2015 aun no me tiene respuesta                                                                28/05/2015 llamar el proximo lunes                                                     20/05/2015 LLAMAR EL PROXIMO JUEVES 28                                                                                                                     11/05/2015 llamar en el transcurso de la semana esta ocupada                                                                             05/05/2015 LLAMAR  EL LUNES 11 DE MAYO                                                                                      15/04/2015 LLAMAR EN EL MES DE MAYO                          11/08/2014 SRA STA GASTADA PREFIERE Q LO DEJEMOS PARA el dia jueves 28a las 9AM Q LE LLAME NUEVAMENTE EL martes para recordar 06/08/2014 sra coordino limpieza para la proxima semana dia jueves 14 quiere q le llame el jueves 7 para reconfirmar 01/08/2014 sra dijo q le llame el martes para coordinar29/07/2014 sra pidio q le llame el viernes12/07/2014 sra va a viajar y no regresa hasta fdm q la llame los primeros dias d agosto apart q amagua sta haciendo trabajos y q si la limpia ahorita igual se le va a ensuciar09/07/2014 sra dijo q la llame mañana al medio dia para conversar mejor23-05-2014 Que para la próxima semana la llame - 20-05-2014 que por favor la llame el viernes enla mañana para ya quedar de acuerdo dijo - 12-05-2014 la señora pidió que la llame el jueves en la mañana para coordinar fecha - 26/04/2014 LA SEÑORA INDICA QUE VA REVISAR LA CISTERNA Y QUE LA LLAME EL DIA LUNES 17/01/2014  25/11/2013  la sra acepto la limpieza para el dia miercoles 27 a las 10:00 18/11/2013 contesto la misma q aun no habla con la hermana   12/11/2013 contesto la misma q no ha hablado con la hermana q la llame el dia lunes   06/11/2013 la sra me indico q no tiene ninguna confirmacion xq no ha podido hablar con la hermana q la llame la prooxima semna para el martes  01/11/2013 contesto la misma q la llame a las 10:15 xq esta sumamente ocupados .... la sra acepto la limpieza para el dia vierenes 8 a las 10:0 pero llamar a confirmar la hora nada mas  vaciado total 28/10/2013 contetso la misma q recien ayer llego de viaje q la llame el dia viernes   15/10/2013 no contetsan   08/10/2013 no contestan  07/10/2013 no contetsan   01/10/2013 no contestan   30/09/2013 no contestan  26/09/2013 no contestan  25/09/2013 no ocntestan  24/09/2013 no contestan    23/09/2013 no contestan   15/04/2015 LLAMAR POR EL MES DE MAYO ESTA ESPERANDO QUE PASEN LAS LLUVIAS              16/09/2013 contestio ella y dijo q la llame el dia jueves para poder habalr con la herman   09/09/2013  contetso la misma y dijo q ella es un poco celosa con su agua y q  la llame el fin de semana para sabe r q respues me da ya q ella vive con la hermana',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0R1016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+11/09/2020
+15:00:00
+Volver a llamar
+11/09/2020 llamé a casa y la sra no está q llame mas tarde indica empleada, llame a la Sra ANDREA y no contesta 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/09/2020
+10:00:00
+Volver a llamar
+10/09/2020 sra teresa dice q ya le hicieron q le llame mañana q va a revisar, llamé a la casa
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/08/2020
+09:00:00
+No responde
+SEGUIMEINTO NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/08/2020
+11:09:00
+No responde
+SEGUIMIENTO NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/08/2020
+09:04:00
+Volver a llamar
+SE ENVIO MENSAJE DE WP NO ESTA RECIBIENDO A NADIE EN CASA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/02/2020
+09:00:00
+Acepto
+11/02/2020 la sra acept por whatsapp para el día Lunes 17 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/02/2020
+11:02:00
+Volver a llamar
+06/02/2020 contesto un sr his esperar en la linea e indico q la sra dijo q n desea por el momento q ella avisa cuando hará
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/02/2020
+09:08:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/12/2019
+13:30:00
+Acepto
+17/12/2019 LA EMPLEADA DICE Q LA SRA LLEGA  A LA 1 O 1:30
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/10/2019
+09:00:00
+Acepto
+la sra andrea acepto por whatsapp
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/06/2019
+13:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+20/06/2019 COORDINO CON DANIEL 5/4/18 llamarla en mayo///3/4/18 llamar el jueves que esta de viaje la señora///9/11/17 clienta acepta limpieza para el dia 13 de nov///19/8/17 clienta me indica que ella nos llamara porque esta gastada//31/08/2016 CLIENTE ESTA FUERA DEL PAIS, LLAMARLA LA PROXIMA SEMANA 29/08/2016 LLAMAR AL MEDIO DIA 26/08/2016 LLAMAR AL MEDIO DIA, ESPOSA DEL CLIENTE NO SE ENCUENTRA 25/08/2016 CLIENTE NO SE ENCUENTRA, LLAMAR EN OTRO MOMENTO 24/08/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA MAS TARDE 24/08/2016 CLIENTE SI ESTA INTERESADA, LLAMARLA EN LA TARDE  15/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LA UNA DE LA TARDE 01/04/2016 lamar a partir de lunes cliente se fue a la playas 01/09/2015 grabadora de cnt indica que el numero esta ocupado',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIC155001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/09/2019
+09:00:00
+Volver a llamar
+17-12-18 SRA ME INDICA Q NO TIENE CISTERNA XQ VIVE EN UN EDIFICIO---
+----------TERMINA COMENTARIO-----------
+
+23/4/18 llamar mañana///18/4/18 CLIENTA INDICA QUE SE LA LLAME EL VIERNES////17/4/18 CLIENTA NO SE ENCUENTRA LLAMAR MAÑANA',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='02355BIBLM000003'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1914-11-14 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07442ELAGM00G014'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='28/04/2017 NO CONTESTAN...ME COMUNICO CON LA SRA LUZ MA GARCIA DICE Q LLAME 17H00 LA LLAMO Y NO CONTESTA EN NINGUNO DE LOS 2 NUMEROS... SR ME DIJO QUE NO ESTABA INTERESADO, NO DIO NOMBRE 16H46  08/04/2016 NUMERO EQUIVOCADO ',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='09048CCESM001034'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='28-09-2015 no existe',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00938ISSOM000013'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0V1018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0V1018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='13/10/2015 cliente no contesta ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0D1001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+26/11/2020
+07:00:00
+Volver a llamar
+SEGUIMIENTO HA ESTADO HACIENDO CON AQUACLEAN
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/03/2020
+09:08:00
+Volver a llamar
+13/02/2020 Q AUN NO ESTA INTERESADA Q EN PAR D MESES LE LLAME
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/10/2019
+14:10:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 31/10/201904:30:00Volver a llamar19/09/2019 la sra dice q en noviembre hara----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 13/05/20199:30:00Acepto06/05/2019 q le llame en una hora  , depsues el almuerzo q le llame poreq aun no sale d la reunion, ACEPTO PARA EL DIA LUNES 13 A LAS 09:30 23/01/2019 LLAMAR EN ABRIL NO ANTES PORQ ELLA NO QUIERE  QLE LLAMEN A CADA RATO  27/11/2018 ELLA REALIZO EN SEPTIEMBRE DE NUEVOQ  AUN NO VA A REALIZAR 26/07/2018 acepto para el dia jueves 2 de agosto 02-07-2018 llamar a fines de julio 25/06/2018  Contesto la misma q la llame la proxima semana xq esta super complicada con la vacaciones de los chicos  11/06/2018 Contesto la misma q la llame la ultima semana d junio para coordinar  04/06/2018 Contesto la misma q la llame la proxima semana para ahi si coordinar  31/05/2018 me manda a buzon  30/05/2018 me mand  a buzon  21/05/2018 Contesto la misma q la llame en junio  17/05/2018 me manda a buzon  16/05/2018 me manda a buzon  15/03/2018 contesto la empleada q la sra no esta y al cell contesto la misma q la llame en junio  14/03/2018 me manda a buzon  06/03/2018 timbra una sola vex y m manda a buzon  05/03/2018 me manda a buzon  16-10-17 se confirma limpieza para el jueves 19-10-17 a las 10:00 am, 12-10-17 llamar el dia lunes para coordinar, 02-10-17 llamar el dia jueves para coordinar limpieza, 27-09-17 llamar el lunes para coordinar limpieza, 20-07-17 no contesta <<<   ----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 06/05/201911:00:00Volver a llamar----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 01/04/201909:00:00Volver a llamarllamar en abril----------TERMINA COMENTARIO-----------24/01/19 no desea mantenimiento hasta abril 8-8-2018 LA COPIA LE HIZO -----18/4/18 primeros dias de julio',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='06063MOENM00A016'
+res:1

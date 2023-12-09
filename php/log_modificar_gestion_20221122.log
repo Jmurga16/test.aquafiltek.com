@@ -1,0 +1,24 @@
+
+---------fecha:2022-11-22 09:58:31-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1435'
+sin err 1
+tiene dataFecha anterior:21/11/2022 Hora anterior:17:00:00\nmodificado por :enoboa\n
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '16:00:00', `fecha_acepto` = '21/11/2022' WHERE primaryk = '1435'
+
+---------fecha:2022-11-22 10:00:39-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1436'
+sin err 1
+tiene dataFecha anterior:21/11/2022 Hora anterior:18:00:00\nmodificado por :enoboa\n
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '17:00:00', `fecha_acepto` = '21/11/2022' WHERE primaryk = '1436'
+
+---------fecha:2022-11-22 10:06:45-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1454'
+sin err 1
+tiene dataFecha anterior:23/11/2022 Hora anterior:09:00:00\nmodificado por :enoboa\n
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '08:00:00', `fecha_acepto` = '23/11/2022' WHERE primaryk = '1454'

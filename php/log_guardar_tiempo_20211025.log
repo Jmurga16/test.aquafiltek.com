@@ -1,0 +1,36 @@
+--------2021-10-25 00:12:01-------------
+operador:5-cliente:07442ELAGM00000G-tiempo:00:00:00-tipo:1
+--correcto
+--------2021-10-25 00:12:26-------------
+operador:5-cliente:07442ELAGM000014-tiempo:00:00:00-tipo:1
+--correcto
+--------2021-10-25 00:12:57-------------
+operador:5-cliente:07442ELAGM00F015-tiempo:00:00:00-tipo:1
+--correcto
+--------2021-10-25 00:13:33-------------
+operador:5-cliente:07442ELAGM003018-tiempo:00:00:00-tipo:2
+--correcto
+--------2021-10-25 00:14:07-------------
+operador:5-cliente:07442ELAGM00E003-tiempo:00:00:00-tipo:2
+--correcto
+--------2021-10-25 00:44:36-------------
+operador:5-cliente:07442ELAGM00000G-tiempo:00:00:32-tipo:1
+--correcto
+--------2021-10-25 13:06:52-------------
+operador:5-cliente:07442ELAGM001034-tiempo:00:05:26-tipo:1
+--correcto
+--------2021-10-25 13:15:50-------------
+operador:5-cliente:07442ELAGM000014-tiempo:00:01:24-tipo:1
+--correcto
+--------2021-10-25 17:20:55-------------
+operador:5-cliente:07442ELAGM002003-tiempo:00:00:47-tipo:1
+--correcto
+--------2021-10-25 17:22:22-------------
+operador:5-cliente:07442ELAGM00F010-tiempo:00:00:34-tipo:2
+--correcto
+--------2021-10-25 17:23:59-------------
+operador:5-cliente:07442ELAGM00F015-tiempo:00:00:29-tipo:1
+--correcto
+--------2021-10-25 17:31:03-------------
+operador:5-cliente:07442ELAGM003024-tiempo:00:00:21-tipo:1
+--correcto

@@ -1,0 +1,16 @@
+
+---------fecha:2022-05-17 14:37:30-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1262'
+sin err 1
+tiene dataFecha anterior:16/05/2022 Hora anterior:10:00:00\nmodificado por :kdiaz\nCliente solicitó postergar el mantenimiento unos dias por motivos personales
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '10:00:00', `fecha_acepto` = '19/05/2022' WHERE primaryk = '1262'
+
+---------fecha:2022-05-17 14:41:11-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1262'
+sin err 1
+tiene dataFecha anterior:19/05/2022 Hora anterior:10:00:00\nmodificado por :kdiaz\nError de registro
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '10:00:00', `fecha_acepto` = '11/05/2022' WHERE primaryk = '1262'

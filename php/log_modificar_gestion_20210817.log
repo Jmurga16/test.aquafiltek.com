@@ -1,0 +1,16 @@
+---------fecha:2021-08-17 00:59:06-------get datos anteriores:SELECT `ga.fecha_acepto`, `ga.hora_acepto`, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1120'
+Unknown column 'ga.fecha_acepto' in 'field list'---------fecha:2021-08-17 01:02:19-------get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1120'
+sin err 1
+tiene dataFecha anterior:19/08/2021 Hora anterior:12:00:00\n1708 0056
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '14:00:00', `fecha_acepto` = '19/08/2021' WHERE primaryk = '1120'
+
+---------fecha:2021-08-17 01:07:29-------
+get datos anteriores:SELECT ga.fecha_acepto, ga.hora_acepto, tg.descripcion AS gestion  
+    FROM `Gestion_acepto` AS ga JOIN tipos_gestion AS tg ON ga.id_tipo_gestion = tg.id WHERE  `primaryk`='1121'
+sin err 1
+tiene dataFecha anterior:18/08/2021 Hora anterior:14:00:00\n1708 0100
+actualizado coment
+UPDATE  `Gestion_acepto` SET  `hora_acepto` = '16:00:00', `fecha_acepto` = '18/08/2021' WHERE primaryk = '1121'

@@ -1,0 +1,2 @@
+UPDATE `DatosClientes` SET `comentarios`='11/9/17 clienta me indica que se la llame en diciembre//23/11/15 Toma el servicio para el dia 27/11/15 (viernes) a las 10 am 23/10/15 LLAMAR EN NOVIEMBRE, DESEA LA LIMPIEZA PARA ESA FECHA06/08/2015------------01/06/2015 desa que la llamen en agosto-----------------------------17/06/2015 llamar los primeros dias de julio                                                                    12/06/2015 en la mañana se lo encuentran hasta las 10pm ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00H016'
+res:1

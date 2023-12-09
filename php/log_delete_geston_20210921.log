@@ -1,0 +1,1 @@
+DELETE FROM  `Gestion_acepto` WHERE  primaryk = '1235'DELETE FROM  `Gestion_acepto` WHERE  primaryk = '1221'DELETE FROM  `Gestion_acepto` WHERE  primaryk = '1232'DELETE FROM  `Gestion_acepto` WHERE  primaryk = '1233'DELETE FROM  `Gestion_acepto` WHERE  primaryk = '1234'

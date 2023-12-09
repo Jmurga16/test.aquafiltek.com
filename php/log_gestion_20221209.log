@@ -1,0 +1,4 @@
+UPDATE `DatosClientes` SET `comentarios`='09/06/2016 EL CLIENTE FALLECIO, HABLE CON LA ESPOSA Y DICE QUE VIVE EN UN CONDOMINIO Y QUE NO HAY CISTERNA ', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM0W1023'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-01-21 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM00E030'
+res:1

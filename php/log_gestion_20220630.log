@@ -1,0 +1,63 @@
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n01/07/2022 12:00:00 - Acepto\nPrimer comentario en tabla MG\n----------TERMINA COMENTARIO-----------
+28/04/2017 NUMERO INCORRECTO DICE OPERADORA...POR FALTA DE PAGO  16H45  14/06/2016 NO CONTESTA 31/05/2016 NO CONTESTA  24/05/2016 NO CONTESTA 23/05/2016 NO CONTESTA 11/05/2016 NO CONTESTA 25/04/2016 NO CONTESTA 22/04/2016 NO CONTESTA 11/04/2016 NO CONTESTA', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='09048CCESM009018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n01/07/2022 16:00:00 - Acepto\nComentario en tabla prueba 2 MG\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2022 12:00:00 - Acepto
+Primer comentario en tabla MG
+----------TERMINA COMENTARIO-----------
+28/04/2017 NUMERO INCORRECTO DICE OPERADORA...POR FALTA DE PAGO  16H45  14/06/2016 NO CONTESTA 31/05/2016 NO CONTESTA  24/05/2016 NO CONTESTA 23/05/2016 NO CONTESTA 11/05/2016 NO CONTESTA 25/04/2016 NO CONTESTA 22/04/2016 NO CONTESTA 11/04/2016 NO CONTESTA', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='09048CCESM009018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n30/06/2022 10:00:00 - Acepto\nComentario en tabla prueba 3 MG\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/10/2020
+10:00:00
+Acepto
+26-02 Acepto son novedad, el 16 oct cliente es amable
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/07/2020
+09:00:00
+Acepto
+VENTA PREVENT. PRECIO NORMAL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2020
+09:02:00
+Volver a llamar
+CLIENTE INDICA QUE SE LE LLAME EN JULIO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/01/2020
+10:00:00
+Acepto
+16/01/2020 EL SR ACEPTO EL PAGO LO HARA DESPUES D 15 DIAS
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2019
+12:00:00
+Acepto
+03/09/2019 el sr Montalvo acepto , indico q pagara despues de 15 dias 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/09/2019
+06:00:00
+Volver a llamar
+02/09/2019 EL SEÑOR DICE Q LE LLAME MAÑANA Q ESTA EN UNA REUNION PARA VER SI HACEMOS PARA EL MIERCOLES 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/05/2019
+9:30:00
+Acepto
+07/05/2019 q le llame en una hora para ver si vamos mañana, acpeto para el dia d mañana  a las 10:30   08/02/2019 acepto para el dia lunes a las 09:30 .. 29/01/2019 llamar en quince dias  24/01/2019 NO CONTESTA  10/01/2019 LLAMAR EN LA PRIMERA SEMANA DE FEBRERO  04/01/2018 CELULAR APAGADO05/09/2018 acepto la limpiez apara el dia d hoy 
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 13/05/201910:10:00Volver a llamar----------TERMINA COMENTARIO-----------08/02/2019 acepto para el dia lunes a las 09:30 .. 29/01/2019 llamar en quince dias  24/01/2019 NO CONTESTA  10/01/2019 LLAMAR EN LA PRIMERA SEMANA DE FEBRERO  04/01/2018 CELULAR APAGADO05/09/2018 acepto la limpiez apara el dia d hoy', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='02475TDRIM00D012'
+res:1

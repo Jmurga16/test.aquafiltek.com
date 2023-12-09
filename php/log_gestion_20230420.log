@@ -1,0 +1,520 @@
+UPDATE `DatosClientes` SET `comentarios`='24-09-18 SRES LLEGAN EN LA NOCHE, SRA ENCUENTRO HASTA LAS 9:00AM   -----08/09/02015 no tienes citerna---------//////15/07/2015 no tienen cisterna me indica la empleada que ya hablo con el jefe --------------------------------07/07/2015 no se encuentran y no saben a que hora llegue ------------03/07/2015 se encuentran en la mañana ',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='08210LDSOM00L033'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='18/09/18 CONTESTO SRA DIJO Q NO ESTABA EL SEÑOR Y COLGÓ (MEDIO GROSERA) - 1/09/2016 CLIENTE DICE QUE EL SALIO DEL PAIS Y MI HERMANA LA HIZO LIMPIAR QUE POR EL MOMENTO NO DESEA 10H48  04/07/2016 CLIENTE DICE QUE RECIEN HIZO LA LIMPIEZA, QUE LO LLAME EN SEPTIEMBRE  30/03/2016 cliente se encuentra fuera del pais 25/02/2016 indica q clte esta de viaje 08/09/2015 utilizan muy poco la cisterna mas utilizan la presion del agua--------////////03/07/2015 no desean el servicio y cerro',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00E017'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1901-04-28 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00A003'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1901-05-03 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00F022'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='11/05/2016 NO QUIERE 29/03/2016  SRA HIDALGO Cliente llega a las 5pm llamar a esa hora 25/02/2016 empleada titular llega 8pm esposa llega 5pm 29/10/2015 cliente me indica que se llame en el mes de diciembre//26/10/2015 señora tanya me indica que se envie informacion por correo//23/10/2015 empleada indica que no se encuentra volver a llamar//08/09/2015 contesto la empleada indicando que el señor no se encuentra que le indicaria a la sñoea----------///////07/07/2015 no desea el servicio se le explico, esta bien con amagua ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='04533GTENM00J002'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='18/09/18 CONTESTO SRA DIJO Q NO ESTABA EL SEÑOR Y COLGÓ (MEDIO GROSERA) - 1/09/2016 CLIENTE DICE QUE EL SALIO DEL PAIS Y MI HERMANA LA HIZO LIMPIAR QUE POR EL MOMENTO NO DESEA 10H48  04/07/2016 CLIENTE DICE QUE RECIEN HIZO LA LIMPIEZA, QUE LO LLAME EN SEPTIEMBRE  30/03/2016 cliente se encuentra fuera del pais 25/02/2016 indica q clte esta de viaje 08/09/2015 utilizan muy poco la cisterna mas utilizan la presion del agua--------////////03/07/2015 no desean el servicio y cerro',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00E017'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='24-09-18 SRES LLEGAN EN LA NOCHE, SRA ENCUENTRO HASTA LAS 9:00AM   -----08/09/02015 no tienes citerna---------//////15/07/2015 no tienen cisterna me indica la empleada que ya hablo con el jefe --------------------------------07/07/2015 no se encuentran y no saben a que hora llegue ------------03/07/2015 se encuentran en la mañana ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00L033'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1901-06-06 00:00:00',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='08210LDSOM00K037'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='25-09-18 SRA ESTA DE VIAJE LLAMAR MAÑANA EN LA TARDE ---- 26/07/2016 CLIENTE DICE QUE NO DESEA POR EL MOMENTO 05/07/2016 NO CONTESTA 15/06/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LAS DIEZ DE LA MAÑANA 11/05/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 25/04/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 18/04/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 28/03/2016 llamar a las dos de la tarde , cliente esta ocupada 25/02/2016 solo contestadora se hizo segunda llamada indica q llega 4pm  08/09/2015 el numero no esta en servicio---------//////////31/07/2015 solo fds ----------15/07/2015 no tienen hora de entrada y tapoco de salida -------07/07/2015 llamar a las 5pm ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00I007'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1901-09-01 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00C011'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1901-11-03 00:00:00',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='08210LDSOM00B015'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='28/03/2016 no contestan 09/09/2015 sra se cambio de casa y no tenen cisterna indico la empleada-----------///////////18/07/2015 NO TIENEN CISTERNA Y SON OTROS INQUILINOS--------------------08/07/2015 equivocado', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='08210LDSOM00I005'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='09/09/2015 indicaron nuevamente equivocado y que no tiene cisterna-------------/////////08/07/2015 equivocado, y no tienen cisterna ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00F019'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+31/10/2022
+11:10:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/10/2020
+09:00:00
+Acepto
+acepto a $40.00 inc iva a las 09h00
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/08/2020
+09:00:00
+Volver a llamar
+SEGUIMIENTO DICE QUE NO TIENE DINERO QUE PARA AGOSTO CONFIRMA POR WP
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/08/2020
+09:05:00
+Volver a llamar
+CLIENTE INDICA QUE SE LE LLAME POR ESE TIEMPO ESTAN CORTOS DE DINERO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/07/2020
+10:01:00
+Volver a llamar
+LLAMAR PARA AGENDAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/01/2020
+12:00:00
+Acepto
+14/01/2020 la sra acepto para mañana 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/01/2020
+10:50:00
+Volver a llamar
+11/11/2019 la sra dice q en enero hara
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/10/2019
+07:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/10/2019
+12:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/06/2019
+14:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/06/2019
+13:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/05/2019
+09:00:00
+Volver a llamar
+06/02/19 desea para la primera semana de junio 
+----------TERMINA COMENTARIO-----------
+25/06/2019 ACEPTO PARA EL DIA D MAÑANA  20/06/2019 SRA DICE Q MUY AMABLE PERO AUN NO HARA 04&06/201sra my amable dice q aun no la va a hacer 915/04/2019 tuvo q hacer en enero  29/11/2018 acepto para el dia lunes a las 11:30  13/11/2018 q la llame en dicimbre los primeros dias 06/11/2018  llamar a partir del proximo martes q la srta llega 17/10/2018 llamar quincena de noviembre 19/07/2018 acepto para el dia de mañana a LAS 9:30... 11/04/2018 Contesto la misma q hace 2 semanas hizo el manteznimiento  20-11-2017 que ya le hicimos nosotros mismos el 13 ojo no fuimos nosotros. 12-10-17 llamar el 23 de nov, 11-10-17 llamar mañana 9:00 am, 29/05/17 susy recien se fue el Dr. Morales  cell 0986734101 llamelo en 15 minutos 23/05/17  se realizo la limpieza el 23 de mayo  22/05/17 postergo la limpieza  la mañana 23 mayo va revisar la cisterna no recuerda ultima vez que limpio y que 2 de la tarde  a las dos de la tarde  llame despues  10  minutos luegop ya no contesto el cell 19/05/17.. la sewñora acepta la limpieza el dia lunes 22 de mayo a las 9:30 am 10/05/17 empleada la srta no esta llame mañana a las 8 a 9 13/04/17 telefonos buzon 06/04/17 la Srta esta en la playa no,  cuando regresa dice la empleada 14/03/2017 contesto la empleada q la sra no esta y no tiene hora de llegada y al cell me contesto lamisma q por ahora no tiene presupuesto pero q tal vez despues q ya se arregle ahi si ella no va a dudar en llamar  13/03/2017 contesto la misma q va a revisar la cisterna y ella llamaria si necesitara pero ya va a estar pendiente q han pasado 6 meses  03/02/2017 contesto la empleada q la sra esta de viaje y q va a ser imposible pero ella si llega a llamar le da el mensaje y se dejo numeros para se pueda comunicar  29/09/2016 se recomienda un vaciado para la proxima limpieza  28/09/2016 salio la contestadora y al cell me manda a buzpn, la sra llamo y le devolvi la llamada y acepto la limpieza pra el dia 29/09/2016 a las 12:30   31/05/2016 se recomienda un vaciado para la proxima limpieza  26/05/2016 contesto la misma y acepto la limpieza para el dia 31/05/2016 a las 11:00  25/05/2016 contesto la empelada q la sra salio y regresa mas tarde , salio la contestadora ya al cell me manda a buzon   14/12/15 Toma servicio para el dia 16/12/15 miercoles a las 9 am 20/06/2015 se le mando carta de presentacion llamar el dia lunes 10: am------------------16/06/2015 4pm ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00E004'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/04/2020
+09:30:00
+Volver a llamar
+13-02-2020 le toca limpieza al Ab
+----------TERMINA COMENTARIO-----------
+
+14/01/2019 no necesita ahora despues del invierno 17/12/2018 NO NECESITA Q LE LLAME EN ENERO O FEBRERO 31/07/2018 acepto la limpieza para el dia lunes 6..... 30/07/2018 llamar mañana porq esta en una audiencia 26/07/2018 llamar el lunes 16/07/2017 llamar fin de mes sin falyta 26/06/2018 Contesto la empleada q no ahi nadie en casa q la llame despues  25/06/2018 no contesta  20/06/2018 Contesto la empleada q la sra no esta q regresa depues en la tarde  14/06/2018 Contesto la empleada q la sra salio q regresa en la tarde , Contesto la empleada q la sra no llega ni a comer   08/06/2018 Contesto la empleada q la sra salio , no contestAN  07/06/2018  Contesto la empleada q la sra esta dormid y q en tal caso la llame tipo 15:30  01/06/2018 Contesto la empleada q la sra salio a dejar a la bb a la escuela q la llame tipo 14:00  31/05/2018 Contesto la empleada q la sra salio a recoger a la bb pero regresa tipo 14:00  30/05/2018 no contrestan  24/05/2018 Contesto la hija q la sra no esta y q regresa por la noche xq esta trab  23/05/2018 NO CONTESTAN  21/05/2018 no contestan  18/05/2018 contesto el espos q la llame el lunes  16/05/2018 no contestan  22/03/2018 Contetso un sr q la sra salio de viaje y q regresa despues de 15 dias  08/03/2018 Contesto una peladita en la primera llamada me colgo y ya en la otra me dijo q la mama no estaba y q no sabe a q hora regrese   02/03/2018 no contestan , no contestan  01/03/2018 contesto la empleada q la sra salio y q mas seguro la llame tipo 3:00  26/02/2018 no contrestan  23/02/2018 contesto una peladita q la sra no esta y q le puedo devolver la llamada en la tarde  08/02/2018 contesto la empleada q la sra salio a hacer una compras y no sabe a q hora regresa  31/01/2018 no contestan  30/01/2018 estela bonilla contesto q la srqa salio a hacer revisar a su mama q esta enferma  16/01/2018 no contestan y al cell contesto el ab. enojado dijo q todo se tiene q hablar con ella yq mejor x ahora no va a hacer ningun mantenimeinto  15/01/2018 no contestan  12/01/2018 contesto la empleada q la sra no se encuentra q la llame tipo 14:00  14-11-2017 llamar el mes de enero xq va a viajar 19/06/17 cordar pago con el Ab 07/06/17  la señora acepta la limpieza para mañana alas 9:30 am07/06/17 fijo ocupado 02/06/17  no contesta el fijo 31/05/17 no contesta el  tel fijo 29/05/17 no contesto fijo 23/05/17 Ab llame ami esposa a las 12 del dia  y al fijo contesto la empleada que la señora salio  19/05/17 empleada la señora no esta llame enla tarde 15/05/17  habla al cell con ab. y me dijo llame a la esposa a lasa casa contesto empleada que la señora llega en unos 10 mintos 14:20 no contestn convencional  18/04/17 llamarla   a la señora gabriela  Martinez de Dvargas esta hasta las 12 del dia   24-03-2017 llamr el sabado para cordinar 28/01/2017 contesto la esposa q el sr esta en maestria y q mejor le escriba por whatssap para poder coordinar algo y el responde cuando el pueda  11/01/2017 contesto el mismo al cell q lo llame para fin de mes para ver si ya se puede coordinar con el mantenimiento  09/01/2017 contesto la esposa q el sr no esta y q lo llame despues de las 18:00  03/12/2016 contesto el mismo e indico q mejor en enero xq este mes casi no van a pasar en casa y es un poco complicado  25/11/2016 contesto la empleada q los sres recien salieron y q en tal caso q los llame a las 14:00  24/11/2016 contesto la empleada q la sra no esta y no regresa hasta la tarde  23/11/2016 contesto la misma q le envie por correo la informacion para poder hablar con el esposo y q tal vez no sea posible mañana hacer la limpieza ,  ya se le envio el correo  16/08/2016 CLIENTE QUIERE LA TAPA PARA SEPTIEMBRE 15/06/201604 - 6006228  CLIENTE ACEPTA LA LIMPIEZA PARA EL DIA VIERNES 1 DE JULIO A LAS 9AM LOS DATOS A NOMBRE DEL CLIENTE 0914584214  15/06/2016 CLIENTE NO SE ENCUENTRA, LLAMARLO EN LA TARDE 09/06/2016 CLIENTE NO SE ENCUENTRA, LLAMARLO DIRECTAMENTE AL CELL 30/03/2016 cliente no se encuentra llamar en la noche 28/03/2016 llamarlo a las cinco de la tarde 29/10/2015 cliente me indica que se lo llame mañana//28/10/2015 empleada me indica que se llame al señor por el celular//09/09/2015 los señores no se encuetran ------------/////////14/07/2015 mandar informacion por correo',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08210LDSOM00B019'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='26-09-18 SRA NO QUIZO ESCUCHAR Y SIMPLEMENTE DIJO GRACIAS----  24-09-19 EMPLEADA VA A DECIRLE A LOS SRES (LLAMAR MAÑNA) -----  25/08/2016 CLIENTE NO SE ENCUENTRA, LLAMARLO MAS TARDE 27/07/2016 CLIENTE NO SE ENCUENTRA 12/07/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA EN OTRO MOMENTO 06/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 20/04/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LA OFICINA NOS DIJERON PERO NO NOS DIERON NUMERO 13/04/2016 cliente no se encuentra, llamar mas tarde 31/03/2016 cliente no tiene hora de llegada, llamar en otro momento 30/03/2016 cliente no se encuentra 28/03/2016 llamar a las cinco que llega el cliente 25/02/2016 solo contestadora 28/10/2015 señor orbea me indica qese lo llame en 4 mses//llamar a las 14h30//09/09/2015 empleada indico llamarlo apartir de las 14:00 pm ------------//////////08/07/2015 llamar para diciembre ',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='08210LDSOM00E008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+17/08/2020
+09:01:00
+Volver a llamar
+LLAMAR POR ESTA FECHA CLIENTE INDICA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/08/2020
+08:02:00
+Volver a llamar
+LLAMAR A HACER SEGUIMIENTO PARA AGENDAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/12/2019
+12:00:00
+Acepto
+06/12/2019 SRA ACEPTA EL MANTENIMIENTO VAOR $30 PARA EL DIA LUNES 9 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/12/2019
+10:00:00
+Acepto
+06/12/2019 SRA ACEPTA EL MANTENIMIENTO VAOR $30 PARA EL DIA LUNES 9 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/12/2019
+10:00:00
+Acepto
+06/12/2019 SRA ACEPTA EL MANTENIMIENTO VAOR $30 PARA EL DIA LUNES 9 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/12/2019
+10:40:00
+Acepto
+06/12/2019 SRA ACEPTA EL MANTENIMIENTO VAOR $30 PARA EL DIA LUNES 9 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/12/2019
+09:10:00
+Volver a llamar
+05/12/2019 TIMBRA PERO NO CONTESTA.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/12/2019
+12:30:00
+Volver a llamar
+04/12/2019 señora muy amable pregunta en que consiste la promo 2x1 $49 se le explica dice que le dira a una vecina y que la llamemos el dia de mañana al medio dia 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/10/2019
+04:30:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 11/09/201911:00:00Volver a llamar10/09/2019 la sra  dijo todavia no gracias----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 20/08/201912:10:00Volver a llamar07/08/2019 HABLO ALEX Y  LE CONTETSO LA SRA DIJO Q CO N ELLA SE COORDINA Y Q NO QUIERE POR EL MOMENTO ----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 03/06/201910:00:00Volver a llamar----------TERMINA COMENTARIO-----------16/10718 clienta que se la llame en enero para conversar y ver si tiene dinero y la realiza 24/7/18 clienta me indica que por el momento no desea que se la llame el prox mes///01-03-2018 se la hicieron el lunes con una chica q la llamó y se le explicó. queda para el proxima oportunidad dijo - 6/10/17 clienta me indica que no lo hara hasta que empieze el invierno12/10/17 clienta que la llame el mes que viene//26/07 señora me indica que no realizaran limpiezas 20/07 llamar en media hora',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='01378LRIBM00F020'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+03/01/2021
+17:18:14
+Rechazó
+SE CAMBIO A UN EDIFICIO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/02/2020
+14:10:00
+Volver a llamar
+07/02/2020 LA EMPLEADA INDICA Q LOS SRES NO ESTÁN 
+----------TERMINA COMENTARIO-----------
+
+25/10/18 la llamaron hace dos dias y ya dijo que no deseaell servicio 28/05/2018 ella avisa cuando desea la limpieza -                         7/3/18 clienta me indica que la llame en una semana///11/12/17 clienta me indica que no dese por el momento que ella nos llamara////2/8/17 clienta me indica que hace poco realizo limpieza no sabe si es con la copia pero dice que fueron dos señores//20-05--2017 tiene una cisterna pequeña trasera q limpiará luego de las lluvias - recien limpio con la copia - 19-05-2017 la señora indica que la llame al fin de la tarde para confirmar - 23-03.2017 se estan cambiando de casa ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='09046CCDEM000000'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='15/10/2015 clienteno contesta/// / 31/08/2015 se lo volvi a llamar eh indico que le envien toda informacion al correo  jzambrano@jzconstructores.com',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00254LPUNM00B012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+27/05/2022 13:00:00 - Acepto
+SOLO ACEPTA CON ARACELY JJJ
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/05/2022 07:00:00 - Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/12/2018
+10:00:00
+Averiado
+averiado
+----------TERMINA COMENTARIO-----------
+28-09-2015 no existe',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00254LPUNC001405'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='11027FRIOM022012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+29/06/2022 10:00:00
+Equivocado
+27/06/2022 Telefono averiado, buscar en EDINA
+----------TERMINA COMENTARIO-----------
+ya se le hizo en noviembre///8/8/17 cliente me indica que ya le realizaron la limpieza hace poco al parecer la copia///$49.00',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='03483CDRIM002025'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+12/08/2020
+08:00:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/08/2020
+08:02:00
+Volver a llamar
+SOLO A ESA HORA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/02/2020
+14:06:00
+Volver a llamar
+07/02/2020 LA EMPLEADA DICE Q NO ESTAN LOS SRES Q LE LLAMEN MAS TARDE  EL LUNES
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/05/2019
+13:00:00
+No responde
+NO CONTESTA NINGUN NUMERO 
+----------TERMINA COMENTARIO-----------
+
+21/12/2018 NO ESTA L SRTA  08/11/2018 LLAMAR ANTES DE LAS 8 AM Y DESPUES DE 8 PM17/10/2018 hable con la mama la sfra fatima q llame mañana para ver si tien respuesta  23/08/2018 solo contestan al convencional y la srta no esta 22/08/2018 CONTESTARON AL 2087024 PERO NO ESTABA LA SRTA ESTEFANIA MORALES LLAMAR MAÑANA HASTA LAS 9 O A PARTIR DE LAS 6 PM  31-10-17 no esta interesado, 28/06/17 Sra.Andrea  Loor dice que la aspirada en Duran cuesta $98 /06/17  señora tatiana los estan muy elavados me parece mucha plata tengo  ganas de devolverles sus cosas  llammem el proximo mes porque aun no tengo oreden de limpiar 26/06/17  no contesto 21/06/17  cell señora que me podia atender despues de las 5 pm  21/06/17 cell0992854803  Sra tatiana ella esposa del Sr Patricio  Villacis me dijo que llame a la 5 pm para ayudarme con ese tema esta muy ocupado   # invalido 04-2155740  0958882854 estefania me incorrecto pero antes he llamado y he hablado a este # con estefania  20/06/17  no cntestaba los #s y al final se contacto jefes de Estefania morales 14/06/17 cell 054 secretaria tengo q consultar con mis jefes llame mañana   31/05/17 estefania llamar en la quincena de junio 23/11/2016 no contestan y al cell me manda a buzon directo , a la casa contesto la esposa la sra paredes y acepto la limpieza para el dia 24/11/2016 a las 10:30   06/10/2016 no contestan y al cell me manda a buzon  02/05/2016 CLIENTE ACEPTA LA LIMPIEZA PARA EL DIA SABADO 7 MAYO  A LAS  9AM, ANTES DEL COMISARIATO POR AUTOLASA INGRESA DE AHÍ EN LA 2DA CUADRA INGRESA POR AHÍ EN LA 2DA CUADRA GIRA A LA DERECHA, CASA COLOR MOSTAZA AHÍ ESTA LA EMPRESA M. ROMAN ES UNA DISTRIBUIDORA DE NESTLE $196 INCLUIDO IVA LIMPIEZA PROFUNDA ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='09046CCDEM000004'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='19/07/2016 CLIENTE NO SE ENCUENTRA 15/07/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA MAS TARDE 22/04/2016 CLIENTE  NO SE ENCUENTRA, LLAMAR EN OTRO MOMENTO 19/04/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LA OFICINA EXT 103.... 12/10/2015 cliente no se encuentra contesto la empleada y me indico que la llame a la oficina///////////// contesto la empleada indico que se encuentra apartir de las 19:00 pm y el otro numero sale equivocado',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00810VARIM000003'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+07/08/2019
+11:00:00
+Volver a llamar
+contesto un sr dice q los sres estan trabajando q llame despues
+----------TERMINA COMENTARIO-----------
+
+19-09-18 EMPLEADA INDICA Q ESTAN DE VIAJE  Y REGRESAN EN OCTUBRE - 16/05/2016 CLIENTE DICE QUE NO DESEA 11/05/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 21/04/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 19/04/2016 CLIENTE NO SE ENCUENTRA LLAMAR A LAS 16H00 24-02-16 LLAMAR A LAS 4PM 20/10/2015 esposo me indica que se llame en 15 dias que saldra de viaje',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='02292ERIOM001086'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='1670339498251'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+30/05/2022
+13:00:00
+POSTVENTA CLIENTE SOLICITO VOLVER A LLAMAR
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/05/2022 10:00:00 Aceptó
+Fecha anterior:19/05/2022 Hora anterior:10:00:00
+modificado por :kdiaz
+Error de registro
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/05/2022 10:00:00 Aceptó
+Fecha anterior:16/05/2022 Hora anterior:10:00:00
+modificado por :kdiaz
+Cliente solicitó postergar el mantenimiento unos dias por motivos personales
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/05/2022 10:00:00 - Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/04/2019
+13:15:06
+Acepto
+CLIENTE INDICA QUE LO HACE CON LA COMPETENCIA 
+----------TERMINA COMENTARIO-----------
+
+19/3/18 cliente me indica que el realiza limpiezas con amagua///28/04/2017 NO CONTESTAN… 1ER NUMERO LLAME Y ME DIERON UN NUMERO EQUIVOCADO',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='09048CCESM016024'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='22/06/2016 NO CONTESTA 23/05/2016 CLIENTE NO SE ENCUENTRA, LLAMAR EN LA NOCHE 20/05/2016 NO CONTESTA ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00758RGRAM000031'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='02-02-2017 la sra indica que el esposo ha hecho convenio con amagua y que por ahora no va a requerir los servicio; igual le explique lo del robo',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='02675FONTM000008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='15/06/2016 CLIENTE DICE QUE EL HIJO ES EL ENCARGADO Y QUE DIJO QUE NO 26/05/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE A LAS 14H00 24/05/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 20/05/2016 CLIENTE TITULAR FALLECIO, HABLE CON LA ESPOSA SRA.IRSA ANCHALUISA DE CERVANTES, ELLA HABLARA CON EL HIJO QUE ES EL ENCARGADO ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00758RGRAM00B047'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/05/2020
+09:05:00
+Volver a llamar
+05-03-2020 señora dijo que para mes de mayo
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/03/2020
+08:55:00
+Volver a llamar
+04-03-2020 dijo la señora fanny que llame mañana a las 9am debido a que la señora no se encuentra en estos momentos allí
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/03/2020
+09:00:00
+Volver a llamar
+03-03-2020 dijo la empleada fanny que la señora no esta que llame a las 2:30pm
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/03/2020
+09:10:00
+Volver a llamar
+21-02-2020 la señora dijo que el próximo mes que ahora no.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/02/2020
+09:35:00
+Volver a llamar
+19-02-2020 aun no esta la Señora llamar a las 2pm ella va a almorzar
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/02/2020
+13:30:00
+Volver a llamar
+19-02-2020 dijo la empleada que no esta que a las 2 de la tarde se llame.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/02/2020
+11:00:00
+No responde
+27-01-2020 no responde
+----------TERMINA COMENTARIO-----------
+
+26/4/18 CLIENTA NO SE ENCUENTRA LLAMAS MAS TARDE',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='05546CASC000001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+03/10/2019
+02:30:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/09/2019
+06:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2019
+10:00:00
+Volver a llamar
+14708/2019 NUMERO INCORRECTO
+----------TERMINA COMENTARIO-----------
+
+26-09-18 NUMERO NO EXISTE ----   22/07/2016 NUMERO NO EXISTE 04/07/2016 numero incorrecto o desconectado  24/02/2016 empleada indica q hace 4 meses no hace limpieza de cisterna  09/11/15 La empleada indica que llame a las 11 am 23/10/15 llamar sabado29-09-15 no quiere el servicio ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08076TESOM00I023'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+23/09/2021
+10:00:00
+No responde
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/09/2021
+10:56:41
+Rechazó
+prueba de rechazo
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+ Se eliminó gestión con fecha:22/09/2021
+ y hora:16:00:00
+ usuario: andyfer
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/09/2021 16:00:00 - Inspección
+test
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/05/2020
+10:00:00
+Volver a llamar
+06-03-2020 decir que le toca
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/03/2020
+08:40:00
+Volver a llamar
+30-01-2020 la señora dijo que ya la limpio en esta semana
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/09/2019
+06:30:00
+Volver a llamar
+02/09/2019 no contesta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/05/2019
+10:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+04/07/2019  SEÑORA DICE  Q LO HIZO EN MAYO MAS O MENOS',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='04186SDRIM038013'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+19/08/2021 10:00:00 - Acepto
+1808 0032
+----------TERMINA COMENTARIO-----------
+
+15/06/2016 NO CONTESTA 04/04/2016 LLAMAR DESPUES DE LAS NUEVE DE LA MAÑANA, INDICA QUE LE DEVUELVA LLAMADA DESPUES DE DOS MESES 02/04/2016 LLAMAR MAS TARDE CLIENTE NO SE ENCUENTRA ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07442ELAGM00F009'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+02/07/2022 08:02:00
+Volver a llamar Importante
+prueba de comentario 4 mg
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/07/2022 11:00:00 - Acepto con la competencia
+prueba 2 de venta con la competencia
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2022 06:45:00 - Acepto con la competencia
+Se fue con la competencia comentario 1
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/07/2022 13:00:00
+Volver a llamar Importante
+Cliente desea el servicio para la proxima semana, pero tiene que cornfirmar si tendra personal disponible. Llamar por la mañana a consultar.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/05/2020
+13:00:00
+No responde
+celular 1 equivocado celular dos manda directo a buzón y convencional no contestan
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/02/2020
+09:00:00
+No responde
+03-02-2020 no contestan seguir intentando, en whatsapp le han dejado mensaje el 17 de octubre.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/11/2019
+08:10:00
+Volver a llamar
+23/10/2019 CELULARES NO SIRVEN Y TELEFONO CONTESTA OPERADORA DICIENDO QUE NO ESTAN DISPONIBLES.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/04/2019
+16:00:00
+Volver a llamar
+NO ESTABA EN CASA SOLO EN LAS TARDES 
+----------TERMINA COMENTARIO-----------
+23/10/2019 CELULARES NO SIRVEN Y TELEFONO CONTESTA OPERADORA DICIENDO QUE NO ESTAN DISPONIBLES.', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM00C1006'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='26-09-18 SRA SE LA LLAMO INDICA Q POR EL MOMENTO NO ---- 04/11/15 La clienta nos indica que el servicio es muy caro, y la prox vez lo tomara con amagua, ya tomo servicio anterior con nost30/10/15 Llamar a las 2:00pm',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00938ISSOM000016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='26-09-18 NUMERO NO CONTESTA ----      20/07/2016 NO DESEA 24/02/2016 no contesta  13/02/2016 cerro la llamada 20/10/15 Contesto la esposa del cliente e indico no estar interesada29-09-15 no contesta ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08076TESOM00J001'
+res:1

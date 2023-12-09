@@ -1,0 +1,21 @@
+--------2021-10-22 15:52:17-------------
+operador:5-cliente:09137LAGUM000042-tiempo:00:00:00-tipo:1
+--correcto
+--------2021-10-22 16:02:55-------------
+operador:5-cliente:09359VAPAM000069-tiempo:00:00:00-tipo:1
+--correcto
+--------2021-10-22 16:03:26-------------
+operador:5-cliente:09359VAPAM00A040-tiempo:00:00:00-tipo:2
+--correcto
+--------2021-10-22 16:21:12-------------
+operador:5-cliente:10025EDRIM0CO008-tiempo:00:00:00-tipo:1
+--correcto
+--------2021-10-22 16:31:32-------------
+operador:5-cliente:10025EDRIM00038B-tiempo:00:00:38-tipo:1
+--correcto
+--------2021-10-22 16:33:03-------------
+operador:5-cliente:09359VAPAM00A056-tiempo:00:00:33-tipo:2
+--correcto
+--------2021-10-22 16:33:07-------------
+operador:5-cliente:09359VAPAM00A056-tiempo:00:00:00-tipo:2
+--correcto

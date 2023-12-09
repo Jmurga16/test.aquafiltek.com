@@ -1,0 +1,57 @@
+--------2021-08-19 00:44:20-------------
+operador:3-cliente:00938ISSOM000038-tiempo:00:00:25-tipo:9
+--correcto
+--------2021-08-19 00:46:20-------------
+operador:3-cliente:01150PADRM000010-tiempo:00:00:44-tipo:2
+--correcto
+--------2021-08-19 00:47:30-------------
+operador:3-cliente:11027FRIOM022014-tiempo:00:00:15-tipo:2
+--correcto
+--------2021-08-19 01:10:20-------------
+operador:3-cliente:01574LDORM000036-tiempo:00:01:54-tipo:10
+--correcto
+--------2021-08-19 01:14:17-------------
+operador:3-cliente:01574LDORM00U002-tiempo:00:00:35-tipo:10
+--correcto
+--------2021-08-19 01:15:48-------------
+operador:3-cliente:01574LDORM00E001-tiempo:00:01:31-tipo:2
+--correcto
+--------2021-08-19 01:16:34-------------
+operador:3-cliente:01574LDORM000048-tiempo:00:00:46-tipo:9
+--correcto
+--------2021-08-19 11:24:35-------------
+operador:3-cliente:07238LSOLM00L022-tiempo:00:01:58-tipo:10
+--correcto
+--------2021-08-19 11:33:05-------------
+operador:3-cliente:07442ELAGM00G018-tiempo:00:06:08-tipo:10
+--correcto
+--------2021-08-19 11:53:24-------------
+operador:3-cliente:08076TESOM0C0012-tiempo:00:00:25-tipo:10
+--correcto
+--------2021-08-19 11:59:45-------------
+operador:3-cliente:08076TESOM00B002-tiempo:00:04:31-tipo:2
+--correcto
+--------2021-08-19 12:04:09-------------
+operador:3-cliente:08076TESOM00R008-tiempo:00:00:25-tipo:2
+--correcto
+--------2021-08-19 21:43:43-------------
+operador:5-cliente:08076TESOM00R008-tiempo:00:00:37-tipo:1
+--correcto
+--------2021-08-19 21:44:38-------------
+operador:5-cliente:08076TESOM00R008-tiempo:00:00:50-tipo:1
+--correcto
+--------2021-08-19 21:49:06-------------
+operador:5-cliente:01150PADRM000010-tiempo:00:03:21-tipo:9
+--correcto
+--------2021-08-19 22:01:20-------------
+operador:5-cliente:01150PADRM000010-tiempo:00:12:13-tipo:2
+--correcto
+--------2021-08-19 22:08:44-------------
+operador:5-cliente:08076TESOM0C0012-tiempo:00:06:26-tipo:10
+--correcto
+--------2021-08-19 22:09:50-------------
+operador:5-cliente:08076TESOM0C0012-tiempo:00:01:06-tipo:10
+--correcto
+--------2021-08-19 23:56:03-------------
+operador:5-cliente:01574LDORM000048-tiempo:00:00:25-tipo:5
+--correcto

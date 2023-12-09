@@ -1,0 +1,16 @@
+fecha:2022-06-29 12:38:49
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5
+2022-06-27 08:51:10
+TIENE fecha ultima
+fecha:2022-06-29 18:25:25
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-06-29' 
+2022-06-29 17:26:02
+si tiene fecha
+fecha:2022-06-29 18:29:51
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-06-29' 
+2022-06-29 18:25:25
+si tiene fecha
+fecha:2022-06-29 22:46:55
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-06-29' 
+2022-06-29 18:29:51
+si tiene fecha

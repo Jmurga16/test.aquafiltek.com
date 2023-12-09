@@ -1,0 +1,45 @@
+--------2021-09-20 17:17:30-------------
+operador:5-cliente:05541LUGAM000512-tiempo:00:00:31-tipo:1
+--correcto
+--------2021-09-20 17:17:53-------------
+operador:5-cliente:05002ALMEM001019-tiempo:00:00:21-tipo:8
+--correcto
+--------2021-09-20 17:18:26-------------
+operador:5-cliente:05002ALMEM000017-tiempo:00:00:28-tipo:1
+--correcto
+--------2021-09-20 17:18:51-------------
+operador:5-cliente:04533GTENM00M011-tiempo:00:00:23-tipo:1
+--correcto
+--------2021-09-20 17:19:50-------------
+operador:5-cliente:GTENM00D003-tiempo:00:00:52-tipo:2
+--correcto
+--------2021-09-20 17:21:03-------------
+operador:5-cliente:GTENM00D003-tiempo:00:01:10-tipo:10
+--correcto
+--------2021-09-20 17:22:41-------------
+operador:5-cliente:04533GTENM000160-tiempo:00:01:31-tipo:9
+--correcto
+--------2021-09-20 17:23:33-------------
+operador:5-cliente:04533GTENM00C023-tiempo:00:00:51-tipo:2
+--correcto
+--------2021-09-20 17:24:48-------------
+operador:5-cliente:04533GTENM000027-tiempo:00:01:12-tipo:2
+--correcto
+--------2021-09-20 22:59:56-------------
+operador:5-cliente:07000PUAZME12017-tiempo:00:00:51-tipo:2
+--correcto
+--------2021-09-20 23:06:04-------------
+operador:5-cliente:04533GTENDBILMOR-tiempo:00:00:36-tipo:2
+--correcto
+--------2021-09-20 23:09:55-------------
+operador:5-cliente:02292ERIOM001022-tiempo:00:00:42-tipo:2
+--correcto
+--------2021-09-20 23:11:02-------------
+operador:5-cliente:04533GTENM00J013-tiempo:00:01:03-tipo:9
+--correcto
+--------2021-09-20 23:12:25-------------
+operador:5-cliente:04533GTENM00B007-tiempo:00:01:22-tipo:9
+--correcto
+--------2021-09-20 23:22:54-------------
+operador:5-cliente:04533GTENM00C032-tiempo:00:00:38-tipo:2
+--correcto

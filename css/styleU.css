@@ -1,0 +1,33 @@
+.navbar-nav.navbar-center {
+    position: relative;
+    left: 40%;
+    transform: translatex(-40%);
+}
+.collapse h6{
+margin-right: 3%;
+}
+@media (min-width: 1500px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+.video-center{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+}

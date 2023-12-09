@@ -1,0 +1,109 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+07/10/2019
+05:20:00
+Volver a llamar
+06/09/2019 NO CONTTESTAN
+----------TERMINA COMENTARIO-----------
+
+1903-07-04 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00D012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+07/10/2019
+05:20:00
+Volver a llamar
+06/09/2019 NO CONTTESTAN
+----------TERMINA COMENTARIO-----------
+
+1903-07-04 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00D012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-07-22 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00B004'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-07-26 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00F001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-08-05 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00GF008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-08-18 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00B008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-08-23 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00E008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-08-28 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00F016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='13/07/2016 NO CONTESTA 24/02/2016 numero equivocado 26/10/15 numero no contesta16/06/2015 numero incorrecto o desconectado',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00E01B'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-10-27 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00H007'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-10-23 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM000012'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-09-18 00:00:00',`comentarios_gestion`='',`estado`='Inspección' WHERE codigo='07850VSOLM00N023'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='13/07/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA MAS TARDE 25/02/2016 NO EXISTE 22/10/15 La señora no desea el servicio 16/06/2015 numero no esta en servicio ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00J016'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-11-13 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00N027'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-05-16 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00L007'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='13/07/2016 CLIENTE NO SE ENCUENTRA, LLAMARLO EN OTRO MOMENTO 24/02/2016 hija indica q llega a las 7:30 8 pm y en la mañan solo hasta 7:30am no quiere dar info de cell 26/10/15 Numero no contesta20/06/2015 no desean ya realizaron el mantenimiento-------------16/06/2015 en la mañana estan hasta las 8:30', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00E007'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+26/02/2020
+12:08:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/02/2020
+09:13:00
+Volver a llamar
+30/01/2020 MANDÓ A DECIR CON LA EMPLEADA Q CUANDO ELLA NECESITE ELLA LLAMA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/01/2020
+10:16:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/01/2020
+11:17:00
+Volver a llamar
+22/01/2020 CELULAR NO CONTESTA CASA CONTESTA EMPLEADA Y DICE Q LA SRA NO ESTA ESTÁ EN OFICINA Q LLAME MAÑANA A VER SI TIENE ALGUNA RESPUESTA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/01/2020
+17:00:00
+Volver a llamar
+16/01/2020  CONTESTO UNA SRA DICE Q LA SRA LLEG 1700 Q LE LLAME A ESA HORA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/12/2019
+07:24:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/11/2019
+10:00:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/08/2019
+14:00:00
+Acepto
+21/08/2019 LA SRA DICE Q YA LA HIZO LA SEMANA PASADA LE DIJERON Q YA ANTES HABIA HECHO  Q LE CHICO SE LLAMA JOEL
+----------TERMINA COMENTARIO-----------
+
+9/11/17 empleada me indica que no se encuentra///13/9/17 clienta me indica que le pase la informacion por whatsapp//08/08/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA DESPUES DE QUINCE MINUTOS 28/07/2016 CLIENTE DICE QUE LE ENVIE TODA LA INFORMACION AL CORREO Y QUE ELLA ME LLAMARIA 26/07/2016 NO CNTESTA 14/07/2016 LLAMARLA EN CINCO MINUTOS, CLIENTE OCUPADA 12/07/2016 CLIENTE NO SE ENCUENTRA, ME DIERON EL NUMERO DE CELL PERO NO RESPONDE  24/02/2016 no contesta 26/10/15 LLAMAR SABADO23/10/15 Llamar a las 3:10 pm19/06/2015 ya realizo el mantenimiento llamar en 4 meses -------------------18/06/2015 no se encuentra llegan en la tarde no dieron hora pacingraf@hotmail.com',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00K013'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1903-06-30 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='04129PDRIM00E107'
+res:1

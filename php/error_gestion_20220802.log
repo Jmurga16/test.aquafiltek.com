@@ -1,0 +1,8 @@
+fecha:2022-08-02 09:33:30
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2022-08-02' AND `id_operador`=5 AND tipo_gestion = 'ac' 
+fecha:2022-08-02 09:33:58
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2022-08-02' AND `id_operador`=5 AND tipo_gestion = 'ac' 
+fecha:2022-08-02 09:34:18
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2022-08-02' AND `id_operador`=5 AND tipo_gestion = 'ac' 
+fecha:2022-08-02 09:34:36
+SELECT COUNT(*) AS gestiones FROM `tipo_gestiones_dia` WHERE DATE(fecha) = '2022-08-02' AND `id_operador`=5 AND tipo_gestion = 'ac' 

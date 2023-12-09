@@ -1,0 +1,60 @@
+--------2021-08-15 00:18:08-------------
+operador:3-cliente:00500ENRIM00U014-tiempo:00:00:27-tipo:10
+--correcto
+--------2021-08-15 00:20:10-------------
+operador:3-cliente:00500ENRIM00U014-tiempo:00:00:38-tipo:10
+--correcto
+--------2021-08-15 00:23:49-------------
+operador:3-cliente:00500ENRIM00U014-tiempo:00:00:13-tipo:10
+--correcto
+--------2021-08-15 00:24:03-------------
+operador:3-cliente:00500ENRIM00U014-tiempo:00:00:15-tipo:10
+--correcto
+--------2021-08-15 12:07:03-------------
+operador:3-cliente:09048CCESM014008-tiempo:00:00:08-tipo:8
+--correcto
+--------2021-08-15 12:23:01-------------
+operador:3-cliente:09048CCESM014008-tiempo:00:00:08-tipo:8
+--correcto
+--------2021-08-15 12:52:05-------------
+operador:3-cliente:00500ENRIM0X1036-tiempo:00:00:29-tipo:10
+--correcto
+--------2021-08-15 12:55:55-------------
+operador:3-cliente:07850VSOLM00F013-tiempo:00:00:41-tipo:10
+--correcto
+--------2021-08-15 12:56:11-------------
+operador:3-cliente:07850VSOLM00F013-tiempo:00:00:16-tipo:10
+--correcto
+--------2021-08-15 23:13:47-------------
+operador:3-cliente:09048CCESM014008-tiempo:00:00:34-tipo:2
+--correcto
+--------2021-08-15 23:14:21-------------
+operador:3-cliente:07238LSOLM00E002-tiempo:00:00:33-tipo:8
+--correcto
+--------2021-08-15 23:14:54-------------
+operador:3-cliente:09048CCESM010015-tiempo:00:00:32-tipo:9
+--correcto
+--------2021-08-15 23:15:15-------------
+operador:3-cliente:09048CCESM010015-tiempo:00:00:18-tipo:9
+--correcto
+--------2021-08-15 23:20:13-------------
+operador:3-cliente:09048CCESM010015-tiempo:00:03:12-tipo:9
+--correcto
+--------2021-08-15 23:31:18-------------
+operador:3-cliente:04305SISIM00A028-tiempo:00:06:55-tipo:9
+--correcto
+--------2021-08-15 23:31:32-------------
+operador:3-cliente:04305SISIM00A028-tiempo:00:00:14-tipo:9
+--correcto
+--------2021-08-15 23:31:47-------------
+operador:3-cliente:04305SISIM00A028-tiempo:00:00:15-tipo:9
+--correcto
+--------2021-08-15 23:32:44-------------
+operador:3-cliente:01378LRIBM00P006-tiempo:00:00:54-tipo:8
+--correcto
+--------2021-08-15 23:33:16-------------
+operador:3-cliente:00500ENRIM00C018-tiempo:00:00:32-tipo:10
+--correcto
+--------2021-08-15 23:34:04-------------
+operador:3-cliente:07238LSOLM000014-tiempo:00:00:47-tipo:2
+--correcto

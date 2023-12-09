@@ -1,0 +1,30 @@
+--------2021-08-14 00:08:16-------------
+operador:3-cliente:04533GTENM00L038-tiempo:00:01:02-tipo:2
+--correcto
+--------2021-08-14 00:29:54-------------
+operador:3-cliente:02477VEROM007003-tiempo:00:01:13-tipo:1
+--correcto
+--------2021-08-14 00:32:21-------------
+operador:3-cliente:02477VEROM007003-tiempo:00:02:15-tipo:1
+--correcto
+--------2021-08-14 12:49:22-------------
+operador:3-cliente:07850VSOLM00F013-tiempo:00:00:48-tipo:8
+--correcto
+--------2021-08-14 12:59:06-------------
+operador:3-cliente:00500ENRIM00U014-tiempo:00:04:14-tipo:8
+--correcto
+--------2021-08-14 12:59:27-------------
+operador:3-cliente:08210LDSOM00L014-tiempo:00:00:20-tipo:1
+--correcto
+--------2021-08-14 12:59:58-------------
+operador:3-cliente:10025EDRIM00O015-tiempo:00:00:30-tipo:2
+--correcto
+--------2021-08-14 13:04:13-------------
+operador:3-cliente:08210LDSOM00L014-tiempo:00:00:10-tipo:2
+--correcto
+--------2021-08-14 13:04:39-------------
+operador:3-cliente:00970PLREM00H024-tiempo:00:00:24-tipo:2
+--correcto
+--------2021-08-14 13:14:28-------------
+operador:3-cliente:02782RDLAM000005-tiempo:00:05:47-tipo:2
+--correcto

@@ -1,0 +1,18 @@
+--------2022-06-29 12:38:45-------------
+operador:5-cliente:09056CCRIM009017-tiempo:00:00:30-tipo:2
+--correcto
+--------2022-06-29 12:55:35-------------
+operador:5-cliente:00500ENRIM00C1006-tiempo:00:00:32-tipo:2
+--correcto
+--------2022-06-29 17:26:00-------------
+operador:5-cliente:00500ENRIM00C1006-tiempo:00:00:49-tipo:2
+--correcto
+--------2022-06-29 18:25:24-------------
+operador:5-cliente:00500ENRIM00C1006-tiempo:00:00:31-tipo:2
+--correcto
+--------2022-06-29 18:29:49-------------
+operador:5-cliente:07850VSOLM00K006-tiempo:00:00:21-tipo:2
+--correcto
+--------2022-06-29 22:46:53-------------
+operador:5-cliente:00500ENRIM0A1000-tiempo:00:00:26-tipo:2
+--correcto

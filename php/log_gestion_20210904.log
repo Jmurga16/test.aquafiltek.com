@@ -1,0 +1,667 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+04/09/2021 10:35:00 - Acepto
+sadfsdfsdfs
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/08/2020
+10:02:00
+No responde
+SEGUIMEINTO NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/08/2020
+11:03:00
+No responde
+NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/07/2020
+08:01:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/07/2020
+09:03:00
+Volver a llamar
+NC
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/07/2020
+11:00:00
+Volver a llamar
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+21/07/2020
+09:00:00
+No responde
+SEGUIMEINTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/01/2020
+12:00:00
+Acepto
+SRA INDICA Q YA LO HIZO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/02/2020
+11:06:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/08/2019
+09:00:00
+Acepto
+29/08/2019 LA SRA ACEPTO PARA EL DIA D MAÑANA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+29/08/2019
+09:30:00
+Volver a llamar
+15/08/2019 todavia no , contetso whatsapp
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/04/2019
+8:30:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+24/04/2019
+7:30:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+23/04/2019 acepto para el dia de mañana las 08:30    04/04/2019  no contesta31/03/2019 no contesta 12/03/2019 no contesta  26/02/2019 no contesta  12/02/2019 no necesita otro dia 28/01/2019 Q NO LO VA  A HACER AUNQ NO LE LLAMEN ELLA LLAMA  23/01/2019 no quiere aun q le llame despues  03/01/2019 Q Es IMPOSIBLE Q LE LLAME EN FEBRERO MEJOR 04/12/2018  no lo va a hacer hasta enero28/11/2018 esta manejando no puede atender 27/11/2018 no contesta 06/11/2018 no desea por ahora en diciembre llamar 09/07/2018 Acepto la limpiezapara el dia lunes 16/07/2018. 27/06/2018 Contesto la misma q esta super gastada y q para despues seria el mantenimiento 30/05/2018 Contesto la misma q ahorita no la llamen q despues de un tiempo  16/05/2018 Contesto la misma q aun no quiere hacer el mantenimiento q despues  16/01/2018 contesto la misma ya cepto la limpieza para el dia 18/01 a las 9:00  15/01/2018 me manda a buzon  12/01/2018 me manda a buzon  11-12-2017  no desea que por ahora no que para enero. 7-11-2017 que se le llame para fin de mes 06/06/17 la señora acepta la limpieza para mañana a las 10.30 am 23/05/17 sra llame cuando se acabe el invierno 05/04/17 no contestan los telefonos 21/10/2016 contesto la misma al cell y acepto la limpieza para el dia 24/10/2016 a las 10:30  19/10/2016 numero suspendido x falta de pago y al cell me mand a buzon  07/10/2016 no contestan y al cell contesto la misma q la lalem la semana de 17  06/10/2016 me manda a buzon  05/10/2016 no contestan y al cell me manda a buzon  04/10/2016 no contetsan y al cell me manda a buzon  28/09/2016 no contestan y al cell me manda a buzon  27/09/2016 no contestan y al cell me alzan y cuelgan  26/09/2016 no contestan y al cell me mando a buzon  20/09/2013 no contestan y me manda a buzon  19/09/2016 no contestan y al cell me manda a buzon  14/09/2016 no contestan y al cell me mand aa buzon , la sra llamo e indico q la llame la proxima semana para ahi si coodinar  30/08/2016 no contestan y al cell me mand aa buzon  29/08/2016 no contestan y al cell mandan a buzon  26/08/2016no contestan y al cell manda a buzon 29/07/2016 contesto la misma al cell q la llame mejor para el mes de septiembre  28/03/2016 contesto la misma y acepto la limpieza para el dia 29/03/2016 a las 11:00  24/03/2016 no contestan a la ksa y al cell la sra contesto e indico q la llame la proxima semana para poder coordinar  22/03/2016 no contestan , 21/03/2016 no contestan  16/03/2016 al cell me mando a buzon , 15/03/2016 no contestan  14/03/2016 no contestan  10/03/2016 no contestan , 09/03/2016 no contestan  15/01/16 La sra dice ue aun no la quiere lmpiar15/12/15 ENERO 15/04/2015 YA REALIZO MANTENIMIENTO CON OTRA EMPRESA LLAMAR EN JULIO           28/08/2014 conversamos con la sra y nos acepto la limpieza para el dia jueves 4/09/2014 a las 2 pm 15/04/2015 YA REALIZO MANTENIMIENTO CON OTRA EMPRESA LLAMAR EN JULIO           28/08/2014 conversamos con la sra y nos acepto la limpieza para el dia jueves 4/09/2014 a las 2 pm',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n05/09/2021 09:00:00 - Inspección\nssssssss\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04533GTENM00C023'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+04/09/2021
+18:56:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2021 11:40:00 - Inspección
+eeeeeeeee
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/07/2020
+15:00:00
+Acepto
+ACEPTO 40
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/07/2020
+10:01:00
+Volver a llamar
+SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/07/2020
+13:00:00
+Volver a llamar
+VA A REVISAR CISTERNA SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/07/2020
+10:03:00
+Volver a llamar
+SE ENVIO MS WP REVISION DE ESTADO DE CISTERNA-SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/07/2020
+09:01:00
+Volver a llamar
+LLAMAR A RECORDAR QUE REVISE EL ESTADO DE LA CISTERNA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/07/2020
+08:02:00
+Volver a llamar
+CLIENTE INDICA QUE SE LE LLAME EN JULIO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/02/2020
+09:00:00
+Acepto
+sra acepta otra vez en $30
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/10/2019
+12:10:00
+Acepto
+22/10/2019 se coordina mantenimiento para el dia miercoles 23 a las 11am , promocion a $30 dolares incluido iva.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/03/2019
+10:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+22/10/2019 se coordina mantenimiento para el dia miercoles 23 a las 11am , promocion a $30 dolares incluido iva.10/07/2019 q ella lo hace con otra emoresa q gracais 17/03/2019 lo hizo con andrea  14/02/2019 en marzo finales p ´rincipios d abril12/02/2019 no contesta  31/01/2019 en quinvce dias ella llama porq esta ocupada ella recien esta llegando y poniendose al dia en sus cosas  29/01/2019 no contesta 28/01/2019 no contesta  23/01/2019 no contesta  07/01/2019contesto whatsapp q esta d viaje por eso no ha llamado  03/01/2019 NO CONTESTA  04/12/2018 no contesta, DEVOLVIO LA LLAMDA Q LA LLAME EN ENERO Q ELLA REGRESA Y Q LE PAS EUN WHATSAPP CON L NUMERO   27/11/2018 no contesta 06/11/2018 en diciembre necesitartia el mantenimiento 09/07/2018 la Sra llamo a pedir el servicio14/02/2019 en marzo finales p ´rincipios d abril12/02/2019 no contesta  31/01/2019 en quinvce dias ella llama porq esta ocupada ella recien esta llegando y poniendose al dia en sus cosas  29/01/2019 no contesta 28/01/2019 no contesta  23/01/2019 no contesta  07/01/2019contesto whatsapp q esta d viaje por eso no ha llamado  03/01/2019 NO CONTESTA  04/12/2018 no contesta, DEVOLVIO LA LLAMDA Q LA LLAME EN ENERO Q ELLA REGRESA Y Q LE PAS EUN WHATSAPP CON L NUMERO   27/11/2018 no contesta 06/11/2018 en diciembre necesitartia el mantenimiento 09/07/2018 la Sra llamo a pedir el servicio',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n05/09/2021 09:16:00 - Acepto\nsdfsdfsdf\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='04533GTENM000027'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+04/09/2021
+12:00:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/03/2020
+09:07:00
+Volver a llamar
+27/02/2020 LA SRA LE DIJO A DANIEL Q NO QUIERE HASTA DESPUES D DOS MESES LE DIJO EL ESPOSO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/02/2020
+09:01:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/02/2020
+09:02:00
+Volver a llamar
+20/01/2020 SRA HABLA CON DANIEL SE LE EXPLICO LO Q PASO CON LA COMPAÑIA Y DECIDE TRABJAR CON NOSOTROS , PERO INDICA Q EN NOVIEMBRE SE LE REALIZO LA LIMPIEZA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/01/2020
+09:07:00
+Volver a llamar
+16/01/2020 DANIEL LLAMO DICE Q LE LLAME MAÑANA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+10:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+29/11/2019
+09:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/01/2020
+09:00:00
+Volver a llamar
+11/11/2019 INDICA QUE YA HIZO EL MANTENIMIENTO, LLAMAR CUANDO LE TOQUE EL MANTENIMIENTO .  
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/09/2019
+01:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/09/2019
+11:10:00
+Volver a llamar
+02/09/2019 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/09/2019
+10:00:00
+Volver a llamar
+22/08/2019 q le llame en noviembre
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/08/2019
+10:00:00
+Volver a llamar
+LA SEÑORA DICE Q NO HARA POR AHOA QUIZAS EN NOVIEMBRE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/05/2019
+12:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/05/2019
+8:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/03/2019
+16:30:00
+Volver a llamar
+6-03-19 llamar a las 16pm
+----------TERMINA COMENTARIO-----------
+08/07/2019 la sra dice q la hizo en mayo con ndrea q le llame en agoisto  20/06/2019 Q RECIEN LO HIZO Y Q VA A HACER EN SEPTIEMBRE 19/06/2019 N OCONTESTA  05/06/2019 en un mes mas o menso  22/05/2019 la sra dice q ella avisa porq penso q la hizo gace poco  30/04/2019 llamar despues no quiere talvez en tres meses 15/04/2019 NO QUIERE AUN EL OTRO MES 01/04/2019q le llame el proximo mes   08/01/01/2019 acepto pra le dia de mañana  alas 08:30  25/09/2018 acepto para mañana 11:30...  03/09/2018 llamar  finales d mes para hacerlo los primeros diAS D OCTUBRE 30/08/2018 llamar en unA SEMANA  14/08/2018 llamar el 1 de septiembre 2/07/2018 que la llamen en 3 meses que aun no lo va a realizar 25/06/2018 Contesto la misma q la lalme el dia lunes xq aun no si este mes se podria hacer  08/06/2018 Contesto la misma q la llame para lo primeros dias de julio  04/06/2018 me manda a buzon, LA SRA LLAMO E  indico q la llame el dia viernes para ver cuando podiamos coordinar   22/05/2018 Contesto la misma q esta chira pero q la llame el proximo mes para ver si ahi lo hace  04/01/2018 contesto la misma y acepto la limpieza para el dia 05/01/2018 a las 11:00  28/12/2017 no contestan  11-12-2017 no contesta ni fijo ni cel. 9-11-2017 que la llame para el mes de dic. 10-10-17 llamar en 1 mes, 12-09-17 llamar el proximo mes, 28/04/17 acepta limpieza para el dia jueves 4 abril a las 10:30 am24/04/17  no contestan  la señora me llamo y dijo que la llame el viernes para cordinar limpieza 09/03/2017 contesto la mism al cell q la lalme en abril mejor xq anda sin plata   08/03/2017 me manda a buzon directo  23/02/2017 contesto la misma al cell y q la llame en marzo a mediados  03/02/2017 contesto la misma q la llame para marzo mejor xq es imposible ahora  01/02/2017 me manda a buzon  12/01/2017 la sra llamo e indico q aun no puede hacer el mantenimiento q tal vez para febrero  10/01/2017 me manda a buzon  09/01/2017 me manda a buzon  05/01/2017 me manda a buzon y al telefono convencional no existe  15/12/2016 contesto la misma al cell q mejor se deja el mantenimiento para el proximo mes  13/12/2016 contesto la misma al cell q esta con un problema super grande y q mejor le devuelv la llamada el dia jueves 15 07/12/2016 me manda a buzon  05/12/2016 contesto la misma q la llame el dia miercoles para ver si ya me tiene una respuesta  02/12/2016 me manda a buzon  30/11/2016 numero no existe y al cell contesto la misma q la llame entre el viernes y el lunes para tenerme una respuesta  08/11/2016 contesto la misma q  esta sin dinero y q mejor para el proximo mes  07/11/2016 me manda a bbuzon 24/10/2016 contesto la misma al cell q la llame para noviembre mejor  07/10/2016 contesto la misma al cell q la llame par noviembre xq este mes es imposible  11/05/2016 contesto la misma y acepto la limpieza par el dia 02/06/2016 a las 9:00  18/04/2016 contesto la misma q la llame dentro de 10 dias para ahi si coordinar  15/04/2016 el numero de ksa sale q no existe y al cell me mando a buzon  29/07/2015 llamar el 5 de agosto--29/08/2014 conversamos con la señora y nos acepto la limpieza para el 16/09/2014 a las 9 am;;;;07/07/2014 llamar a finales de julio;;11/12/2013 la sra no esta regresa a las 15:00... se camio la limpieza para el dia viernes 13m a ñas 10:0  03/12/2013 no contestan…  la sra indico q desea la limpiezapara el dia jueves 12 alas 9:00 pero q la lame paar confirmar si esta bien esa hora y fecha   01/11/2013 me contesta una sra ella indica que la llame en 15 minutos// se llama al tt se le explica el servi indica que desea el servi pero para elmes de diciembre  ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n06/09/2021 08:00:00 - Acepto\nasdfsdf\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='04533GTENM000160'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+06/09/2021 08:00:00 - Acepto
+asdfsdf
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2021
+12:00:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/03/2020
+09:07:00
+Volver a llamar
+27/02/2020 LA SRA LE DIJO A DANIEL Q NO QUIERE HASTA DESPUES D DOS MESES LE DIJO EL ESPOSO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/02/2020
+09:01:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/02/2020
+09:02:00
+Volver a llamar
+20/01/2020 SRA HABLA CON DANIEL SE LE EXPLICO LO Q PASO CON LA COMPAÑIA Y DECIDE TRABJAR CON NOSOTROS , PERO INDICA Q EN NOVIEMBRE SE LE REALIZO LA LIMPIEZA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/01/2020
+09:07:00
+Volver a llamar
+16/01/2020 DANIEL LLAMO DICE Q LE LLAME MAÑANA 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/03/2020
+10:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+29/11/2019
+09:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/01/2020
+09:00:00
+Volver a llamar
+11/11/2019 INDICA QUE YA HIZO EL MANTENIMIENTO, LLAMAR CUANDO LE TOQUE EL MANTENIMIENTO .  
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/09/2019
+01:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/09/2019
+11:10:00
+Volver a llamar
+02/09/2019 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/09/2019
+10:00:00
+Volver a llamar
+22/08/2019 q le llame en noviembre
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/08/2019
+10:00:00
+Volver a llamar
+LA SEÑORA DICE Q NO HARA POR AHOA QUIZAS EN NOVIEMBRE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/05/2019
+12:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/05/2019
+8:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/03/2019
+16:30:00
+Volver a llamar
+6-03-19 llamar a las 16pm
+----------TERMINA COMENTARIO-----------
+08/07/2019 la sra dice q la hizo en mayo con ndrea q le llame en agoisto  20/06/2019 Q RECIEN LO HIZO Y Q VA A HACER EN SEPTIEMBRE 19/06/2019 N OCONTESTA  05/06/2019 en un mes mas o menso  22/05/2019 la sra dice q ella avisa porq penso q la hizo gace poco  30/04/2019 llamar despues no quiere talvez en tres meses 15/04/2019 NO QUIERE AUN EL OTRO MES 01/04/2019q le llame el proximo mes   08/01/01/2019 acepto pra le dia de mañana  alas 08:30  25/09/2018 acepto para mañana 11:30...  03/09/2018 llamar  finales d mes para hacerlo los primeros diAS D OCTUBRE 30/08/2018 llamar en unA SEMANA  14/08/2018 llamar el 1 de septiembre 2/07/2018 que la llamen en 3 meses que aun no lo va a realizar 25/06/2018 Contesto la misma q la lalme el dia lunes xq aun no si este mes se podria hacer  08/06/2018 Contesto la misma q la llame para lo primeros dias de julio  04/06/2018 me manda a buzon, LA SRA LLAMO E  indico q la llame el dia viernes para ver cuando podiamos coordinar   22/05/2018 Contesto la misma q esta chira pero q la llame el proximo mes para ver si ahi lo hace  04/01/2018 contesto la misma y acepto la limpieza para el dia 05/01/2018 a las 11:00  28/12/2017 no contestan  11-12-2017 no contesta ni fijo ni cel. 9-11-2017 que la llame para el mes de dic. 10-10-17 llamar en 1 mes, 12-09-17 llamar el proximo mes, 28/04/17 acepta limpieza para el dia jueves 4 abril a las 10:30 am24/04/17  no contestan  la señora me llamo y dijo que la llame el viernes para cordinar limpieza 09/03/2017 contesto la mism al cell q la lalme en abril mejor xq anda sin plata   08/03/2017 me manda a buzon directo  23/02/2017 contesto la misma al cell y q la llame en marzo a mediados  03/02/2017 contesto la misma q la llame para marzo mejor xq es imposible ahora  01/02/2017 me manda a buzon  12/01/2017 la sra llamo e indico q aun no puede hacer el mantenimiento q tal vez para febrero  10/01/2017 me manda a buzon  09/01/2017 me manda a buzon  05/01/2017 me manda a buzon y al telefono convencional no existe  15/12/2016 contesto la misma al cell q mejor se deja el mantenimiento para el proximo mes  13/12/2016 contesto la misma al cell q esta con un problema super grande y q mejor le devuelv la llamada el dia jueves 15 07/12/2016 me manda a buzon  05/12/2016 contesto la misma q la llame el dia miercoles para ver si ya me tiene una respuesta  02/12/2016 me manda a buzon  30/11/2016 numero no existe y al cell contesto la misma q la llame entre el viernes y el lunes para tenerme una respuesta  08/11/2016 contesto la misma q  esta sin dinero y q mejor para el proximo mes  07/11/2016 me manda a bbuzon 24/10/2016 contesto la misma al cell q la llame para noviembre mejor  07/10/2016 contesto la misma al cell q la llame par noviembre xq este mes es imposible  11/05/2016 contesto la misma y acepto la limpieza par el dia 02/06/2016 a las 9:00  18/04/2016 contesto la misma q la llame dentro de 10 dias para ahi si coordinar  15/04/2016 el numero de ksa sale q no existe y al cell me mando a buzon  29/07/2015 llamar el 5 de agosto--29/08/2014 conversamos con la señora y nos acepto la limpieza para el 16/09/2014 a las 9 am;;;;07/07/2014 llamar a finales de julio;;11/12/2013 la sra no esta regresa a las 15:00... se camio la limpieza para el dia viernes 13m a ñas 10:0  03/12/2013 no contestan…  la sra indico q desea la limpiezapara el dia jueves 12 alas 9:00 pero q la lame paar confirmar si esta bien esa hora y fecha   01/11/2013 me contesta una sra ella indica que la llame en 15 minutos// se llama al tt se le explica el servi indica que desea el servi pero para elmes de diciembre  ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n07/09/2021 08:00:00 - Inspección\nsdfsdf\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04533GTENM000160'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+03/09/2021
+17:54:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/11/2019
+12:30:00
+Volver a llamar
+25/10/2019 q ella avisa q aun no
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/07/2019
+13:00:00
+Acepto
+lo hizo con otra persona
+----------TERMINA COMENTARIO-----------
+
+23/07/2019  q aun no necesita gracias 27/06/2019 AUN NO ESTA INETERESADA Q DESPUES  20/02/2019 acepto para el dia viernes a las 09:30 ... 24/01/2019 q le llame del 20 d febrero en adelante  10/01/2019 Q LE LLAME EN FEBRERO 04/01/2019 no contesta  28/11/2018 LLAMAR EL OTRO AÑO 27/11/2018 NO CONTESTA  22/08/2018 acepto para el dia de mañana  06/08/2018 LLAMAR EN UN MES 06/04/2018 La sra acepto la limpieza para hoy mismo a las 11:30 ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n04/09/2021 15:00:00 - Cobros\nsfsfs\n----------TERMINA COMENTARIO-----------',`estado`='Cobros' WHERE codigo='04533GTENM00C00D'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+03/09/2021
+18:57:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/03/2020
+09:18:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+28/02/2020
+10:01:00
+Volver a llamar
+14/02/2020 LA SRA DICE Q LE LLAME DESPUES EL OTRO MES TALVEZ
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/02/2020
+11:29:00
+Volver a llamar
+27/01/2020 Q TODAVIA NO PUEDE ELLA AVISA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/01/2020
+12:05:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/09/2019
+08:20:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/08/2019
+08:20:00
+Volver a llamar
+22/08/2019 la sra manda  abuzon
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 22/08/201909:00:00Volver a llamar21/08/2019 no contesta----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 23/04/20198:30:00AceptoLO REALIZO CON LA COMPETENCIA----------TERMINA COMENTARIO---------------------INICIA COMENTARIO----------- 23/04/20197:30:00AceptoLO REALIZO CON LA COMPETENCIA----------TERMINA COMENTARIO-----------23/04/2019 LO HIZO LA  SEMANA PASADA CO0  ANDREA  18/02/2019 NO CONTESTA 12/02/2019 no contesta 31/01/2019 NO CONTESTA  23/01/2019 no aun no quiere  17/01/2019 no conmtesta 03/01/2018 ELLA AVISA  21/12/2018 no contesta  17/12/2018  no contesta 27/11/2018 no contesta, DEVOLVIO LA LLAMADA Q AUJN NO ESTA INETERSADA}  13/11/2018 todavis no q despus 23/10/2018 no por ahora no3/07/2018 cambio la limpieza para el dia lunes 9 de julio 27/06/2018 Contesto la misma y acepto la limpieza para el dia 02/07 a las 11:30  26/06/2018 me manda a buzon  11/06/2018 Contesto la misma q la llame el proximo mes xq este mes anda super corta de presupuesto  30/05/2018 Contesto la misma q la llame por el mes de junio para ver si ya se puede hacer  10/05/2018 cContesto la misma q no tiene plata y q no sabe cuando ya podria hacer el mantenimiento  11/01/2018 contesto la misma y acepto la limpieza para el dia 12/01 a las 10:00  28/12/2017 contesto la misma con voz de dormida e indico q aun no la va a hacer hasta despues de este año tal vez mediados de enero  11-12-2017 contesto la señora cristina y desea q la llamen el miercoles para CONFIRMAR SI ES QUE QUIERE EL MANTENIMIENTO. 28-11-2017 no contesta. 20-11-2017 no contesta 9-11-2017 que la llame el dia lunes 26-10-17 se hablo con la empleada ella llega tipo 3pm, 18-09-17 ella devuelve la llamada, 11-09-17 llamar la proxima semana lunes 18-09-17, 28/04/17 la señora acepto la limpieza para el dia sabado 29  de abril a las 11:30 am 31/03/17 no contestan los telefonos 31/03/17 no contestan los telefonos 09/03/2017 no contestan  05/01/2017 contesto la empleada q la sra no esta y q mejor la llame despues y al cell me manda a buzon  16/12/2016 no contestan  25/10/2016 contesto la misma al cell q ella llama cualquier cosa  18/10/2016 me mnad a abuzon  12/09/2016 numero de casa me indican q no ahi ninguna cristina ahi y al cell me manda a buzon , llamo la sra e indico q aun no va a hacer la limpieza  09/09/2016 contesto la empleada e indico q la llame a la sra a las 12:00  07/09/2016 contesto la empleada q la sra puede llegar a las 15:30  29/08/2016 contetso la empleada indicando q la sra no esta y regresa en la tarde tipo 15:00  24/08/2016 me manda a buzon  22/08/2016 no contestan y al cell me manda a buzon  19/08/2016 no contestan y me mand a buzon  18/08/2016 contesto la empleada e indico q la sra ya salio y regresa a las 15:00  15/08/2016 contesto la tia de la sra q salio y no sabe a q hora regresa y al cell me manda a buzon  21/04/2016 contesto la misma y acepto la limpieza par el dia 25/04/2016 a las 10:00  28/03/2016 contesto la misma e indico q ya hizo la limpieza  23/03/2016 no contestan  22/03/2016 no contestan  20-05-2015 acepta limpieza para 25-05-2015 ; 04-03-2015 Pidio que se la llame a fin de mes, si lo quiere hacer - 05/12/2014 se va de viaje y que la llame el dia lunes 15 ,,,24-11-2014 La señora me aceptó la limpieza, pero quiere que la llame el miercoles o jueves para confirmar - 06-10-2014  La sra indique que por ahora no lo va a hacer, que la llamen después - 22/04/2014 la señpra acepta la limpieza para el dia viernes 25/04/2014 a las 10h0015/11/2013 se le realizo la limpieza19/6/18 CLIENTA INDICA QUE SE LA LLAME EL MES QUE VIENE////inspeccion 8 febrerro 10h00 preguntar por la esposa',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n04/09/2021 15:16:00 - Inspección\nsdfsdfs\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04533GTENM00C032'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+15/11/2019
+11:10:00
+Volver a llamar
+14/11/2019 timbran pero no contestan, insistir. 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/11/2019
+09:20:00
+Volver a llamar
+13/11/2019 CELULAR TIMBRA PERO NO CONTESTAN , Y EL CONVENCIONAL SALE UNA OPERADORA DICIENDO MÚLTIPLES OPCIONES Y NO HAY EXTENSIÓN.. 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/11/2019
+09:50:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/11/2019
+09:40:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/06/2019
+9:00:00
+Acepto
+17/06/2019 ACEPTO PARA EL DIA MIERCOLES A LAS 09:00
+----------TERMINA COMENTARIO-----------
+
+14/02/2019 aun no necesita q desúes  12/02/2019 no contesta 18/01/2019 no contesta 16/10/2018 llamo la srta necesita la limpiez para mañana',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n05/09/2021 10:17:00 - Acepto\nsdfsdf\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='04533GTENM00J013'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+19/08/2021 19:35:00 - Acepto
+test
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/08/2021 20:35:00 - Acepto
+test
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/08/2021
+10:05:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/08/2021 14:00:00 - Acepto
+prueba de uso de mapa
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/01/2021
+09:00:00
+Acepto
+30-01 es buena cliente, aparentemente se cambió de casa y en esta dirección vivirá el suegro se hizo el trabajo 15-01
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/10/2020
+11:00:00
+Acepto
+26-01 acepto sin novedad cleinte frecuente, se cambio de casa pero ahi quedo el suegro aparentemente
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/06/2020
+10:00:00
+Acepto
+ACEPTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/03/2020
+09:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/01/2020
+11:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+08/11/2019
+11:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/09/2019
+10:00:00
+Acepto
+03/09/2019 la señora acepto
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/07/2019
+16:00:00
+Acepto
+10/07/2019 ACEPTO ARA EL DIA D MAÑANA  14/05/2019 acepto para el dia lunes 20 a las 09:30 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/03/2019
+08:30:00
+Volver a llamar
+5-feb.19 sra desea para marzo a principio---
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+29/11/2018
+13:14:00
+Acepto
+Se le realizó limpieza--
+----------TERMINA COMENTARIO-----------
+27-11-18 Contestó cell (Erick) y desea la limpieza para el martes 4-nov--/nc---   26-11-18 nc llamar mañna de mañana/LLAMAR AL 1 DE DIC (SRA REALIZA C/2 MESES)----  24/7/18 clienta acepta limpieza para el dia lunes 1 de agosto11/1/18 CLIENTA ACEPTA LIMPIEZA PARA EL DIA 17 DE ENE',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n05/09/2021 11:20:00 - Inspección\nsafsfsd\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04533GTENM00L038'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+02/09/2019
+13:40:00
+Volver a llamar
+30/08/2019 LA EMPLEADA DICE Q NINGUNO D LOS DOS ESTAN
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+03/12/2018
+10:00:00
+Volver a llamar
+SRA ESTA ALGO OCUPADA, SE PIDE Q SE LLAME EN 30 MINTS---
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 
+03/12/2018
+10:20:00
+Volver a llamar
+SIGUE OCUPADA Q SE LLAME EN 10MINTS
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 
+03/12/2018
+10:25:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 
+03/12/2018
+12:02:00
+Acepto
+ACEPTO LIMPIEZA PARA MAÑNA A LAS 11:30 AM----
+----------TERMINA COMENTARIO-----------
+3-12-18  SRA ESTA ALGO OCUPADA LLAMR EN MEDIA HORA---   30-11-18 SRA ME INDICA Q LA LLAME EL DIA LUNES A LAS 9AM XQ VA A CONSULTAR CON EL ESPOS0----',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n04/09/2021 16:00:00 - Acepto\nafsfsf\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='04533GTENM00M011'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+21/02/2020
+09:10:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+23/01/2020
+11:06:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/08/2019
+10:10:00
+Volver a llamar
+todavia no , gracias 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/03/2019
+16:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/03/2019
+13:30:00
+Acepto
+LO REALIZO CON LA COMPETENCIA
+----------TERMINA COMENTARIO-----------
+
+27/03/2019 LO HIZO CON ANDREA ESTA FECHA11/02/2019 LLAMAR MARZO Q AHORA NO LO VA A HACER  28/01/2019 llamar en dos semanas talvez  22/01/2019 llamar la oytra semana a ver q dia lo hace }  18/01/2019 llamar el lunes talvez  08/10/2018 acpeto para el jueves 11 a las 09;30',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n05/09/2021 12:00:00 - Cobros\n0409 1250\n----------TERMINA COMENTARIO-----------',`estado`='Cobros' WHERE codigo='03900LPIRM000023'
+res:1

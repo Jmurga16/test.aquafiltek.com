@@ -1,0 +1,21 @@
+UPDATE `DatosClientes` SET `comentarios`='1902-10-09 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00D01X'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+25/09/2019
+05:30:00
+Volver a llamar
+04/09/2019 q por el momento no 
+----------TERMINA COMENTARIO-----------
+1903-05-12 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00H003'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+23/09/2019
+12:10:00
+Volver a llamar
+2070972019 celular apgado casa no contesta
+----------TERMINA COMENTARIO-----------
+
+27/10/15 Acepta limpieza para el dia 30/10/15(viernes) a las 9am  26/10/15 CLIENTE AF}FIRMO LLAMAR NUEVAMENTE PARA SABER SI DESEA EL SERVICIO23/10/15 ENVIAR DE NUEVO EL CORREO LLAMAR DESPUES27/06/2015 se converso con el esposo se mando carta de presentacion y cotizacion de imper y tapa ---------------------------------20/06/2015----------------17/06/2015 no llega la señora ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM000017'
+res:1

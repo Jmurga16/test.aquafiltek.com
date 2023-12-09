@@ -1,0 +1,4 @@
+fecha:2022-06-27 08:33:14
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5
+2022-06-24 17:29:16
+TIENE fecha ultima

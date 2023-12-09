@@ -1,0 +1,40 @@
+UPDATE `DatosClientes` SET `comentarios`='13/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LAS SEIS DE LA TARDE 24/02/2016 no desea servicio 21/10/15 El cliente indica que le enviemos la inf al correo y estara en contacto 08-09-2015   Famiar indica que no se encuentra   --  27/06/2015 ya realizo mantenimiento de cisterna --------------------------------------12/06/2015 FIN DE SEMANA ESTA TODO EL DIA, LUNES A VIERNES 8 AM Y LLEGA 7PM', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00N032'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+28/02/2020
+09:15:00
+Volver a llamar
+21-02-2020 la empleada dice que no necesitan. volver a llamar
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+21/02/2020
+09:10:00
+Volver a llamar
+09/01/2020 CONTESTA AL CONVENCIONAL QUE TERMINA EN 17 Y DIE QUE POR AHORA NO SRTA GRACIAS Y CUELGA. 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/01/2020
+10:20:00
+Volver a llamar
+28/11/2019 SEÑORA CONTESTA DICE QUE POR AHORA NO NECESITA LOS SERVICIOS MUCHAS GRACIAS. 19/11/2019 CONTESTA EMPLEADA E INDICA QUE LA SEÑORA NO SE ENCUENTRA LLAMAR TIPO 14PM .
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/01/2020
+10:20:00
+Volver a llamar
+28/11/2019 SEÑORA CONTESTA DICE QUE POR AHORA NO NECESITA LOS SERVICIOS MUCHAS GRACIAS. 19/11/2019 CONTESTA EMPLEADA E INDICA QUE LA SEÑORA NO SE ENCUENTRA LLAMAR TIPO 14PM .
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/10/2019
+05:30:00
+Volver a llamar
+06/09/2019 q esta bien la cisterna
+----------TERMINA COMENTARIO-----------
+
+26/06/2015 no desea aun el servicio---------------------------------------------------------------------------31/03/2014 contesto la sra y acepto la limpieza paara el dia miercoles 2/04/2014 a las 10:00 29/03/2014 contesto la empleada q la sra esta ocupada q la llame tipo 12:00 ... contesto la misma q la llame mejor el dia lunes para ahi si coordinar  28/03/2014 no contestan  06/03/2014 contesto la empleada q la sra esta fuera del pais y no tiene fecha de retorno  24/02/2014 contetso el esposo q la llame a las 15:00 q ahi si esta la sra ahi ... contesto la emplead q llame a partir de las 16:00 en adelante ... contesto la mism pero me dijo q segun no estaba y q la llame mañana  21/02/2014 no se realizo la limpieza q la llame la proxima smenaa  20/02/2014 $75 contetso la misma y acepto la limpieza ´para el dia viernes 21 a las 10:30  13/02/2014 contesto la empleada q la sra podria sr q regresae a las 18:00 //tiene departamento en la plya08/01/2014 dejaron descolgado el telefono   17/12/2013 dejaron descolgado el telefono  19/08/2013   contesto la empleada y dijo q lo llame a eso de las 16:00 …   2831517 patricia de andrade … la sra es la dueña de lal ksa llamar mañana a las 9:00 20/08/2013 no contestan  21/08/2013 llamar en 1 hora osea a las 9:30  22/08/2013 acepto la limpieza para el viernes a las 11:30    ', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00254LPUNM00A00C'
+res:1

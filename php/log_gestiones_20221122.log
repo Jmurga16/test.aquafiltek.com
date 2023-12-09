@@ -1,0 +1,282 @@
+fecha:2022-11-22 00:11:14
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-11-22 00:19:18
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-11-22 00:23:00
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-11-22 00:36:54
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-11-22 00:42:31
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=5 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (5,0)
+error:Duplicate entry '5' for key 'PRIMARY'
+fecha:2022-11-22 09:00:09
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:09:14
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:16:05
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:20:59
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:21:27
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:21:41
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:22:32
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:22:46
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:23:09
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:34:24
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:34:42
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:35:32
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:36:37
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:43:09
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:43:22
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:43:34
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:43:56
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:49:21
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:49:52
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:50:49
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:51:13
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:52:58
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 09:55:07
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:55:31
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:56:36
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 09:58:59
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:04:02
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:04:29
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:04:45
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:04:57
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:05:05
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:05:23
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:07:07
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:07:39
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:08:02
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:08:27
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:08:34
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:09:10
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:09:47
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:10:15
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=2 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (2,0)
+error:Duplicate entry '2' for key 'PRIMARY'
+fecha:2022-11-22 10:10:15
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'
+fecha:2022-11-22 10:10:42
+SELECT * FROM `gestiones_dia` WHERE `id_operador`=8 AND  DATE(fecha_ultima) = '2022-11-22' 
+sin fecha
+no tiene fecha insertar
+ INSERT INTO gestiones_dia (id_operador, gestiones) VALUES (8,0)
+error:Duplicate entry '8' for key 'PRIMARY'

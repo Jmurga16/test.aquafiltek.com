@@ -1,0 +1,24 @@
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n27/06/2022 16:12:00 - Acepto\nReactivado 1 MG\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/02/2019
+08:30:00
+Volver a llamar
+Daniel se contactará con ella
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+14/02/2019
+09:00:00
+Volver a llamar
+30-01-19 sra enojada indico q ella ya nos ha dicho q tiene contrato con amagua y q gracias y colgó---
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/01/2019
+11:00:00
+Volver a llamar
+30-01-19 sra llega a partir de las 11am---
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 30/01/201910:10:00Volver a llamar --como referencia Daniel me comenta q anteriorment le hizo limp la copia y q se le habian cogido unos mangos de la mata, cosa q a la sra no le gusto y le hizo parar el trabajo-------------TERMINA COMENTARIO-----------18-09-2015    Indican que se llame la promesa semana de octubre para poder agendar la limpieza    --   03/08/2015 llamarla la proximo lunes 10 ------------------325/02/2015 se le ralizo la limpieza 27/10/2014 la señora es amable y contesta que la llame la primera semana de diciembre para hacerlo 15-05-2014 La señora aceptó el servicio para mañana a las 12', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='08919RDBAC002110'
+res:1

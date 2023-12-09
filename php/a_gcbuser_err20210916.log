@@ -1,0 +1,1220 @@
+-------------20:36:15
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente ...' at line 1
+-------------20:37:16
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente ...' at line 1
+-------------20:38:17
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente ...' at line 1
+
+-------------20:39:18
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente ...' at line 1
+
+-------------20:40:19
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:41:20
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:42:21
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:42:37
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:42:47
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:42:57
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:43:07
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:43:17
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:43:28
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:43:39
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:43:50
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:44:01
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:44:11
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:44:21
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:44:31
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:44:42
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:44:52
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:45:03
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:45:14
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:45:25
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:45:35
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:45:46
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:45:57
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:46:08
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:46:19
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:46:29
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:46:39
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:46:49
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:46:59
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:47:09
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:47:19
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:47:30
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:47:41
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:47:52
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:48:03
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:48:14
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:48:25
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:48:36
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:48:47
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:48:58
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:49:09
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:49:19
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:49:30
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:49:41
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:49:52
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:50:03
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:50:14
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:50:25
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:50:36
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:50:47
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:50:57
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:51:08
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:51:19
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:51:30
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:51:40
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:51:51
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:52:02
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:52:13
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:52:23
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:52:33
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:52:43
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:52:54
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:53:05
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:53:15
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:53:26
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:53:36
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:53:46
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:53:57
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:54:08
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:54:18
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:54:29
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:54:40
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:54:51
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:55:02
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:55:13
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:55:24
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:55:34
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:55:44
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:55:55
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:56:06
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM000027' 
+
+-------------20:56:17
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+
+-------------20:56:28
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = 'GTENM00D003' 
+
+-------------20:56:38
+SELECT lp.id_cliente,lp.fecha_llamada,lp.hora_llamada,dc.coordenadas,dc.nombre_completo
+FROM llamadasProgramadas AS lp
+inner join Clientes_gestionados as cg
+inner join DatosClientes as dc
+ON lp.id_cliente=cg.id_cliente
+AND dc.codigo=lp.id_cliente
+AND lp.realizada=0
+AND lp.fecha_llamada='16/09/2021'
+AND cg.id_operador=5
+ORDER BY dc.coordenadas
+correcto 1 SC2 
+SELECT * from Gestion_acepto WHERE STR_TO_DATE(fecha_acepto,'%d/%m/%Y')  >= '2021-09-16' AND codigo_cliente = '04533GTENM00B007' 
+

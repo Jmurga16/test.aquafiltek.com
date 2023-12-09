@@ -1,0 +1,2 @@
+UPDATE `DatosClientes` SET `comentarios`='1904-12-06 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00970PLREM00O002'
+res:1

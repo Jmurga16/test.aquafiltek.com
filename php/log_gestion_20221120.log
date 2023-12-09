@@ -1,0 +1,60 @@
+UPDATE `DatosClientes` SET `comentarios`='1903-01-09 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00A031'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='12/07/2016 CLIENTE DICE QUE POR EL MOMENTO NO DESEA 23/10/15 Cliente indica no estar interesados16/06/2015 no desea por el momento                                                 12/06/2015 llamar 3pm', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00L011'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+16/03/2020
+09:00:00
+Volver a llamar
+30-01-2020 dice la señora que ya tiene otra empresa que le hace el servicio, insistir.
+----------TERMINA COMENTARIO-----------
+
+21/0/2019 TELEFONOS NO CONTESTAN . 07/01/16 llamar a las 11 am //23/11/15 no lo desea por ahora llamar en un mes 05/11/15 llamar en dos semanas para confirmar con la esposa30/10/15 llamar el miercoles28/10/15 LLAMAR VIERNES para confirmarque dia12/06/2015 primero realizarle una inspeccion',`comentarios_gestion`='',`estado`='Cobros' WHERE codigo='07850VSOLM00L010'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+31/10/2019
+08:10:00
+Volver a llamar
+23/10/2019 contesta empleada nelly y dice que la señora esta de viaje que regresa la proxima semana .
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/09/2019
+09:10:00
+Volver a llamar
+21/08/2019 q la sra no esta interesada q gracias 
+----------TERMINA COMENTARIO-----------
+23/10/2019 contesta empleada nelly y dice que la señora esta de viaje que regresa la proxima semana . 28/03/201909:00:00Volver a llamar11-02-19 sra me indica q aun no esta interesada (le preg en cuanto tiempo, dice q no sabe pero q x ahora no)--- ----------TERMINA COMENTARIO-----------1903-03-14 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00F007'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+25/09/2019
+11:00:00
+Volver a llamar
+04/09/2019 contetso el sr y dice no gracias hasta luego
+----------TERMINA COMENTARIO-----------
+
+1903-05-20 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00J008'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+30/09/2019
+04:00:00
+Volver a llamar
+06/09/2019 contetso una señora pregunte por la familia peggy bruque y dijo q si son ellos pero q gracias no necesita ahora 
+----------TERMINA COMENTARIO-----------
+
+9/11/17 clienta me indica que la copia ya llamo y dijo q ya le habia dicho q no///11/9/17 cliente me indica que se la llame en una hora//30/08/2016 CLIENTE NO SE ENCUENTRA, LLAMAR EN OTRO MOMENTO 15/07/2016 NO CONTESTA 15/07/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA A LAS 10AM 13/07/2016 CLIENTE NO SE ENCUENTRA, LLAMARLA A LA UNA DE LA TARDE, PREGUNTAR POR PEGGY BRUQUE  31/07/2015-------------20/06/2015------------------18/06/2015 9 am o 10 pm // ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00M005'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+07/10/2019
+05:20:00
+Volver a llamar
+06/09/2019 NO CONTTESTAN
+----------TERMINA COMENTARIO-----------
+
+1903-07-04 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00D012'
+res:1

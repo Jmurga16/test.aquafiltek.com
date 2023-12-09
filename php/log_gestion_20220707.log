@@ -1,0 +1,140 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+04/02/2021
+10:00:00
+Volver a llamar
+16-01 estan viviendo en playas
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/01/2021
+09:00:00
+Volver a llamar
+SOLO LO HACE UNA VEZ AL AÑO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+27/06/2020
+08:01:00
+No responde
+CONVENCIONAL EQUIVOCADO CELULAR NO RESPONDE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/06/2020
+10:03:00
+Volver a llamar
+INSISTIR NO CONTESTA CELULAR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/01/2020
+10:00:00
+Acepto
+vaciado
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+26/10/2019
+11:00:00
+Acepto
+acepto para la playa
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+13/06/2019
+10:00:00
+Acepto
+12/06/2019 ACEPTO PARA EL DIA D MAÑANA EN LA CASA  14/03/2019 hizo en la playa , pendiente casa 14/05/2019 en junio hara 01/10/2018 ya lo realizo  21/09/2018 no contesta  15/06/17 ustedes no  trabajan para AQUAFILTEK  ustedes utilizan el nombre y estan siendo investigados  por favor no me llame 14/06/17  24/01/2017 contesto el mismo y acepto la limpieza para el dia 25/01/2017 a las 9:00  06/09/2016 contesto la empleada q el sr no esta y no sabe a q hora regresa y al cell contesto el mismo y acepto la limpieza para el dia 09/09/2016 a las 12:00   13/07/2016 contesto la empleada q el sr no esta y q ella le da el mensaje en tal caso  17/02/2016 realizo la limpieza 08/01/16 FEBRERO 30/11/15 llamar en enero 12/06/2015 LIMPIEZA PARA EL MARTES 3PM 
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 13/06/201909:00:00Acepto12/06/2019 ACEPTO PARA EL DIA D MAÑANA EN LA CASA  14/03/2019 hizo en la playa , pendiente casa 14/05/2019 en junio hara 01/10/2018 ya lo realizo  21/09/2018 no contesta  15/06/17 ustedes no  trabajan para AQUAFILTEK  ustedes utilizan el nombre y estan siendo investigados  por favor no me llame 14/06/17  24/01/2017 contesto el mismo y acepto la limpieza para el dia 25/01/2017 a las 9:00  06/09/2016 contesto la empleada q el sr no esta y no sabe a q hora regresa y al cell contesto el mismo y acepto la limpieza para el dia 09/09/2016 a las 12:00   13/07/2016 contesto la empleada q el sr no esta y q ella le da el mensaje en tal caso  17/02/2016 realizo la limpieza 08/01/16 FEBRERO 30/11/15 llamar en enero 12/06/2015 LIMPIEZA PARA EL MARTES 3PM ----------TERMINA COMENTARIO-----------20/10/15 Acepta el servicio para la casa de playas elñ dia 24/10/15 dia sabado 12/06/2015 LIMPIEZA PARA EL MARTES 3PM',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00I005'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+20/07/2020
+11:00:00
+Volver a llamar
+SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/07/2020
+08:04:00
+Volver a llamar
+CLIENTE SALE DE VIAJE LLAMAR EN ESA FECHA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/06/2020
+12:00:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+19/11/2019
+9:00:00
+Acepto
+18/11/2019 CONTESTA SEÑORA VERONICA  (PROMOCION $40) ACEPTA REALIZAR EL MANTENIMIENTO EL DIA DE MAÑANA MARTES PERO UN CASO NO ESTE LA EMPLEADA LO DEJARA PARA EL DIA SIGUIENTE YA QUE NO HAY QUIEN ESTE PRESENTE , ACEPTA QEU LE ENVIEN MENSAJE POR WHATSP DANDO LOS DATOS DE LOS TECNICOS.
+----------TERMINA COMENTARIO-----------
+----------INICIA COMENTARIO----------- 13/06/201911:00:00Acepto12/06/2019  ACEPTO PARA EL DIA D MAÑANA----------TERMINA COMENTARIO-----------18/11/2019 CONTESTA SEÑORA VERONICA  (PROMOCION $40) ACEPTA REALIZAR EL MANTENIMIENTO EL DIA DE MAÑANA MARTES PERO UN CASO NO ESTE LA EMPLEADA LO DEJARA PARA EL DIA SIGUIENTE YA QUE NO HAY QUIEN ESTE PRESENTE , ACEPTA QEU LE ENVIEN MENSAJE POR WHATSP DANDO LOS DATOS DE LOS TECNICOS.22/10/2019 CONTESTA E INDICA QUE SI RECIBIO EL MENSAJE PERO LO DEJARIA PARA DESPUES DE FERIADO YA QUE LE HAN QUEDADO MAL CON LOS PAGOS DE QUINCENA, LLAMAR  17 DE NOVIEMBRE . 16/10/2019 SE LE ENVIA MENSAJE POR WHATSAPP.13/06/201910:00:00Acepto12/06/2019  ACEPTO PARA EL DIA D MAÑANA----------TERMINA COMENTARIO-----------cliente', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM000001'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+17/05/2022
+15:05:37
+Rechazó
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/07/2020
+15:00:00
+Acepto
+ACEPTO PRECIO NORMAL
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2020
+14:01:00
+Volver a llamar
+CLIENTE IBA A AGENDAR EN JULIO INSISTIR
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2020
+08:03:00
+Volver a llamar
+CLIENTE INDICA NECESITA LA LIMPIEZA PARA LA PRIMERA SEMANA DE JULIO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/06/2020
+08:00:00
+Volver a llamar
+HABLE CON DIANA TUYUPANTA VA A CONSULTAR CON EL CLIENTE
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+20/01/2020
+11:00:00
+Acepto
+DIANA TAYUPANTA LA ASISTENTE ACEPTO PARA LUNES Y SABADO 18 EN LAS OFICINAS EN JARDINES DE DURÁN
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+12/11/2019
+15:30:00
+Volver a llamar
+12/11/2019 la srta diana dice q llame en la tarde  avcwr si tiene alguna respuesta 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+15/07/2019
+9:00:00
+Acepto
+11/07/2019  coordine con diana tayupanta la asistente e indica q para el dia lunes a las 9am
+----------TERMINA COMENTARIO-----------
+
+16/9/17 CLIENTE ME INDICA QUE SE LLAME LA SEMANA QUE VIENE///13/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR MAS TARDE 25/02/2016 ESPOSA DE CLTE YA HIZO EN DOMICILIO CON OTRA EMPRESA DA INFO DE LA EMPRESA DONDE TIENE CISTERNA SE DEJA INFO A DIANA TALLUPANTA 22/10/15 LLAMAR SABADO19/06/2015 estan construyendo la casa no desea x el momento el servicio-------------16/06/2015 se le dejo el mensaje a la emplada no quiizo dar ninguna informacion', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00N009'
+res:1

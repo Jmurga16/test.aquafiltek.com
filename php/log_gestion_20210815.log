@@ -1,0 +1,51 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+11/06/2020
+14:00:00
+Averiado
+04-02-2020 numero incorrecto
+----------TERMINA COMENTARIO-----------
+
+11/06/2015 limpieza para el dia 18 de junio                                                                                                                                               10/06/2015 llamar a las 4 pm                                                                                               01/06/2015 LLAMAR EL PROXIMO MIERCOLES                                                                         06/05/2015 LLAMAR EN JUNIO                                                                                                                                      05/05/2015 LLAMAR MAÑANA EN LA MAÑANA                                                                                                                                            22/04/2015 llamar 5 de mayo                                                                    16/04/2015  LLAMAR EL MIERCOLES 22 PARA COORDINAR LIMPIEZA                 15/04/2015 LLAMAR A LAS 3 PM                28/08/2014 conversamos con la señora y nos acepto la limpieza para el dia martes 2/09/2014 a las 2 pm ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n16/08/2021 15:30:00 - Inspección\n\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04305SISIM00A028'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+16/08/2021 15:30:00 - Inspección
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/06/2020
+14:00:00
+Averiado
+04-02-2020 numero incorrecto
+----------TERMINA COMENTARIO-----------
+
+11/06/2015 limpieza para el dia 18 de junio                                                                                                                                               10/06/2015 llamar a las 4 pm                                                                                               01/06/2015 LLAMAR EL PROXIMO MIERCOLES                                                                         06/05/2015 LLAMAR EN JUNIO                                                                                                                                      05/05/2015 LLAMAR MAÑANA EN LA MAÑANA                                                                                                                                            22/04/2015 llamar 5 de mayo                                                                    16/04/2015  LLAMAR EL MIERCOLES 22 PARA COORDINAR LIMPIEZA                 15/04/2015 LLAMAR A LAS 3 PM                28/08/2014 conversamos con la señora y nos acepto la limpieza para el dia martes 2/09/2014 a las 2 pm ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n16/08/2021 14:30:00 - Inspección\n\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04305SISIM00A028'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+16/08/2021 14:30:00 - Inspección
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/08/2021 15:30:00 - Inspección
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+11/06/2020
+14:00:00
+Averiado
+04-02-2020 numero incorrecto
+----------TERMINA COMENTARIO-----------
+
+11/06/2015 limpieza para el dia 18 de junio                                                                                                                                               10/06/2015 llamar a las 4 pm                                                                                               01/06/2015 LLAMAR EL PROXIMO MIERCOLES                                                                         06/05/2015 LLAMAR EN JUNIO                                                                                                                                      05/05/2015 LLAMAR MAÑANA EN LA MAÑANA                                                                                                                                            22/04/2015 llamar 5 de mayo                                                                    16/04/2015  LLAMAR EL MIERCOLES 22 PARA COORDINAR LIMPIEZA                 15/04/2015 LLAMAR A LAS 3 PM                28/08/2014 conversamos con la señora y nos acepto la limpieza para el dia martes 2/09/2014 a las 2 pm ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n16/08/2021 14:00:00 - Inspección\n\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='04305SISIM00A028'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n17/08/2021 08:30:00 - Cobros\nCOBRO\n----------TERMINA COMENTARIO-----------',`estado`='Cobros' WHERE codigo='00500ENRIM00C018'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+1914-07-13 00:00:00',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n17/08/2021 09:40:00 - Acepto\nSSS\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='07238LSOLM000014'
+res:1

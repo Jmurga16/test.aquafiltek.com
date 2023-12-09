@@ -1,0 +1,97 @@
+UPDATE `DatosClientes` SET `comentarios`='06/11/15 Numero 2 equivocado30/!0/15 TELEFONO DAÑADO', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00938ISSOM000025'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='06/11/15 Numero 2 equivocado30/!0/15 TELEFONO DAÑADO',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00938ISSOM000025'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/10/2020
+07:01:00
+Volver a llamar
+CLIENTE REALIZO CON OTRO PROVEEDOR SEGUIMIENTO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/07/2020
+17:00:00
+Volver a llamar
+CONFIRMAR PORQUE LE ESTA VENDIENDO OTRO PROV
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/07/2020
+11:01:00
+Volver a llamar
+LLAMAR VA A VERIFICAR CON EL ESPOSO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2020
+16:01:00
+Volver a llamar
+SEGUIMIENTO VA A CORDINAR CON EL ESPOSO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2020
+15:02:00
+Volver a llamar
+LLAMAR A LAS TRES VA A CONVERSAR CON EL ESPOSO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2020
+08:01:00
+Volver a llamar
+CLIENTE INDICA QUE SE LE LLAME EN JULIO
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+31/01/2020
+15:00:00
+Acepto
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/01/2020
+12:10:00
+Volver a llamar
+09/12/2019 la sra dice q le llamen en enero 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+09/12/2019
+12:00:00
+Volver a llamar
+06/12/2019 LA DRA DICE Q EL ESPOSO SE ENCARGA D ESO Q LLAME LA SGTE SEMANA
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/01/2020
+10:10:00
+Volver a llamar
+08/11/2019 DOCTORA INDICA QUE HACE POCO LO REALIZO OTRA PERSONA QUE POR FAVOR LO DEJEMOS PARA EL MES DE ENERO. 
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/11/2019
+10:00:00
+Acepto
+Comentario disponible en historial post-venta
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+05/07/2019
+16:00:00
+Acepto
+03/07/2019 LA SRA ACEPTO PARA EL DIA VIERNES A LAS 4PM 26/06/2019 NOQ ELLA YA DIJO PARA CUANDO  18/06/2019 q no habra nadie ne casa y no piede q le llame la primera semana d julio  no  mas 5/06/2019 la primera semana d julio hara  06/05/2019 llamar a las 4 ...EL ESPOSO DIJO Q HACE DOS MESES LE FUERON A HACER  31/01/2019 acepto para el dia sabado 9 d febrero  03/01/2019 LLAMAR A FINALES D FEBRERO  27/11/2018 llamar en enero ella dice q el esposo lo ha hcho este año dos veces con la urbanizcion y con nosoros tbn  27/10/2018 todavia no a principios de año  28/09/2018 llamar en media hora, llamar en noviembre q tiene el contacto d otra persona  07/06/2018 Contesto la misma y acepto la limpieza para el dia 08/06 a las 11:30  06/06/2018 me manda a buzon  09/05/2018 Contetso la misma q el lleva el control q lo llame el proximo mes  11-12-2017 acepto la limpieza para el dia 13 de dic. 10-10-17 llamar despues de 3 meses, 15/05/17  contesto la Dra Torres que hable con el Dr( Odontologo) Julio Lopez que el lleva ese control al 6011248 domicilio, El Dr. Lopez acepto la limpíeza para el dia miercoles 17 a las 4 pm y me dijo que lo llame al cell dela esposa el miercoles que el no tiene cell y que no iba a estar en el domicilio    R  15/03/2017 no contestan y al cell contesto la asistente q la dra esta operando y q la llame despues de 2 horas , contesto la misma q la llame para fin de mes mejor para ahi si ver si se puede para abril  09/03/2017 salio la contestadora  04/03/2017 contesto la empleada q la sra no esta y q posiblemente regrese a las 15:00  15/09/2016 CLIENTE DICE QUE VA A CANCELAR EN CHEQUE A LAS 4PM  13/09/2016 CLIENTE ACEPTA LA LIMPIEZA PARA EL DIA VIERNES A LAS 16H00 NO PUEDE ANTES PORQUE A ESA HORA LLEGA A LA CASA 11H21 08/08/2016 CLIENTE ACEPTA LA LIMPIEZA PARA EL DIA LUNES 15 DE AGOSTO A LAS 3H30 LOS DATOS A NOMBRE DE LA CLIENTE 0906366315001  04/08/2016 NO CONTESTA 01/08/2016 NO CONTESTA 28/07/2016 NO CONTESTA 2613465 NO CONTESTA 26/07/2016  NO CONTESTA 22/07/2016 NO CONTESTA 18/07/2016 CLIENTE DICE QUE AUN NO SABE QUE DIA PUEDE HACER LA LIMPIEZA 18/07/2016 NO CONTESTA 15/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LAS CUATRO DE LA TARDE 13/07/2016 CLIENTE DICE QUE ELLA SOLO PODRIA EN LA TARDE, QUE LA LLAME MANANA QUE LO VA A CONSULTAR CON EL ESPOSO 25/02/2016 CONTESTADORA 26/10/15 CONTESTADORA20/06/2015 ya realizaron el mantenimiento
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+06/05/2019
+16:00:00
+Volver a llamar
+
+----------TERMINA COMENTARIO-----------
+1906-10-20 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00A030'
+res:1

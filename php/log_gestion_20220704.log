@@ -1,0 +1,2 @@
+UPDATE `DatosClientes` SET `comentarios`='12/07/2016 BUZON DE VOZ 24/02/2016 clte no esta mamá de clte pide info 26/10/15 Contesta el cliente no deja darle la inf, indica no estar interesado y cuelga22/10/15 Numero no contesta08-09-2015  Indican que no se encuenta el clente que llega a partir de las 6 pm   --  12/06/2015 YA SE LO HIZO AMAGUA LLAMAR DESPUES DE VARIOS MESES ',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00G002'
+res:1

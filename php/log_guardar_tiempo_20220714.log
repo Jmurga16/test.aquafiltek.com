@@ -1,0 +1,222 @@
+--------2022-07-14 08:45:48-------------
+operador:8-cliente:00349VNUEM001007-tiempo:00:00:26-tipo:2
+--correcto
+--------2022-07-14 08:46:51-------------
+operador:8-cliente:-tiempo:00:02:20-tipo:2
+--correcto
+--------2022-07-14 08:46:59-------------
+operador:8-cliente:-tiempo:00:00:09-tipo:2
+--correcto
+--------2022-07-14 08:47:00-------------
+operador:8-cliente:07000PUAZM0A1026-tiempo:00:01:11-tipo:2
+--correcto
+--------2022-07-14 08:47:34-------------
+operador:8-cliente:-tiempo:00:00:35-tipo:2
+--correcto
+--------2022-07-14 08:48:20-------------
+operador:8-cliente:09054CCSEM007022-tiempo:00:01:19-tipo:2
+--correcto
+--------2022-07-14 08:48:26-------------
+operador:8-cliente:00758RGRAM011025-tiempo:00:00:20-tipo:2
+--correcto
+--------2022-07-14 08:49:07-------------
+operador:8-cliente:11000BELOM024001-tiempo:00:00:45-tipo:2
+--correcto
+--------2022-07-14 08:49:51-------------
+operador:8-cliente:11027FRIOM017012-tiempo:00:01:22-tipo:2
+--correcto
+--------2022-07-14 08:50:56-------------
+operador:8-cliente:00970PLREM00O010-tiempo:00:01:35-tipo:2
+--correcto
+--------2022-07-14 08:56:05-------------
+operador:8-cliente:00254LPUNC00200N-tiempo:00:05:06-tipo:2
+--correcto
+--------2022-07-14 08:56:49-------------
+operador:8-cliente:00254LPUNC00200N-tiempo:00:00:44-tipo:2
+--correcto
+--------2022-07-14 08:57:07-------------
+operador:8-cliente:07850VSOLM00F002-tiempo:00:00:50-tipo:2
+--correcto
+--------2022-07-14 08:57:12-------------
+operador:8-cliente:00254LPUNC00200N-tiempo:00:00:23-tipo:2
+--correcto
+--------2022-07-14 08:57:54-------------
+operador:3-cliente:08210LDSOM00L023-tiempo:00:00:48-tipo:2
+--correcto
+--------2022-07-14 08:58:48-------------
+operador:8-cliente:00938ISSOM000013-tiempo:00:00:55-tipo:2
+--correcto
+--------2022-07-14 08:59:05-------------
+operador:8-cliente:00254LPUNC00200N-tiempo:00:01:02-tipo:2
+--correcto
+--------2022-07-14 08:59:55-------------
+operador:8-cliente:00500ENRIM0M1103-tiempo:00:00:48-tipo:2
+--correcto
+--------2022-07-14 09:00:39-------------
+operador:8-cliente:00500ENRIM001009-tiempo:00:01:22-tipo:2
+--correcto
+--------2022-07-14 09:00:48-------------
+operador:8-cliente:00500ENRIM0M1103-tiempo:00:00:52-tipo:2
+--correcto
+--------2022-07-14 09:01:44-------------
+operador:3-cliente:02292ERIOM000038-tiempo:00:02:39-tipo:2
+--correcto
+--------2022-07-14 09:03:04-------------
+operador:8-cliente:03578PORRM00B020-tiempo:00:02:18-tipo:2
+--correcto
+--------2022-07-14 09:03:19-------------
+operador:8-cliente:03578PORRM00B020-tiempo:00:00:06-tipo:2
+--correcto
+--------2022-07-14 09:05:08-------------
+operador:2-cliente:09048CCESM016024-tiempo:00:00:33-tipo:2
+--correcto
+--------2022-07-14 09:05:20-------------
+operador:2-cliente:09048CCESM016024-tiempo:00:00:11-tipo:2
+--correcto
+--------2022-07-14 09:05:58-------------
+operador:8-cliente:07442ELAGM002003-tiempo:00:01:04-tipo:1
+--correcto
+--------2022-07-14 09:07:32-------------
+operador:8-cliente:07850VSOLM00I002-tiempo:00:00:49-tipo:2
+--correcto
+--------2022-07-14 09:08:35-------------
+operador:2-cliente:04533GTENM00C022-tiempo:00:03:15-tipo:2
+--correcto
+--------2022-07-14 09:09:23-------------
+operador:8-cliente:04129PDRIM000103-tiempo:00:01:49-tipo:2
+--correcto
+--------2022-07-14 09:09:40-------------
+operador:2-cliente:00500ENRIM0C1007-tiempo:00:01:04-tipo:2
+--correcto
+--------2022-07-14 09:11:26-------------
+operador:8-cliente:00970PLREM00G013-tiempo:00:02:00-tipo:3
+--correcto
+--------2022-07-14 09:12:27-------------
+operador:3-cliente:00349VNUEM001007-tiempo:00:00:00-tipo:1
+--correcto
+--------2022-07-14 09:12:28-------------
+operador:8-cliente:04129PDRIM000103-tiempo:00:00:58-tipo:8
+--correcto
+--------2022-07-14 09:13:05-------------
+operador:3-cliente:07850VSOLM00I002-tiempo:00:00:00-tipo:3
+--correcto
+--------2022-07-14 09:13:09-------------
+operador:2-cliente:11027FRIOM020011-tiempo:00:01:19-tipo:2
+--correcto
+--------2022-07-14 09:14:15-------------
+operador:3-cliente:00758RGRAM00B112-tiempo:00:00:34-tipo:5
+--correcto
+--------2022-07-14 09:14:36-------------
+operador:3-cliente:00758RGRAM00000-tiempo:00:00:19-tipo:2
+--correcto
+--------2022-07-14 09:15:31-------------
+operador:2-cliente:00500ENRIM00F055-tiempo:00:02:21-tipo:9
+--correcto
+--------2022-07-14 09:15:41-------------
+operador:3-cliente:00758RGRAM0000032-tiempo:00:01:04-tipo:2
+--correcto
+--------2022-07-14 09:15:49-------------
+operador:8-cliente:08076TESOM00L012-tiempo:00:00:57-tipo:2
+--correcto
+--------2022-07-14 09:15:50-------------
+operador:3-cliente:00758RGRAM0000032-tiempo:00:00:09-tipo:2
+--correcto
+--------2022-07-14 09:16:36-------------
+operador:3-cliente:00758RGRAM00C059-tiempo:00:00:46-tipo:1
+--correcto
+--------2022-07-14 09:16:37-------------
+operador:2-cliente:00758RGRAC00N032-tiempo:00:01:06-tipo:2
+--correcto
+--------2022-07-14 09:16:59-------------
+operador:8-cliente:01850LLAGM001102-tiempo:00:01:09-tipo:2
+--correcto
+--------2022-07-14 09:16:59-------------
+operador:3-cliente:00758RGRAM000009-tiempo:00:00:21-tipo:8
+--correcto
+--------2022-07-14 09:17:18-------------
+operador:2-cliente:00758RGRAM0000032-tiempo:00:00:37-tipo:2
+--correcto
+--------2022-07-14 09:20:04-------------
+operador:8-cliente:09062CCDOM004015-tiempo:00:00:52-tipo:1
+--correcto
+--------2022-07-14 09:20:42-------------
+operador:2-cliente:00500ENRIM01007-tiempo:00:03:22-tipo:2
+--correcto
+--------2022-07-14 09:21:52-------------
+operador:2-cliente:04533GTENM00C022-tiempo:00:01:09-tipo:10
+--correcto
+--------2022-07-14 09:22:18-------------
+operador:8-cliente:00254LPUNC0010107-tiempo:00:01:14-tipo:1
+--correcto
+--------2022-07-14 09:22:55-------------
+operador:2-cliente:02467SMAAM000000-tiempo:00:01:03-tipo:8
+--correcto
+--------2022-07-14 09:24:21-------------
+operador:2-cliente:08210LDSOM00B019-tiempo:00:01:16-tipo:8
+--correcto
+--------2022-07-14 09:25:01-------------
+operador:8-cliente:00758RGRAM000043-tiempo:00:02:08-tipo:1
+--correcto
+--------2022-07-14 09:25:05-------------
+operador:2-cliente:08210LDSOM00B019-tiempo:00:00:31-tipo:8
+--correcto
+--------2022-07-14 09:25:47-------------
+operador:2-cliente:08210LDSOM00B019-tiempo:00:00:37-tipo:8
+--correcto
+--------2022-07-14 09:26:33-------------
+operador:2-cliente:08210LDSOM00B019-tiempo:00:00:36-tipo:8
+--correcto
+--------2022-07-14 09:27:00-------------
+operador:8-cliente:03900LPIRM018014-tiempo:00:01:49-tipo:1
+--correcto
+--------2022-07-14 09:27:58-------------
+operador:2-cliente:08210LDSOM00B019-tiempo:00:01:14-tipo:8
+--correcto
+--------2022-07-14 09:29:10-------------
+operador:2-cliente:08210LDSOM00B019-tiempo:00:01:06-tipo:8
+--correcto
+--------2022-07-14 09:29:23-------------
+operador:8-cliente:07850VSOLM00D013-tiempo:00:01:55-tipo:1
+--correcto
+--------2022-07-14 09:35:36-------------
+operador:2-cliente:04533GTENM00L37A-tiempo:00:00:45-tipo:1
+--correcto
+--------2022-07-14 09:36:01-------------
+operador:8-cliente:08919RDBAM000094-tiempo:00:00:43-tipo:1
+--correcto
+--------2022-07-14 09:36:19-------------
+operador:2-cliente:01150PADRM000116-tiempo:00:00:20-tipo:3
+--correcto
+--------2022-07-14 09:36:52-------------
+operador:8-cliente:09062CCDOM004015-tiempo:00:00:34-tipo:1
+--correcto
+--------2022-07-14 09:36:55-------------
+operador:2-cliente:00500ENRIM00V027-tiempo:00:00:19-tipo:5
+--correcto
+--------2022-07-14 09:38:00-------------
+operador:2-cliente:00500ENRIM0C1007-tiempo:00:00:50-tipo:6
+--correcto
+--------2022-07-14 09:56:34-------------
+operador:3-cliente:00254LPUNC00200N-tiempo:00:00:00-tipo:2
+--correcto
+--------2022-07-14 10:10:52-------------
+operador:2-cliente:09359VAPAM000072-tiempo:00:00:45-tipo:4
+--correcto
+--------2022-07-14 10:12:44-------------
+operador:2-cliente:00349VNUEM001007-tiempo:00:01:03-tipo:7
+--correcto
+--------2022-07-14 10:13:12-------------
+operador:2-cliente:08210LDSOM00G001-tiempo:00:00:12-tipo:3
+--correcto
+--------2022-07-14 10:13:57-------------
+operador:2-cliente:07850VSOLM00F01A-tiempo:00:00:38-tipo:8
+--correcto
+--------2022-07-14 10:14:36-------------
+operador:2-cliente:07000PUAZM00A010-tiempo:00:00:30-tipo:2
+--correcto
+--------2022-07-14 10:15:18-------------
+operador:2-cliente:02355BIBLM0010E6-tiempo:00:00:42-tipo:10
+--correcto
+--------2022-07-14 10:16:08-------------
+operador:2-cliente:07850VSOLM00F002-tiempo:00:00:49-tipo:3
+--correcto

@@ -1,0 +1,8 @@
+UPDATE `DatosClientes` SET `comentarios`='1900-02-26 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM00E022'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-02-21 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM0R1036'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-05-14 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0G1027'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1900-06-11 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='00500ENRIM0I2010'
+res:1

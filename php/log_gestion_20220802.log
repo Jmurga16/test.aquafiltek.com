@@ -1,0 +1,12 @@
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+01/07/2022 16:00:00 - Acepto
+Comentario en tabla prueba 2 MG
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2022 12:00:00 - Acepto
+Primer comentario en tabla MG
+----------TERMINA COMENTARIO-----------
+28/04/2017 NUMERO INCORRECTO DICE OPERADORA...POR FALTA DE PAGO  16H45  14/06/2016 NO CONTESTA 31/05/2016 NO CONTESTA  24/05/2016 NO CONTESTA 23/05/2016 NO CONTESTA 11/05/2016 NO CONTESTA 25/04/2016 NO CONTESTA 22/04/2016 NO CONTESTA 11/04/2016 NO CONTESTA', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='09048CCESM009018'
+res:1

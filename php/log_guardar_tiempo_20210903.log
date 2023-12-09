@@ -1,0 +1,27 @@
+--------2021-09-03 17:00:07-------------
+operador:5-cliente:05002ALMEM000017-tiempo:00:00:24-tipo:2
+--correcto
+--------2021-09-03 17:00:47-------------
+operador:5-cliente:05002ALMEM001019-tiempo:00:00:38-tipo:10
+--correcto
+--------2021-09-03 17:01:34-------------
+operador:5-cliente:04535GTENM00B004-tiempo:00:00:46-tipo:9
+--correcto
+--------2021-09-03 17:04:08-------------
+operador:5-cliente:04533GTENM00C00D-tiempo:00:01:38-tipo:8
+--correcto
+--------2021-09-03 17:04:35-------------
+operador:5-cliente:04533GTENM00C032-tiempo:00:00:27-tipo:1
+--correcto
+--------2021-09-03 17:05:23-------------
+operador:5-cliente:04533GTENM00C023-tiempo:00:00:06-tipo:2
+--correcto
+--------2021-09-03 17:06:31-------------
+operador:5-cliente:04533GTENM000160-tiempo:00:00:23-tipo:8
+--correcto
+--------2021-09-03 17:07:37-------------
+operador:5-cliente:04533GTENM000027-tiempo:00:00:40-tipo:9
+--correcto
+--------2021-09-03 17:09:24-------------
+operador:5-cliente:08210LDSOM00N013-tiempo:00:00:47-tipo:10
+--correcto

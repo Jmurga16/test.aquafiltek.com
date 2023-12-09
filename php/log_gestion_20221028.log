@@ -1,0 +1,4 @@
+UPDATE `DatosClientes` SET `comentarios`='1902-12-19 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM000015'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='1902-10-09 00:00:00',`comentarios_gestion`='',`estado`='Acepto' WHERE codigo='07850VSOLM00A001'
+res:1

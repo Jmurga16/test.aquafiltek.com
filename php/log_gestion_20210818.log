@@ -1,0 +1,138 @@
+UPDATE `DatosClientes` SET `comentarios`='
+1904-03-27 00:00:00',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 14:00:00 - Inspección\n1808 0024\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='07850VSOLM001036'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/08/2021
+16:58:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+15:55:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/08/2021
+18:58:00
+Volver a llamar Importante
+1608 1300
+----------TERMINA COMENTARIO-----------
+
+la señora indico el numero del administrador de la urbanizacion 0982979619 hector moran/indico que hablemos directamente con la señora para concordar cita/el numero esta descoenctado;18/06 numero incorrecto o desconectado',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 15:01:00 - Acepto\n1808 0025\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='00500ENRIM0X1036'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/08/2021 15:01:00 - Acepto
+1808 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+16:58:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+15:55:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/08/2021
+18:58:00
+Volver a llamar Importante
+1608 1300
+----------TERMINA COMENTARIO-----------
+
+la señora indico el numero del administrador de la urbanizacion 0982979619 hector moran/indico que hablemos directamente con la señora para concordar cita/el numero esta descoenctado;18/06 numero incorrecto o desconectado',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 17:02:00 - Acepto\n1808 0025\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='00500ENRIM0X1036'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/08/2021 17:02:00 - Acepto
+1808 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021 15:01:00 - Acepto
+1808 0025
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+16:58:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+15:55:00
+Volver a llamar Importante
+
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+17/08/2021
+18:58:00
+Volver a llamar Importante
+1608 1300
+----------TERMINA COMENTARIO-----------
+
+la señora indico el numero del administrador de la urbanizacion 0982979619 hector moran/indico que hablemos directamente con la señora para concordar cita/el numero esta descoenctado;18/06 numero incorrecto o desconectado',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 12:00:00 - Acepto\n1808 0026\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='00500ENRIM0X1036'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 11:00:00 - Inspección\n0818 0027\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='02477VEROM003000'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/08/2021 11:00:00 - Inspección
+0818 0027
+----------TERMINA COMENTARIO-----------
+
+',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 11:00:00 - Inspección\n0818 0027\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='02477VEROM003000'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+27/04/2017 CONTESTADORA AUTOMATICA. CLIENTE NO SE ENCUENTRA, HABLE CON LA ESPOSA Y DICE QUE POR EL MOMENTO NO 02/05/2016 LLAMAR A LAS 16H00  CLIENTE NO SE ENCUENTRA, LLAMAR MAÑANA LAS 4PM PARA HABLAR CON LA ESPOSA CARMEN PALMA 19/04/2016 CLIENTE NO SE ENCUENTRA 08/04/2016 CARMEN PALMA EL DIA LUNES A LAS 16H00',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n19/08/2021 08:00:00 - Cobros\n1808 0028\n----------TERMINA COMENTARIO-----------',`estado`='Cobros' WHERE codigo='09048CCESM002028'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+15/06/2016 NO CONTESTA 04/04/2016 LLAMAR DESPUES DE LAS NUEVE DE LA MAÑANA, INDICA QUE LE DEVUELVA LLAMADA DESPUES DE DOS MESES 02/04/2016 LLAMAR MAS TARDE CLIENTE NO SE ENCUENTRA ',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n19/08/2021 10:00:00 - Acepto\n1808 0032\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='07442ELAGM00F009'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+17-12-18 NC--   12-12-18 NC-----   11-12-18 nc----    10-12-18 NC (9:00)---   7-12-18 NC---  3-12-18 sra se va de viaje y regresa el viernes, desea q la llame ese día----   14-11-18 NC---  12-10-18 NC---   27/9/17 clienta indica que ya hace poco realizo limpieza que se la llame despues///26/04/2017 PENDIENTE DE ACEPACION CONSULTARA A SU ESPOSO, LLAMAR VIERNES ABRIL/28 A LAS 16H00 DARA RTA.   LLAMAR A LAS 14H00.  ESTA FUERA DEL PAIS 02/08/2016 NO CONTESTA 01/08/2016 NO CONTESTA 28/07/2016 NO CONTESTA 26/07/2016 NO CONTESTA  22/07/2016 NO CONTESTA 18/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR EN OTRO MOMENTO 15/07/2016 NO CONTESTA 14/07/2016 NO CONTESTA 13/07/2016 NO CONTESTA 11/07/2016 NO CONTESTA 08/07/2016 CLIENTE DICE QUE AUN NO HA HABLADO CON EL ESPOSO, QUE LO LLAME DESPUES 08/07/2016 LLAMAR A LAS DOS DE LA TARDE 07/07/2016 CLIENTE NO SE ENCUENTRA, LLAMAR A LAS 16H00   06/07/2016 CLIENTE DICE QUE LO VA A CONSULTAR CON EL ESPOSO, LLAMARLA MAÑANA 7 A LAS 11AM 21/04/2016 CLIENTE DICE QUE RECIEN HIZO LA LIMPIEZA Y QUE LA LLAME EN JULIO 19/04/2016 CLIENTE NO SE ENCUENTRA, CONTESTO EL HIJO, LLAMAR EN LA TARDE 18/04/2016  CLIENTE DIJO QUE LA LLAME MAÑANA LA SRA LLAMO',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n19/08/2021 12:00:00 - Inspección\n1808 0036\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='09048CCESM004010'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/08/2021
+14:56:00
+Volver a llamar Importante
+1808 0037
+----------TERMINA COMENTARIO-----------
+
+',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 10:00:00 - Acepto\n1808 0039\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='00500ENRIM00E028'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+----------INICIA COMENTARIO----------- 
+18/08/2021 10:00:00 - Acepto
+1808 0039
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+18/08/2021
+14:56:00
+Volver a llamar Importante
+1808 0037
+----------TERMINA COMENTARIO-----------
+
+',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n19/08/2021 16:00:00 - Acepto\n1808 0040\n----------TERMINA COMENTARIO-----------',`estado`='Acepto' WHERE codigo='00500ENRIM00E028'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='
+1920-05-06 00:00:00',`comentarios_gestion`='\n----------INICIA COMENTARIO----------- \n18/08/2021 09:00:00 - Inspección\n1808 0042\n----------TERMINA COMENTARIO-----------',`estado`='Inspección' WHERE codigo='00500ENRIMX1026'
+res:1

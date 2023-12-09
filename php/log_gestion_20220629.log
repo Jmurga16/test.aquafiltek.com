@@ -1,0 +1,122 @@
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n30/06/2022 11:00:00 - Acepto\nPrueba MG 1\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+30/06/2022 12:00:00
+Volver a llamar Importante
+Se coordina con la esposa
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+16/01/2021
+10:40:11
+Rechazó
+no tiene cisterna
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+02/10/2019
+03:50:00
+Volver a llamar
+12/09/2019 el sr dice q aun tiene la cisterna limpia q le llame despues 
+----------TERMINA COMENTARIO-----------
+
+14/02/2019 apagado 07/02/2019 NO CONTESTA 30/01/2019 telefono apagado 10/01/2019 no contesta  11/12/2018 no contesta abrio la llamada pero no habla  13/09/2018  que quiere esperar un poco mas 10/07/2018 que FIN DE AÑO le llamen 25/04/2018 Contesto el mismo q estuvo 4 años sin limpiar la cisterna y q puede aguantra 2 años mas  7-12-2017 acepta la limpieza para el dia 13 de dic.', `comentarios_gestion`='',`estado`='Acepto' WHERE codigo='09056CCRIM009017'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n01/07/2022 06:45:00 - Acepto con la competencia\nSe fue con la competencia comentario 1\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/07/2022 13:00:00
+Volver a llamar Importante
+Cliente desea el servicio para la proxima semana, pero tiene que cornfirmar si tendra personal disponible. Llamar por la mañana a consultar.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/05/2020
+13:00:00
+No responde
+celular 1 equivocado celular dos manda directo a buzón y convencional no contestan
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/02/2020
+09:00:00
+No responde
+03-02-2020 no contestan seguir intentando, en whatsapp le han dejado mensaje el 17 de octubre.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/11/2019
+08:10:00
+Volver a llamar
+23/10/2019 CELULARES NO SIRVEN Y TELEFONO CONTESTA OPERADORA DICIENDO QUE NO ESTAN DISPONIBLES.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/04/2019
+16:00:00
+Volver a llamar
+NO ESTABA EN CASA SOLO EN LAS TARDES 
+----------TERMINA COMENTARIO-----------
+23/10/2019 CELULARES NO SIRVEN Y TELEFONO CONTESTA OPERADORA DICIENDO QUE NO ESTAN DISPONIBLES.', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM00C1006'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n02/07/2022 11:00:00 - Acepto con la competencia\nprueba 2 de venta con la competencia\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2022 06:45:00 - Acepto con la competencia
+Se fue con la competencia comentario 1
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+04/07/2022 13:00:00
+Volver a llamar Importante
+Cliente desea el servicio para la proxima semana, pero tiene que cornfirmar si tendra personal disponible. Llamar por la mañana a consultar.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+22/05/2020
+13:00:00
+No responde
+celular 1 equivocado celular dos manda directo a buzón y convencional no contestan
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+07/02/2020
+09:00:00
+No responde
+03-02-2020 no contestan seguir intentando, en whatsapp le han dejado mensaje el 17 de octubre.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+10/11/2019
+08:10:00
+Volver a llamar
+23/10/2019 CELULARES NO SIRVEN Y TELEFONO CONTESTA OPERADORA DICIENDO QUE NO ESTAN DISPONIBLES.
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/04/2019
+16:00:00
+Volver a llamar
+NO ESTABA EN CASA SOLO EN LAS TARDES 
+----------TERMINA COMENTARIO-----------
+23/10/2019 CELULARES NO SIRVEN Y TELEFONO CONTESTA OPERADORA DICIENDO QUE NO ESTAN DISPONIBLES.', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM00C1006'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n03/07/2022 12:00:00 - Acepto con la competencia\nSe fue con la competencia parte 3 MG\n----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+01/07/2022 14:00:00 - Acepto
+Acepto por un precio de $45,00 Cliente indica que pagará el proximo mes, cuando retorne al pais
+----------TERMINA COMENTARIO-----------
+
+----------INICIA COMENTARIO----------- 
+25/09/2019
+12:20:00
+Volver a llamar
+04/09/2019 la sra esta ocupada volver a llamar
+----------TERMINA COMENTARIO-----------
+
+1903-04-29 00:00:00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='07850VSOLM00K006'
+res:1
+UPDATE `DatosClientes` SET `comentarios`='\n----------INICIA COMENTARIO----------- \n03/07/2022 11:00:00 - Acepto con la competencia\nSe fue con la competencia MG prueba 3\n----------TERMINA COMENTARIO-----------
+6/11/17 empleada me indica que llame tipo 14h00', `comentarios_gestion`='',`estado`='Acepto con la competencia' WHERE codigo='00500ENRIM0A1000'
+res:1
