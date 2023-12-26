@@ -4,8 +4,8 @@ header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Conte
 header("Access-Control-Allow-Methods: GET, POST"); // Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
 header("Allow: GET, POST"); // Allow: GET, POST, OPTIONS, PUT, DELETE
 
-include 'SimpleXLSX.php';
-include 'connect.php';
+include '../../connect.php';
+include '../../SimpleXLSX.php';
 
 
 if ($xlsx = SimpleXLSX::parse($_FILES['lista']['tmp_name'])) {
@@ -57,10 +57,12 @@ if ($xlsx = SimpleXLSX::parse($_FILES['lista']['tmp_name'])) {
 
             if (mysqli_multi_query($enlace, $sql_query)) {
                 $last_id = mysqli_insert_id($enlace);
-   
-                mysqli_multi_query($enlace, 
-                "INSERT INTO DatosClientes (codigo,      coordenadas,    nombre_completo, Datos_factura, direccion,    telefono,         telefono_oficina, celular1,         celular2,       correo,   info_cisterna,    comentarios,   estado,          tipo_persona_tel_cliente, obser_tel_cliente,            tipo_persona_tel_of,  obser_tel_of,               tipo_persona_cel1,      obser_cel1,                   numero_libre,   actualizar_pendiente, fecha_subida, tipo_persona_cel2,    obser_cel2   ,IdArchivo                 ) 
-                    VALUES   ('$codigo$x', '$coordenadas', '$nombre',       '$factura',    '$direccion', '$tel_principal', '$tel_oficina',   '$cel_principal', '$cel_segundo', '$email', '$info_cisterna', '$comentario', 'Por gestionar', '$tel_principal_trato',   '$tel_principal_observacion', '$tel_oficina_trato', '$tel_oficina_observacion', '$cel_principal_trato', '$cel_principal_observacion', '$campo_libre', 1,                    '$hoy',       '$cel_segundo_trato', '$cel_segundo_observacion' , $last_id)");
+
+                mysqli_multi_query(
+                    $enlace,
+                    "INSERT INTO DatosClientes (codigo,      coordenadas,    nombre_completo, Datos_factura, direccion,    telefono,         telefono_oficina, celular1,         celular2,       correo,   info_cisterna,    comentarios,   estado,          tipo_persona_tel_cliente, obser_tel_cliente,            tipo_persona_tel_of,  obser_tel_of,               tipo_persona_cel1,      obser_cel1,                   numero_libre,   actualizar_pendiente, fecha_subida, tipo_persona_cel2,    obser_cel2   ,IdArchivo                 ) 
+                    VALUES   ('$codigo$x', '$coordenadas', '$nombre',       '$factura',    '$direccion', '$tel_principal', '$tel_oficina',   '$cel_principal', '$cel_segundo', '$email', '$info_cisterna', '$comentario', 'Por gestionar', '$tel_principal_trato',   '$tel_principal_observacion', '$tel_oficina_trato', '$tel_oficina_observacion', '$cel_principal_trato', '$cel_principal_observacion', '$campo_libre', 1,                    '$hoy',       '$cel_segundo_trato', '$cel_segundo_observacion' , $last_id)"
+                );
             }
         }
 

@@ -1119,7 +1119,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
                     } else {
                         document.getElementById('boton_subir').disabled = true;
                         $.ajax({
-                                url: "xlsx_clientes.php",
+                                url: "./Administrador/SubirClientes/subirArchivoClientes.php",
                                 type: "post",
                                 dataType: "html",
                                 data: formData,
@@ -1131,6 +1131,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
                                 document.getElementById('formulario_subir').reset();
                                 document.getElementById('boton_subir').disabled = false;
                                 alert('Archivo de clientes subido correctamente.');
+                                location.reload();
                             });
                     }
 
