@@ -8,6 +8,7 @@ var grupos_sel = [];
 
 var actuales_oper = [];
 var nuevos_oper = [];
+
 function llenar_control(dir, contain) {
     var container = "#container" + contain;
     var contenido = $(container).html();
@@ -42,6 +43,7 @@ function editar(id) {
     });
     $('#ModalMC').modal('show');
 }
+
 function mostrar_archivados() {
     var tabla1 = document.getElementById('div_archivados');
     var button1 = document.getElementById('mostrar_archivados');
@@ -116,8 +118,6 @@ function seleccionar_oper_actual(id) {
     else {
         actuales_oper.splice(index, 1);
     }
-
-
 }
 
 function sel_all() {
@@ -133,19 +133,12 @@ function sel_all() {
         else {
             array.forEach(deseleccionar_todo);
         }
-
     });
-
-
-
-
-
 }
 
 function seleccionar_todo(item) {
     document.getElementById(item).checked = true;
     grupos_sel.push(item);
-
 }
 
 function deseleccionar_todo(item) {
@@ -193,7 +186,6 @@ function guardar_grupo_asig() {
             });
         }
     }
-
 }
 
 function mostrar_asign() {
@@ -222,10 +214,7 @@ function subir_operadores(id) {
 
         });
     }
-
-
 }
-
 
 function bajar_seleccionados(id) {
     if (actuales.length == 0) {
@@ -254,6 +243,7 @@ function bajar_oper(id) {
         });
     }
 }
+
 async function subir_seleccionados(id) {
     if (nuevos.length == 0) {
         alert('Seleccione algun cliente para agregar.');
@@ -265,8 +255,6 @@ async function subir_seleccionados(id) {
             editar_grupo(id);
         });
     }
-
-
 }
 
 function qTodos() {
@@ -283,9 +271,6 @@ function qTodos() {
             else {
                 actuales.splice(index, 1);
             }
-
-
-
         });
     }
     else {
@@ -300,14 +285,8 @@ function qTodos() {
             else {
                 actuales.splice(index, 1);
             }
-
-
-
         });
     }
-
-
-
 }
 
 function qTodosT() {
@@ -325,9 +304,6 @@ function qTodosT() {
             else {
                 actuales.splice(index, 1);
             }
-
-
-
         });
     }
     else {
@@ -342,12 +318,8 @@ function qTodosT() {
             else {
                 actuales.splice(index, 1);
             }
-
-
-
         });
     }
-
 }
 
 function editar_nuevo(id) {
@@ -403,9 +375,6 @@ function seleccionarTodos() {
             else {
                 nuevos.splice(index, 1);
             }
-
-
-
         });
     }
     else {
@@ -420,14 +389,8 @@ function seleccionarTodos() {
             else {
                 nuevos.splice(index, 1);
             }
-
-
-
         });
     }
-
-
-
 }
 
 function seleccionarTodosT() {
@@ -445,9 +408,6 @@ function seleccionarTodosT() {
             else {
                 nuevos.splice(index, 1);
             }
-
-
-
         });
     }
     else {
@@ -462,9 +422,6 @@ function seleccionarTodosT() {
             else {
                 nuevos.splice(index, 1);
             }
-
-
-
         });
     }
 
@@ -529,7 +486,6 @@ function mostrar_canton(prov) {
             document.getElementById('canton_group').innerHTML = data;
         });
     }
-
 }
 
 function mostrar_parro(canton) {
@@ -538,7 +494,6 @@ function mostrar_parro(canton) {
             document.getElementById('parroquia_group').innerHTML = data;
         });
     }
-
 }
 
 function borrar_grupo(id) {
@@ -591,7 +546,6 @@ function actualizar_filtro() {
                 location.reload();
             }
         });
-
     }
 }
 
@@ -635,6 +589,7 @@ function llenar_menus() {
 
     });
 }
+
 function autorizar_edit(id, tipo) {
     $.post("../php/autorizar_edit.php", {
         id: id,
@@ -654,6 +609,7 @@ function autorizar_edit(id, tipo) {
         }
     });
 }
+
 function llenar_inactivos() {
     $(".loader").fadeIn("slow");
     $("#llenar_inactivos").html("");
@@ -662,6 +618,7 @@ function llenar_inactivos() {
     });
     $(".loader").fadeOut("slow");
 }
+
 function llenar_edicion() {
     $(".loader").fadeIn("slow");
     $("#llenar_iediciones").html("");
@@ -671,6 +628,7 @@ function llenar_edicion() {
     $(".loader").fadeOut("slow");
 
 }
+
 $("#btn-registrar").click(function () {
     var name = $("#RinputNC").val();
     var us = $("#RinputUser").val();
@@ -767,6 +725,7 @@ $("#CrearU").click(function () {
         });
     }
 });
+
 $("#CrearU1").click(function () {
     $("div.active").hide("active");
     $(".active").removeClass("active");
@@ -838,6 +797,7 @@ $("#CrearU1").click(function () {
         });
     }
 });
+
 $("#ControlU").click(function () {
     $("div.active").hide("active");
     $(".active").removeClass("active");
@@ -978,7 +938,6 @@ $("#CambiarP").click(function () {
     }
     llenar_control("Control_Passwords.php", "CP");
 });
-
 
 $("#ControlP").click(function () {
     $("div.active").hide("active");
@@ -1132,9 +1091,7 @@ $("#GenerarR").click(function () {
     llenar_menus();
 });
 
-
 //nuevo panel de aministracion
-
 $("#ControlI").click(function () {
     $("div.active").hide("active");
     $("#containerli").css("display", "none");
@@ -1210,11 +1167,6 @@ $("#ControlI").click(function () {
 
 });
 
-
-
-//cierro panel
-
-
 //nueva pestaña grupo
 $("#GrupoP").click(function () {
 
@@ -1239,8 +1191,6 @@ $("#GrupoP").click(function () {
             $("#containerClientes").css("display", "none");
         });
     }
-
-
 
     if ($("#containerRegister").css('display') == "block") {
         $("#containerRegister").toggle("slow", function () {
@@ -1292,12 +1242,7 @@ $("#GrupoP").click(function () {
 
 });
 
-//cierra pestaña grupo
-
-
-
 //pestaña edicion clientes
-
 $("#VerC").click(function () {
     $("div.active").hide("active");
     $(".active").removeClass("active");
@@ -1371,11 +1316,6 @@ $("#VerC").click(function () {
 
 });
 
-// cierra pestaña edicion clientes
-
-
-
-
 $("#cerrar_sesion").click(function () {
     $.post("../php/exit_script.php", {}, function (mensaje) {
         if (mensaje == 1)
@@ -1431,10 +1371,12 @@ $('.datepicker').datepicker({
     format: 'dd/mm/yyyy',
     uiLibrary: 'bootstrap4'
 });
+
 /*
 EXCEL=bf57c906fa7d2bb66d07372e41585d96
 PDF=437175ba4191210ee004e1d937494d09
 */
+
 $("#generarReporte").click(function (event) {
     // var date = $("#fechaAcepto").val();
     var date = $("#fechaAcepto").val().split("-");
@@ -1464,8 +1406,8 @@ $("#generarReporte2").click(function (event) {
     } else {
         R2generar(date, 'bf57c906fa7d2bb66d07372e41585d96', opera, ordenamiento);
     }
-
 });
+
 $("#generarReporteCNG").click(function (event) {
     var user = $("#usuario_reportCNG").val();
     if ($("#tipo_exportCNG").val() == 1) {
@@ -1681,7 +1623,6 @@ function mostrarEscalas(idoperador) {
 
 }
 
-
 $('#bt_guardar_escalas').click(function () {
 
     console.log('save escalas id:' + operador_escala);
@@ -1718,7 +1659,6 @@ $('#bt_guardar_escalas').click(function () {
 
 
 });
-
 
 function mostrarTiempoTira(val) {
     if (val == 0) {
@@ -1868,7 +1808,6 @@ $("#actualizarC").click(function () {
     }
 });
 
-
 $("#ControlTira").click(function () {
     $('div.active').hide();
     $('.active').removeClass('active');
@@ -1992,10 +1931,6 @@ function mostrarHistorialArchivosClientes() {
 }
 
 function eliminarArchivoCliente(id) {
-    console.log("eliminarArchivoCliente")
-    console.log(id)
-
-
     Swal.fire({
         title: "¿Está seguro de eliminar TODOS los clientes que se subió con este archivo ?",
         icon: "question",
@@ -2009,17 +1944,9 @@ function eliminarArchivoCliente(id) {
                 location.reload();
             });
             //Swal.fire("Eliminación Exitosa.", "", "success");            
-        } 
+        }
     });
-
 }
 
 //#endregion
-
-
-
-
-
-
-
 
