@@ -55,7 +55,7 @@ echo "
 </tr>
 </thead>
 <tbody>";
-$get_clients = mysqli_query($enlace,"SELECT * FROM DatosClientes WHERE inactivo = 0 AND codigo NOT IN (SELECT id_cliente FROM grupo_asignacion LEFT JOIN DatosClientes on grupo_asignacion.id_cliente = DatosClientes.codigo WHERE id_grupo = '".$id."' AND DatosClientes.inactivo = 0)");
+$get_clients = mysqli_query($enlace,"SELECT * FROM DatosClientes WHERE inactivo = 0 AND codigo NOT IN (SELECT id_cliente FROM grupo_asignacion LEFT JOIN DatosClientes on grupo_asignacion.id_cliente = DatosClientes.codigo WHERE DatosClientes.inactivo = 0)");
 while($gc = mysqli_fetch_array($get_clients))
 {
     echo "<tr><td><input type='checkbox' id='".$gc['codigo']."' onchange=seleccionar_nuevo('".$gc['codigo']."')></td><td>".$gc['codigo']."</td><td>".$gc['nombre_completo']."</td></tr>";

@@ -3,11 +3,10 @@ var clientes_total;
 var operador_escal = 0;
 var actuales = [];
 var nuevos = [];
-
 var grupos_sel = [];
-
 var actuales_oper = [];
 var nuevos_oper = [];
+var loading = false
 
 function llenar_control(dir, contain) {
     var container = "#container" + contain;
@@ -477,7 +476,6 @@ function editar_grupo(id) {
         });
 
     });
-
 }
 
 function mostrar_canton(prov) {
@@ -1242,80 +1240,6 @@ $("#GrupoP").click(function () {
 
 });
 
-//pestaña edicion clientes
-$("#VerC").click(function () {
-    $("div.active").hide("active");
-    $(".active").removeClass("active");
-    $("#PcrearU").addClass("active");
-    $("#PcambiarP").removeClass("active");
-    $("#ControlP").removeClass("active");
-    $("#GenerarR").removeClass("active");
-    $("#containerli").css("display", "block");
-
-
-    if ($("#containerVClientes").css("display") == "none") {
-        $("#containerVClientes").toggle("slow", function () {
-            $("#containerVClientes").css("display", "block");
-        });
-    }
-
-    if ($("#containerClientes").css("display") == "block") {
-        $("#containerClientes").toggle("slow", function () {
-            $("#containerClientes").css("display", "none");
-        });
-    }
-
-    if ($("#containerGrupo").css("display") == "block") {
-        $("#containerGrupo").toggle("slow", function () {
-            $("#containerGrupo").css("display", "none");
-        });
-    }
-
-    if ($("#containerControl").css('display') == "block") {
-        $("#containerControl").toggle("slow", function () {
-            $("#containerControl").css("display", 'none');
-        });
-
-    }
-
-    if ($("#containerRegister").css('display') == "block") {
-        $("#containerRegister").toggle("slow", function () {
-            $("#containerRegister").css("display", 'none');
-        });
-
-    }
-    if ($("#containerCP").css('display') == "block") {
-        $("#containerCP").toggle("slow", function () {
-            $("#containerCP").css("display", "none");
-        });
-
-    }
-    if ($("#containerPO").css('display') == "block") {
-        $("#containerPO").toggle("slow", function () {
-            $("#containerPO").css("display", "none");
-        });
-
-    }
-    if ($("#containerGR").css('display') == "block") {
-        $("#containerGR").toggle("slow", function () {
-            $("#containerGR").css("display", "none");
-        });
-
-    }
-    if ($("#containerInac").css('display') == "block") {
-        $("#containerInac").toggle("slow", function () {
-            $("#containerInac").css("display", "none");
-        });
-
-    }
-    if ($("#containerTira").css("display") == "block") {
-        $("#containerTira").toggle("slow", function () {
-            $("#containerTira").css("display", "none");
-        });
-    }
-
-});
-
 $("#cerrar_sesion").click(function () {
     $.post("../php/exit_script.php", {}, function (mensaje) {
         if (mensaje == 1)
@@ -1950,3 +1874,71 @@ function eliminarArchivoCliente(id) {
 
 //#endregion
 
+
+//#region Pestaña Ver Clientes Nuevos
+
+$("#VerC").click(function () {
+
+    hideContainerSubMenu();
+
+    if ($("#containerVClientes").css("display") == "none") {
+        $("#containerVClientes").toggle("slow", function () {
+            $("#containerVClientes").css("display", "block");
+        });
+    }
+
+    goToClientesNuevos()
+
+});
+
+function goToClientesNuevos() {
+    $("#divRepartirClientes").css("display", 'none');
+    $("#divClientesNuevos").css("display", 'block');
+}
+
+function goToRepartirClientes() {
+    $("#divClientesNuevos").css("display", 'none');
+    $("#divRepartirClientes").css("display", 'block');
+    getSelectRepartirClientes()
+}
+
+function getSelectRepartirClientes(id) {
+    $.post("./Administrador/ClientesNuevos/getSelectGrupoPoblacional.php", function (data) {
+        $("#formControlGrupoPoblacional").html(data);
+        $("#listGroupRepartirClientes").html("");
+    });
+}
+
+function getListGroupRepartirClientes(idGrupoPoblacional) {
+    $.post("./Administrador/ClientesNuevos/getHTMLRepartirClientes.php", { id: idGrupoPoblacional }, function (data) {
+        $("#listGroupRepartirClientes").html(data);
+    });
+}
+
+function agregarClienteAGrupo(codigo) {
+    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
+
+    if (!loading) {
+        loading = true;
+        $.post("./Administrador/ClientesNuevos/postAsignarClienteAGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
+            console.log(data);
+            getListGroupRepartirClientes(idGrupoPoblacional);
+            loading = false;
+        });
+    }
+}
+
+function retirarClienteDeGrupo(codigo) {
+    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
+
+    if (!loading) {
+        loading = true;
+        $.post("./Administrador/ClientesNuevos/deleteRetirarClienteDeGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
+            console.log(data);
+            getListGroupRepartirClientes(idGrupoPoblacional);
+            loading = false;
+        });
+    }
+}
+
+//#endregion

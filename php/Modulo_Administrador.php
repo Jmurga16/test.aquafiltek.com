@@ -100,6 +100,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
                 <li role="presentation" style="margin-left:25px"><a href="#containerVClientes" style="text-decoration:none" id="VerC" aria-controls="messages" role="tab" data-toggle="tab">Ver Clientes nuevos</a></li>
             </ul>
         </div>
+        <!-- Menu Usuarios -->
         <!-- Tab panes -->
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="containerRegister">
@@ -246,20 +247,22 @@ if ($_SESSION['TipoUsuario'] == 1) {
                 <br>
 
                 <div class="row" style="background-color:white">
-                    <div class="col-md-12">
+
+                    <div class="col-md-12" id="divClientesNuevos">
                         <h3 class="text-primary">Clientes nuevos</h3>
                         <br />
 
-                        <div align="right">
+                        <div class="row mb-3 pr-3">
                             <?php
                             include_once('connect.php');
                             $num = mysqli_query($enlace, "SELECT * FROM DatosClientes LEFT JOIN grupo_asignacion on DatosClientes.codigo = grupo_asignacion.id_cliente WHERE actualizar_pendiente = 1 AND grupo_asignacion.id_cliente IS NULL");
                             $num_all = mysqli_num_rows($num);
                             ?>
-                            <input type='button' style="width:200px" class='btn btn-primary' onclick="mostrar_asign()" value='Repartir clientes (<?php echo "$num_all"; ?>)' <?php if ($num_all == 0) {
-                                                                                                                                                                                    echo "disabled";
-                                                                                                                                                                                }   ?> />
+                            <input type='button' style="width:200px; margin-left:auto" class='btn btn-primary' onclick="goToRepartirClientes()" value='Repartir clientes (<?php echo "$num_all"; ?>)' <?php if ($num_all == 0) {
+                                                                                                                                                                                                                                echo "disabled";
+                                                                                                                                                                                                                            }   ?> />
                         </div>
+
 
                         <br />
                         <table class="table table-bordered" id="c_nuevos">
@@ -303,16 +306,38 @@ if ($_SESSION['TipoUsuario'] == 1) {
                                     <br>
                                     <input type='button' class='btn btn-danger' value='Eliminar' onclick="eliminar('<?PHP echo $res['codigo']; ?>')" />
                                 <?PHP echo "</td>
-            </tr>";
+                                        </tr>";
                                 }
-
-
                                 ?>
                             </tbody>
                         </table>
                         <br>
                         <br>
                     </div>
+
+                    <div class="col-md-12" id="divRepartirClientes" style="display:none">
+                        <h3 class="text-primary">Repartir Clientes</h3>
+                        <br />
+
+                        <div class="row mb-3 pr-3">
+                            <button type="button" id="btnClientesNuevos" class="btn btn-primary" style="margin-left:auto" onclick="goToClientesNuevos()">
+                                Ver Clientes Nuevos
+                            </button>
+                        </div>
+
+                        <div id="containerRepartirClientes">
+                            <div id="formControlGrupoPoblacional">
+
+                            </div>
+
+                            <div id="listGroupRepartirClientes">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -979,7 +1004,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
-    
+
     <script>
         <?php
 
