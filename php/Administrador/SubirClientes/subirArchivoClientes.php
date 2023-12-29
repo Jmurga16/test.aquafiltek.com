@@ -15,6 +15,21 @@ if ($xlsx = SimpleXLSX::parse($_FILES['lista']['tmp_name'])) {
     $Json = [];
     $x = 0;
 
+    $hoy = date('d-m-Y');
+    $fecha_subida = date('Y-m-d H:i:s');
+    $routeFile = "../clientes.xlsx";
+    $FileName = "Clientes_" . $fecha_subida;
+
+    $sql_query =
+        "INSERT INTO Archivos_SubirClientes 
+                    (IdUsuario,  NombreArchivo, RutaArchivo , FechaSubida    , Activo) 
+            VALUES  (1        , '$FileName'     , '$routeFile', '$fecha_subida', 1)";
+
+    mysqli_query($enlace, $sql_query);
+
+    $idArchivo = mysqli_insert_id($enlace);
+
+
     foreach ($xlsx->rows() as $datos) {
 
         if ($x == 0) {
@@ -40,30 +55,16 @@ if ($xlsx = SimpleXLSX::parse($_FILES['lista']['tmp_name'])) {
             $info_cisterna = trim($datos[18]);
             $campo_libre = trim($datos[19]);
 
-            $hoy = date('d-m-Y');
 
             $codigo = time();
+            
 
-            $fecha_subida = date('Y-m-d H:i:s');
-
-
-            $routeFile = "../clintes.xlsx";
-            $FileName = "Clientes_" . $hoy;
-
-            $sql_query =
-                "INSERT INTO Archivos_SubirClientes 
-                    (IdUsuario,  NombreArchivo, RutaArchivo , FechaSubida    , Activo) 
-            VALUES  (1        , '$FileName'     , '$routeFile', '$fecha_subida', 1)";
-
-            if (mysqli_multi_query($enlace, $sql_query)) {
-                $last_id = mysqli_insert_id($enlace);
-
-                mysqli_multi_query(
-                    $enlace,
-                    "INSERT INTO DatosClientes (codigo,      coordenadas,    nombre_completo, Datos_factura, direccion,    telefono,         telefono_oficina, celular1,         celular2,       correo,   info_cisterna,    comentarios,   estado,          tipo_persona_tel_cliente, obser_tel_cliente,            tipo_persona_tel_of,  obser_tel_of,               tipo_persona_cel1,      obser_cel1,                   numero_libre,   actualizar_pendiente, fecha_subida, tipo_persona_cel2,    obser_cel2   ,IdArchivo                 ) 
-                    VALUES   ('$codigo$x', '$coordenadas', '$nombre',       '$factura',    '$direccion', '$tel_principal', '$tel_oficina',   '$cel_principal', '$cel_segundo', '$email', '$info_cisterna', '$comentario', 'Por gestionar', '$tel_principal_trato',   '$tel_principal_observacion', '$tel_oficina_trato', '$tel_oficina_observacion', '$cel_principal_trato', '$cel_principal_observacion', '$campo_libre', 1,                    '$hoy',       '$cel_segundo_trato', '$cel_segundo_observacion' , $last_id)"
-                );
-            }
+            mysqli_query(
+                $enlace,
+                "INSERT INTO DatosClientes 
+                            (codigo,      coordenadas,    nombre_completo, Datos_factura, direccion,    telefono,         telefono_oficina, celular1,         celular2,       correo,   info_cisterna,    comentarios,   estado,          tipo_persona_tel_cliente, obser_tel_cliente,            tipo_persona_tel_of,  obser_tel_of,               tipo_persona_cel1,      obser_cel1,                   numero_libre,   actualizar_pendiente, fecha_subida, tipo_persona_cel2,    obser_cel2   ,IdArchivo                 ) 
+                    VALUES   ('$codigo$x', '$coordenadas', '$nombre',       '$factura',    '$direccion', '$tel_principal', '$tel_oficina',   '$cel_principal', '$cel_segundo', '$email', '$info_cisterna', '$comentario', 'Por gestionar', '$tel_principal_trato',   '$tel_principal_observacion', '$tel_oficina_trato', '$tel_oficina_observacion', '$cel_principal_trato', '$cel_principal_observacion', '$campo_libre', 1,                    '$hoy',       '$cel_segundo_trato', '$cel_segundo_observacion' , $idArchivo)"
+            );
         }
 
         $x++;

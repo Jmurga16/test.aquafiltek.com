@@ -14,8 +14,8 @@ $sql1 = "DELETE FROM DatosClientes WHERE IdArchivo = '".$id."'";
 $ejecutar1 = mysqli_query($enlace,$sql1);
 
 
-//$sql3 = "DELETE FROM grupo_asignacion WHERE id_cliente = '".$id."'";
-//$ejecutar3 = mysqli_query($enlace,$sql3);
+$sql2 = "DELETE FROM grupo_asignacion WHERE id_cliente = '".$id."'";
+$ejecutar2 = mysqli_query($enlace,$sql2);
 
 
 include("../../QuitDB.php");

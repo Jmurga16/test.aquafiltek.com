@@ -7,7 +7,7 @@ $time_fin_horario = strtotime($fin_horario);
 $hoy_actual = date('Y-m-d H:i:s');
 $time_actual = strtotime($hoy_actual);
 $fecha_buscar = isset($_POST['fecha_buscar'])?$_POST['fecha_buscar']:0;
-$fichero = 'abuscarhoy_'.date('Ymd').'.log';
+$fichero = 'logs/abuscarhoy/abuscarhoy_'.date('Ymd').'.log';
 $log=' inicia:'.date('H:i:s').PHP_EOL;
 $log.='hoy_actual:'.$hoy_actual.PHP_EOL;
 
