@@ -96,13 +96,14 @@ if ($_SESSION['TipoUsuario'] == 1) {
                 <li role="presentation" style="margin-left:25px"><a href="#containerControl" style="text-decoration:none" id="ControlU" aria-controls="profile" role="tab" data-toggle="tab">Control de usuarios</a></li>
                 <li role="presentation" style="margin-left:25px"><a href="#containerCP" style="text-decoration:none" id="CambiarP" aria-controls="messages" role="tab" data-toggle="tab">Cambiar contraseñas</a></li>
                 <li role="presentation" style="margin-left:25px"><a href="#containerGrupo" style="text-decoration:none" id="GrupoP" aria-controls="messages" role="tab" data-toggle="tab">Grupos poblacionales</a></li>
-                <li role="presentation" style="margin-left:25px"><a href="#containerClientes" style="text-decoration:none" id="SubirC" aria-controls="messages" role="tab" data-toggle="tab">Subir Clientes</a></li>
-                <li role="presentation" style="margin-left:25px"><a href="#containerVClientes" style="text-decoration:none" id="VerC" aria-controls="messages" role="tab" data-toggle="tab">Ver Clientes nuevos</a></li>
+                <li role="presentation" style="margin-left:25px"><a href="#containerClientes" style="text-decoration:none" id="SubirClientes" aria-controls="messages" role="tab" data-toggle="tab">Subir Clientes</a></li>
+                <li role="presentation" style="margin-left:25px"><a href="#containerVClientes" style="text-decoration:none" id="VerClientesNuevos" aria-controls="messages" role="tab" data-toggle="tab">Ver Clientes nuevos</a></li>
             </ul>
         </div>
         <!-- Menu Usuarios -->
         <!-- Tab panes -->
         <div class="tab-content">
+
             <div role="tabpanel" class="tab-pane active" id="containerRegister">
                 <div class="container fondo">
                     <!-- EMPIEZA USUARIOS -->
@@ -129,13 +130,22 @@ if ($_SESSION['TipoUsuario'] == 1) {
 
                 </div>
             </div>
+
             <div role="tabpanel" class="tab-pane" class="container text-center" style="display: flex; flex:1; flex-direction: column" id="containerControl">
 
             </div>
+
             <div role="tabpanel" class="tab-pane" class="container text-center" id="containerCP">
 
             </div>
+
             <div role="tabpanel" class="tab-pane" id="containerGrupo">
+
+            </div>
+
+
+            <!-- Contenido del Popover Asignar Operador -->
+            <div class="containerPopover hidden d-none" id="popoverAsignarOperador">
 
             </div>
 
@@ -222,9 +232,9 @@ if ($_SESSION['TipoUsuario'] == 1) {
                                             <td>" . $res['FechaSubida'] . "</td>
                                             <td align=center>";
                                 ?>
-                                    <a type='button' class='btn btn-info' style="width:100%" href="<?PHP echo $res['RutaArchivo']; ?>" target="_blank">
+                                    <!-- <a type='button' class='btn btn-info' style="width:100%" href="<?PHP echo $res['RutaArchivo']; ?>" target="_blank">
                                         Descargar
-                                    </a>
+                                    </a> -->
                                     <br>
                                     <input type='button' class='btn btn-danger' value='Eliminar' onclick="eliminarArchivoCliente('<?PHP echo $res['Id']; ?>')" />
                                 <?PHP echo "</td>
@@ -259,8 +269,8 @@ if ($_SESSION['TipoUsuario'] == 1) {
                             $num_all = mysqli_num_rows($num);
                             ?>
                             <input type='button' style="width:200px; margin-left:auto" class='btn btn-primary' onclick="goToRepartirClientes()" value='Repartir clientes (<?php echo "$num_all"; ?>)' <?php if ($num_all == 0) {
-                                                                                                                                                                                                                                echo "disabled";
-                                                                                                                                                                                                                            }   ?> />
+                                                                                                                                                                                                            echo "disabled";
+                                                                                                                                                                                                        }   ?> />
                         </div>
 
 

@@ -7,6 +7,7 @@ var grupos_sel = [];
 var actuales_oper = [];
 var nuevos_oper = [];
 var loading = false
+var codigo_cliente = "";
 
 function llenar_control(dir, contain) {
     var container = "#container" + contain;
@@ -51,8 +52,6 @@ function mostrar_archivados() {
         tabla1.style.display = '';
         button1.value = 'Ver inactivos';
         tabla2.style.display = 'none';
-
-
     }
     else {
         tabla1.style.display = 'none';
@@ -209,7 +208,7 @@ function subir_operadores(id) {
         $.post("../php/subirGrupo.php", { nuevos: nuevos_oper, idgrupo: id, tipo: 2 }, function (data) {
             console.log(data);
             nuevos_oper = [];
-            editar_grupo(id);
+            goToEditarMiembrosDeGrupo(id);
 
         });
     }
@@ -223,7 +222,7 @@ function bajar_seleccionados(id) {
         $.post("../php/bajarGrupo.php", { nuevos: actuales, idgrupo: id, tipo: 1 }, function (data) {
             console.log(data);
             actuales = [];
-            editar_grupo(id);
+            goToEditarMiembrosDeGrupo(id);
 
         });
     }
@@ -237,7 +236,7 @@ function bajar_oper(id) {
         $.post("../php/bajarGrupo.php", { nuevos: actuales_oper, idgrupo: id, tipo: 2 }, function (data) {
             console.log(data);
             actuales_oper = [];
-            editar_grupo(id);
+            goToEditarMiembrosDeGrupo(id);
 
         });
     }
@@ -251,7 +250,7 @@ async function subir_seleccionados(id) {
         await $.post("../php/subirGrupo.php", { idgrupo: id, tipo: 1, nuevos: nuevos }, function (data) {
             console.log(data);
             nuevos = [];
-            editar_grupo(id);
+            goToEditarMiembrosDeGrupo(id);
         });
     }
 }
@@ -1833,7 +1832,7 @@ function hideContainerSubMenu() {
 
 //#region Pestaña Subir Clientes
 
-$("#SubirC").click(function () {
+$("#SubirClientes").click(function () {
 
     hideContainerSubMenu();
 
@@ -1865,9 +1864,16 @@ function eliminarArchivoCliente(id) {
     }).then((result) => {
         if (result.isConfirmed) {
             $.post("./Administrador/SubirClientes/eliminarClienteDeArchivo.php", { id: id }, function () {
-                location.reload();
+                Swal.fire("Eliminación Exitosa.", "", "success", 1500);
+
+                Swal.fire({
+                    title: 'Eliminación Exitosa.',
+                    icon: 'success',
+                    timer: '2500'
+                }).then(() => {
+                    location.reload();
+                });
             });
-            //Swal.fire("Eliminación Exitosa.", "", "success");            
         }
     });
 }
@@ -1877,7 +1883,7 @@ function eliminarArchivoCliente(id) {
 
 //#region Pestaña Ver Clientes Nuevos
 
-$("#VerC").click(function () {
+$("#VerClientesNuevos").click(function () {
 
     hideContainerSubMenu();
 
@@ -1939,6 +1945,144 @@ function retirarClienteDeGrupo(codigo) {
             loading = false;
         });
     }
+}
+
+//#endregion
+
+
+//#region Pestaña Grupos Poblacionales
+function goToEditarMiembrosDeGrupo(id) {
+    $.post("./Administrador/GruposPoblacionales/getHTMLEditarMiembros.php", { id: id }, function (data) {
+        $("#containerGrupo").html(data);
+        qtable = $('#clientes_grupo').DataTable({
+            language: {
+                "decimal": "",
+                "emptyTable": "No hay información",
+                "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
+                "infoEmpty": "Mostrando 0 a 0 de 0 Entradas",
+                "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                "infoPostFix": "",
+                "thousands": ",",
+                "lengthMenu": "Mostrar _MENU_ Entradas",
+                "loadingRecords": "Cargando...",
+                "processing": "Procesando...",
+                "search": "Buscar:",
+                "zeroRecords": "Sin resultados encontrados",
+                "paginate": {
+                    "first": "Primero",
+                    "last": "Ultimo",
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        });
+
+        otable = $('#clientes_libres').DataTable({
+            language: {
+                "decimal": "",
+                "emptyTable": "No hay información",
+                "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
+                "infoEmpty": "Mostrando 0 a 0 de 0 Entradas",
+                "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                "infoPostFix": "",
+                "thousands": ",",
+                "lengthMenu": "Mostrar _MENU_ Entradas",
+                "loadingRecords": "Cargando...",
+                "processing": "Procesando...",
+                "search": "Buscar:",
+                "zeroRecords": "Sin resultados encontrados",
+                "paginate": {
+                    "first": "Primero",
+                    "last": "Ultimo",
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        });
+
+        createPopOverAsignarOperador(id)
+    });
+}
+
+function createPopOverAsignarOperador(id_grupo) {
+
+    $("[data-toggle=popover]").popover({
+        html: true,
+        container: 'body',
+        delay: { 'show': 300 },
+        content: function () {
+            var content = $(this).attr("data-popover-content");
+            return $(content).children(".popover-body").html();
+        },
+        title: function () {
+            var title = $(this).attr("data-popover-content");
+            return $(title).children(".popover-heading").html();
+        }
+    });
+    createChecklistInPopOver(id_grupo)
+}
+
+function createChecklistInPopOver(id_grupo) {
+
+    $.post("./Administrador/GruposPoblacionales/getCheckListAsignarOperador.php", { id_grupo: id_grupo }, function (data) {
+        $("#popoverAsignarOperador").html(data);
+    });
+}
+
+function setCodigoCliente(codigo) {
+
+    var popover = document.querySelector(".popover.show");
+
+    if (popover != null) {
+        if (codigo_cliente != codigo) {
+            $("[data-toggle='popover']").popover('hide');
+        }
+    }
+
+    codigo_cliente = codigo
+
+    var items = document.querySelectorAll(".containerPopover .form-check-input");
+
+    $.post("./Administrador/GruposPoblacionales/getValueCheckListOperador.php", { codigo_cliente: codigo_cliente }, function (response) {
+        var data = JSON.parse(response)
+        items.forEach(item => {
+            item.removeAttribute("checked")
+            data.forEach(element => {
+                if (element.id_operador == item.value) {
+                    item.setAttribute("checked", "")
+                }
+            });
+        });
+    });
+}
+
+function asignarOperadorACliente(checkbox) {
+
+    /* var items = document.querySelectorAll(".containerPopover .form-check-input");
+
+    console.log(items)
+
+    items.forEach(item => {
+        console.log(item.value);
+    }); */
+
+    var id_operador = checkbox.value
+
+    console.log(id_operador)
+    console.log(codigo_cliente)
+    console.log(checkbox.checked)
+
+    if (checkbox.checked) {
+        $.post("./Administrador/GruposPoblacionales/postAsignarOperadorACliente.php", { id_operador: id_operador, codigo_cliente: codigo_cliente }, function (data) {
+            console.log(data);
+        });
+    }
+    else {
+        $.post("./Administrador/GruposPoblacionales/deleteEliminarOperadorACliente.php", { id_operador: id_operador, codigo_cliente: codigo_cliente }, function (data) {
+            console.log(data);
+        });
+    }
+
 }
 
 //#endregion

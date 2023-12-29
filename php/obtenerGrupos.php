@@ -66,7 +66,7 @@ while ($res = mysqli_fetch_array($data)) {
 	}
 
 	$tabla .= "</td>
-	<td><a role='button' class='btn btn-primary' style='text-decoration:none; color:white' href='javascript:editar_grupo(" . $res['id'] . ")'>Editar miembros</a><br/>
+	<td><a role='button' class='btn btn-primary' style='text-decoration:none; color:white' href='javascript:goToEditarMiembrosDeGrupo(" . $res['id'] . ")'>Editar miembros</a><br/>
 	<input type='button' class='btn btn-danger'  style='margin-top:15px' value='Eliminar grupo' onclick='borrar_grupo(" . $res['id'] . ")'></td>
 	</tr>";
 }
