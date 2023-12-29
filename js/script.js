@@ -1908,26 +1908,41 @@ function goToRepartirClientes() {
     getSelectRepartirClientes()
 }
 
-function getSelectRepartirClientes(id) {
+function getSelectRepartirClientes() {
     $.post("./Administrador/ClientesNuevos/getSelectGrupoPoblacional.php", function (data) {
         $("#formControlGrupoPoblacional").html(data);
         $("#listGroupRepartirClientes").html("");
     });
 }
 
-function getListGroupRepartirClientes(idGrupoPoblacional) {
-    $.post("./Administrador/ClientesNuevos/getHTMLRepartirClientes.php", { id: idGrupoPoblacional }, function (data) {
-        $("#listGroupRepartirClientes").html(data);
-    });
+function getListGroupRepartirClientes() {
+    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
+    var filtroDisponible = document.getElementById('fitro_disponible').value;
+    var filtroAsignado = document.getElementById('filtro_asignado').value;
+
+
+    if (idGrupoPoblacional == "") {
+        document.getElementById('fitro_disponible').value = "";
+        document.getElementById('filtro_asignado').value = "";
+        $("#divFiltroRepartirClientes").css("display", 'none');
+        $("#listGroupRepartirClientes").css("display", 'none');
+    } else {
+        $("#divFiltroRepartirClientes").css("display", 'flex');
+        $("#listGroupRepartirClientes").css("display", 'block');
+
+        filtroDisponible = (filtroDisponible == null || filtroDisponible == undefined) ? "" : filtroDisponible
+        filtroAsignado = (filtroAsignado == null || filtroAsignado == undefined) ? "" : filtroAsignado
+        $.post("./Administrador/ClientesNuevos/getHTMLRepartirClientes.php", { id: idGrupoPoblacional, filtro_disponible: filtroDisponible, filtro_asignado: filtroAsignado }, function (data) {
+            $("#listGroupRepartirClientes").html(data);
+        });
+    }
 }
 
 function agregarClienteAGrupo(codigo) {
-    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
 
     if (!loading) {
         loading = true;
         $.post("./Administrador/ClientesNuevos/postAsignarClienteAGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
-            console.log(data);
             getListGroupRepartirClientes(idGrupoPoblacional);
             loading = false;
         });
@@ -1935,13 +1950,11 @@ function agregarClienteAGrupo(codigo) {
 }
 
 function retirarClienteDeGrupo(codigo) {
-    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
 
     if (!loading) {
         loading = true;
         $.post("./Administrador/ClientesNuevos/deleteRetirarClienteDeGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
-            console.log(data);
-            getListGroupRepartirClientes(idGrupoPoblacional);
+            getListGroupRepartirClientes();
             loading = false;
         });
     }

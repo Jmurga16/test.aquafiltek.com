@@ -340,12 +340,31 @@ if ($_SESSION['TipoUsuario'] == 1) {
 
                             </div>
 
+                            <div class='row mb-3' id='divFiltroRepartirClientes'>
+                                <div class='col-md-6'>
+                                    <div class='mb-2'>
+                                        <strong class='mb-2'>Clientes disponibles</strong>
+
+                                        <input type='text' name='fitro_disponible' id='fitro_disponible' class='form-control' onkeyup='getListGroupRepartirClientes()' placeholder='Filtro Clientes Disponibles'>
+                                    </div>
+                                    <br />
+                                </div>
+                                <div class='col-md-6'>
+                                    <div class='mb-2'>
+                                        <strong>Clientes asignados</strong>
+
+                                        <input type='text' name='filtro_asignado' id='filtro_asignado' class='form-control' onkeyup='getListGroupRepartirClientes()' placeholder='Filtro Clientes Disponibles'>
+                                    </div>
+                                    <br />
+                                </div>
+
+                            </div>
+
                             <div id="listGroupRepartirClientes">
 
                             </div>
 
                         </div>
-
                     </div>
 
                 </div>
@@ -353,6 +372,10 @@ if ($_SESSION['TipoUsuario'] == 1) {
             </div>
 
         </div>
+
+    </div>
+
+    </div>
 
     </div>
 
