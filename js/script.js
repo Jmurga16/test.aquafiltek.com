@@ -9,15 +9,19 @@ var nuevos_oper = [];
 var loading = false
 var codigo_cliente = "";
 
+$("#cerrar_sesion").click(function () {
+    $.post("../php/exit_script.php", {}, function (mensaje) {
+        if (mensaje == 1)
+            location.replace("../index.html");
+    });
+});
+
+
 function llenar_control(dir, contain) {
     var container = "#container" + contain;
     var contenido = $(container).html();
     $(container).html("");
     $.post("../php/obtenerUsers.php", {}, function (mensaje) {
-
-        $.post("../php/obtenerGrupos.php", {}, function (data) {
-            $("#containerGrupo").html(data);
-        });
 
         var usuarios = mensaje.split("-");
         for (var i = 1; i <= usuarios[0]; i++) {
@@ -87,250 +91,12 @@ function desarchivar_cli(id) {
 
 }
 
-function eliminar(id) {
-    var confird = confirm("¿Esta seguro de eliminar este cliente?, esta acción no puede deshacerse.");
-    if (confird == true) {
-        $.post("../php/eliminarCliente.php", { id: id }, function () {
-            location.reload();
-        });
-    }
-}
-
-function seleccionar_actual(id) {
-    let index = actuales.indexOf(id);
-    if (index == -1) {
-        actuales.push(id);
-    }
-    else {
-        actuales.splice(index, 1);
-    }
-
-
-}
-
-function seleccionar_oper_actual(id) {
-    let index = actuales_oper.indexOf(id);
-    if (index == -1) {
-        actuales_oper.push(id);
-    }
-    else {
-        actuales_oper.splice(index, 1);
-    }
-}
-
-function sel_all() {
-    var estado = document.getElementById('sel_all').checked;
-
-    $.post("../php/getGruposId.php", {}, function (data) {
-        var ndata = eval(data);
-        var array = JSON.parse("[" + ndata + "]");
-        grupos_sel = [];
-        if (estado == true) {
-            array.forEach(seleccionar_todo);
-        }
-        else {
-            array.forEach(deseleccionar_todo);
-        }
-    });
-}
-
-function seleccionar_todo(item) {
-    document.getElementById(item).checked = true;
-    grupos_sel.push(item);
-}
-
-function deseleccionar_todo(item) {
-    document.getElementById(item).checked = false;
-    grupos_sel = [];
-}
-
-function seleccionar_nuevo(id) {
-    let index = nuevos.indexOf(id);
-    if (index == -1) {
-        nuevos.push(id);
-    }
-    else {
-        nuevos.splice(index, 1);
-    }
-}
-
-function grupos_rep(id) {
-    let index = grupos_sel.indexOf(id);
-    if (index == -1) {
-        grupos_sel.push(id);
-    }
-    else {
-        grupos_sel.splice(index, 1);
-    }
-}
-
-function guardar_grupo_asig() {
-    total = document.getElementById('cps').value;
-    repartir = document.getElementById('repartir').value;
-    grupos = grupos_sel;
-    if (repartir == 0) {
-        alert('Ingrese un número de clientes a repartir.');
-    }
-    else {
-        if (repartir > total) {
-            alert('El número de clientes a repartir supera al total disponible.');
-        }
-        else {
-            $.post("../php/repartirGrupo.php", { total: total, repartir: repartir, grupos: grupos }, function (data) {
-                alert('Clientes asignados correctamente.');
-                location.reload();
-
-
-            });
-        }
-    }
-}
-
-function mostrar_asign() {
-    $('#n_grupo_asig').modal('show');
-}
-
-function seleccionar_operador(id) {
-    let index = actuales_oper.indexOf(id);
-    if (index == -1) {
-        nuevos_oper.push(id);
-    }
-    else {
-        nuevos_oper.splice(index, 1);
-    }
-}
-
-function subir_operadores(id) {
-    if (nuevos_oper.length == 0) {
-        alert('Seleccione algun operador para agregar.');
-    }
-    else {
-        $.post("../php/subirGrupo.php", { nuevos: nuevos_oper, idgrupo: id, tipo: 2 }, function (data) {
-            console.log(data);
-            nuevos_oper = [];
-            goToEditarMiembrosDeGrupo(id);
-
-        });
-    }
-}
-
-function bajar_seleccionados(id) {
-    if (actuales.length == 0) {
-        alert('Seleccione algun cliente para retirar del grupo.');
-    }
-    else {
-        $.post("../php/bajarGrupo.php", { nuevos: actuales, idgrupo: id, tipo: 1 }, function (data) {
-            console.log(data);
-            actuales = [];
-            goToEditarMiembrosDeGrupo(id);
-
-        });
-    }
-}
-
-function bajar_oper(id) {
-    if (actuales_oper.length == 0) {
-        alert('Seleccione algun cliente para retirar del grupo.');
-    }
-    else {
-        $.post("../php/bajarGrupo.php", { nuevos: actuales_oper, idgrupo: id, tipo: 2 }, function (data) {
-            console.log(data);
-            actuales_oper = [];
-            goToEditarMiembrosDeGrupo(id);
-
-        });
-    }
-}
-
-async function subir_seleccionados(id) {
-    if (nuevos.length == 0) {
-        alert('Seleccione algun cliente para agregar.');
-    }
-    else {
-        await $.post("../php/subirGrupo.php", { idgrupo: id, tipo: 1, nuevos: nuevos }, function (data) {
-            console.log(data);
-            nuevos = [];
-            goToEditarMiembrosDeGrupo(id);
-        });
-    }
-}
-
-function qTodos() {
-    sele = document.getElementById('qlpage').checked;
-    if (sele == true) {
-        $(qtable.rows({ page: 'current' }).nodes()).find(':checkbox').each(function () {
-            $this = $(this);
-            $this.prop("checked", true);
-            let index = actuales.indexOf($this.attr('id'));
-
-            if (index == -1) {
-                actuales.push($this.attr('id'));
-            }
-            else {
-                actuales.splice(index, 1);
-            }
-        });
-    }
-    else {
-        $(qtable.rows({ page: 'current' }).nodes()).find(':checkbox').each(function () {
-            $this = $(this);
-            $this.prop("checked", false);
-
-            let index = actuales.indexOf($this.attr('id'));
-            if (index == -1) {
-
-            }
-            else {
-                actuales.splice(index, 1);
-            }
-        });
-    }
-}
-
-function qTodosT() {
-    sele = document.getElementById('qlall').checked;
-    if (sele == true) {
-        $(qtable.rows({ page: 'all', search: 'applied' }).nodes()).find(':checkbox').each(function () {
-            $this = $(this);
-            $this.prop("checked", true);
-
-            let index = actuales.indexOf($this.attr('id'));
-
-            if (index == -1) {
-                actuales.push($this.attr('id'));
-            }
-            else {
-                actuales.splice(index, 1);
-            }
-        });
-    }
-    else {
-        $(qtable.rows({ page: 'all', search: 'applied' }).nodes()).find(':checkbox').each(function () {
-            $this = $(this);
-            $this.prop("checked", false);
-
-            let index = actuales.indexOf($this.attr('id'));
-            if (index == -1) {
-
-            }
-            else {
-                actuales.splice(index, 1);
-            }
-        });
-    }
-}
-
-function editar_nuevo(id) {
-    location.replace("Modulo_Administrador.php?editar_cliente=" + id);
-}
-
 function abrirEditarCliente(cod_cliente) {
 
     cliente_actual = cod_cliente
     $.post('../php/obtenerDatosCliente.php', {
         if: cliente_actual
     }, function (mensaje) {
-        // console.log(mensaje)
         var x = mensaje.split("|");
 
         $("#ID_clienteM").val($.trim(cliente_actual));
@@ -425,58 +191,6 @@ function seleccionarTodosT() {
 
 }
 
-function editar_grupo(id) {
-    $.post("../php/editarGrupos.php", { id: id }, function (data) {
-        $("#containerGrupo").html(data);
-        qtable = $('#clientes_grupo').DataTable({
-            language: {
-                "decimal": "",
-                "emptyTable": "No hay información",
-                "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
-                "infoEmpty": "Mostrando 0 a 0 de 0 Entradas",
-                "infoFiltered": "(Filtrado de _MAX_ total entradas)",
-                "infoPostFix": "",
-                "thousands": ",",
-                "lengthMenu": "Mostrar _MENU_ Entradas",
-                "loadingRecords": "Cargando...",
-                "processing": "Procesando...",
-                "search": "Buscar:",
-                "zeroRecords": "Sin resultados encontrados",
-                "paginate": {
-                    "first": "Primero",
-                    "last": "Ultimo",
-                    "next": "Siguiente",
-                    "previous": "Anterior"
-                }
-            }
-        });
-
-        otable = $('#clientes_libres').DataTable({
-            language: {
-                "decimal": "",
-                "emptyTable": "No hay información",
-                "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
-                "infoEmpty": "Mostrando 0 a 0 de 0 Entradas",
-                "infoFiltered": "(Filtrado de _MAX_ total entradas)",
-                "infoPostFix": "",
-                "thousands": ",",
-                "lengthMenu": "Mostrar _MENU_ Entradas",
-                "loadingRecords": "Cargando...",
-                "processing": "Procesando...",
-                "search": "Buscar:",
-                "zeroRecords": "Sin resultados encontrados",
-                "paginate": {
-                    "first": "Primero",
-                    "last": "Ultimo",
-                    "next": "Siguiente",
-                    "previous": "Anterior"
-                }
-            }
-        });
-
-    });
-}
-
 function mostrar_canton(prov) {
     if (prov != '') {
         $.post("../php/getCanton.php", { provincia: prov }, function (data) {
@@ -490,39 +204,6 @@ function mostrar_parro(canton) {
         $.post("../php/getParro.php", { canton: canton }, function (data) {
             document.getElementById('parroquia_group').innerHTML = data;
         });
-    }
-}
-
-function borrar_grupo(id) {
-    $.post("../php/borrarGrupo.php", { id: id }, function () {
-        alert('Grupo eliminado correctamente.');
-        //location.reload();
-
-        $.post("../php/obtenerGrupos.php", {}, function (data) {
-            $("#containerGrupo").html(data);
-        });
-    })
-}
-
-function guardar_grupo() {
-    var nombre = document.getElementById('name_group').value;
-    var provincia = document.getElementById('provincia_group').value;
-    var canton = document.getElementById('canton_group').value;
-    var parroquia = document.getElementById('parroquia_group').value;
-    var comentario = document.getElementById('comentario_group').value;
-
-    if (nombre == '' || provincia == '' || canton == '' || parroquia == '') {
-        alert('Verifique que todos los campos fueron llenados.');
-    }
-    else {
-        $.post("../php/guardarGrupo.php", { nombre: nombre, provincia: provincia, canton: canton, parroquia: parroquia, comentario: comentario }, function () {
-            alert('Grupo guardado correctamente.');
-            $('#n_grupo').modal('toggle');
-            $.post("../php/obtenerGrupos.php", {}, function (data) {
-                $("#containerGrupo").html(data);
-            });
-
-        })
     }
 }
 
@@ -1164,88 +845,6 @@ $("#ControlI").click(function () {
 
 });
 
-//nueva pestaña grupo
-$("#GrupoP").click(function () {
-
-    llenar_control("Historial_Usuario.php", "Control");
-    $("div.active").hide("active");
-    $(".active").removeClass("active");
-    $("#PcrearU").addClass("active");
-    $("#PcambiarP").removeClass("active");
-    $("#ControlP").removeClass("active");
-    $("#GenerarR").removeClass("active");
-    $("#containerli").css("display", "block");
-
-
-    if ($("#containerGrupo").css("display") == "none") {
-        $("#containerGrupo").toggle("slow", function () {
-            $("#containerGrupo").css("display", "block");
-        });
-    }
-
-    if ($("#containerClientes").css("display") == "block") {
-        $("#containerClientes").toggle("slow", function () {
-            $("#containerClientes").css("display", "none");
-        });
-    }
-
-    if ($("#containerRegister").css('display') == "block") {
-        $("#containerRegister").toggle("slow", function () {
-            $("#containerRegister").css("display", 'none');
-        });
-
-    }
-    if ($("#containerCP").css('display') == "block") {
-        $("#containerCP").toggle("slow", function () {
-            $("#containerCP").css("display", "none");
-        });
-
-    }
-    if ($("#containerPO").css('display') == "block") {
-        $("#containerPO").toggle("slow", function () {
-            $("#containerPO").css("display", "none");
-        });
-
-    }
-    if ($("#containerGR").css('display') == "block") {
-        $("#containerGR").toggle("slow", function () {
-            $("#containerGR").css("display", "none");
-        });
-
-    }
-    if ($("#containerInac").css('display') == "block") {
-        $("#containerInac").toggle("slow", function () {
-            $("#containerInac").css("display", "none");
-        });
-
-    }
-    if ($("#containerControl").css('display') == "block") {
-        $("#containerControl").toggle("slow", function () {
-            $("#containerControl").css("display", 'none');
-        });
-
-    }
-    if ($("#containerVClientes").css("display") == "block") {
-        $("#containerVClientes").toggle("slow", function () {
-            $("#containerVClientes").css("display", "none");
-        });
-    }
-    if ($("#containerTira").css("display") == "block") {
-        $("#containerTira").toggle("slow", function () {
-            $("#containerTira").css("display", "none");
-        });
-    }
-    $("#containerControl").css("display", 'none')
-
-});
-
-$("#cerrar_sesion").click(function () {
-    $.post("../php/exit_script.php", {}, function (mensaje) {
-        if (mensaje == 1)
-            location.replace("../index.html");
-    });
-});
-
 $("#btn-b").click(function () {
     var msx = $("#input_BP").val();
     $(".search").fadeIn("slow");
@@ -1796,7 +1395,7 @@ function hideContainerSubMenu() {
         });
     }
 
-    if ($("#containerControl").css('display') == "block") {
+    if ($("#containerControl").css('display') == "block" || $("#containerControl").css('display') == "flex") {
         $("#containerControl").toggle("slow", function () {
             $("#containerControl").css("display", 'none');
         });
@@ -1830,140 +1429,56 @@ function hideContainerSubMenu() {
 //#endregion
 
 
-//#region Pestaña Subir Clientes
-
-$("#SubirClientes").click(function () {
-
-    hideContainerSubMenu();
-
-    $("#PcrearU").addClass("active");
-    $("#containerClientes").toggle("slow", function () {
-        $("#containerClientes").css("display", "block");
-    });
-
-});
-
-function goToSubirClientes() {
-    $("#subirClientesHistorial").css("display", 'none');
-    $("#subirClientesMain").css("display", 'block');
-}
-
-function mostrarHistorialArchivosClientes() {
-    $("#subirClientesMain").css("display", 'none');
-    $("#subirClientesHistorial").css("display", 'block');
-}
-
-function eliminarArchivoCliente(id) {
-    Swal.fire({
-        title: "¿Está seguro de eliminar TODOS los clientes que se subió con este archivo ?",
-        icon: "question",
-        showDenyButton: true,
-        confirmButtonColor: "#0062cc",
-        confirmButtonText: "Confirmar",
-        denyButtonText: `Cancelar`
-    }).then((result) => {
-        if (result.isConfirmed) {
-            $.post("./Administrador/SubirClientes/eliminarClienteDeArchivo.php", { id: id }, function () {
-                Swal.fire("Eliminación Exitosa.", "", "success", 1500);
-
-                Swal.fire({
-                    title: 'Eliminación Exitosa.',
-                    icon: 'success',
-                    timer: '2500'
-                }).then(() => {
-                    location.reload();
-                });
-            });
-        }
-    });
-}
-
-//#endregion
-
-
-//#region Pestaña Ver Clientes Nuevos
-
-$("#VerClientesNuevos").click(function () {
-
-    hideContainerSubMenu();
-
-    if ($("#containerVClientes").css("display") == "none") {
-        $("#containerVClientes").toggle("slow", function () {
-            $("#containerVClientes").css("display", "block");
-        });
-    }
-
-    goToClientesNuevos()
-
-});
-
-function goToClientesNuevos() {
-    $("#divRepartirClientes").css("display", 'none');
-    $("#divClientesNuevos").css("display", 'block');
-}
-
-function goToRepartirClientes() {
-    $("#divClientesNuevos").css("display", 'none');
-    $("#divRepartirClientes").css("display", 'block');
-    getSelectRepartirClientes()
-}
-
-function getSelectRepartirClientes() {
-    $.post("./Administrador/ClientesNuevos/getSelectGrupoPoblacional.php", function (data) {
-        $("#formControlGrupoPoblacional").html(data);
-        $("#listGroupRepartirClientes").html("");
-    });
-}
-
-function getListGroupRepartirClientes() {
-    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
-    var filtroDisponible = document.getElementById('fitro_disponible').value;
-    var filtroAsignado = document.getElementById('filtro_asignado').value;
-
-
-    if (idGrupoPoblacional == "") {
-        document.getElementById('fitro_disponible').value = "";
-        document.getElementById('filtro_asignado').value = "";
-        $("#divFiltroRepartirClientes").css("display", 'none');
-        $("#listGroupRepartirClientes").css("display", 'none');
-    } else {
-        $("#divFiltroRepartirClientes").css("display", 'flex');
-        $("#listGroupRepartirClientes").css("display", 'block');
-
-        filtroDisponible = (filtroDisponible == null || filtroDisponible == undefined) ? "" : filtroDisponible
-        filtroAsignado = (filtroAsignado == null || filtroAsignado == undefined) ? "" : filtroAsignado
-        $.post("./Administrador/ClientesNuevos/getHTMLRepartirClientes.php", { id: idGrupoPoblacional, filtro_disponible: filtroDisponible, filtro_asignado: filtroAsignado }, function (data) {
-            $("#listGroupRepartirClientes").html(data);
-        });
-    }
-}
-
-function agregarClienteAGrupo(codigo) {
-
-    if (!loading) {
-        loading = true;
-        $.post("./Administrador/ClientesNuevos/postAsignarClienteAGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
-            getListGroupRepartirClientes(idGrupoPoblacional);
-            loading = false;
-        });
-    }
-}
-
-function retirarClienteDeGrupo(codigo) {
-
-    if (!loading) {
-        loading = true;
-        $.post("./Administrador/ClientesNuevos/deleteRetirarClienteDeGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
-            getListGroupRepartirClientes();
-            loading = false;
-        });
-    }
-}
-
-//#endregion
-
-
 //#region Pestaña Grupos Poblacionales
+
+$("#GruposPoblacionales").click(function () {
+
+    hideContainerSubMenu();
+
+    if ($("#containerGrupo").css("display") == "none") {
+        $("#containerGrupo").toggle("slow", function () {
+            $("#containerGrupo").css("display", "block");
+        });
+    }
+
+    goToGruposPoblacionales()
+
+});
+
+function goToGruposPoblacionales() {
+    $.post("./Administrador/GruposPoblacionales/getHTMLGruposPoblacionales.php", {}, function (data) {
+        $("#containerGrupo").html(data);
+    });
+}
+
+function borrar_grupo(id) {
+    $.post("../php/borrarGrupo.php", { id: id }, function () {
+        alert('Grupo eliminado correctamente.');
+        goToGruposPoblacionales()
+    })
+}
+
+function guardar_grupo() {
+    var nombre = document.getElementById('name_group').value;
+    var provincia = document.getElementById('provincia_group').value;
+    var canton = document.getElementById('canton_group').value;
+    var parroquia = document.getElementById('parroquia_group').value;
+    var comentario = document.getElementById('comentario_group').value;
+
+    if (nombre == '' || provincia == '' || canton == '' || parroquia == '') {
+        alert('Verifique que todos los campos fueron llenados.');
+    }
+    else {
+        $.post("../php/guardarGrupo.php", { nombre: nombre, provincia: provincia, canton: canton, parroquia: parroquia, comentario: comentario }, function () {
+            alert('Grupo guardado correctamente.');
+            $('#n_grupo').modal('toggle');
+
+            goToGruposPoblacionales()
+
+        })
+    }
+}
+
 function goToEditarMiembrosDeGrupo(id) {
     $.post("./Administrador/GruposPoblacionales/getHTMLEditarMiembros.php", { id: id }, function (data) {
         $("#containerGrupo").html(data);
@@ -2071,31 +1586,316 @@ function setCodigoCliente(codigo) {
 
 function asignarOperadorACliente(checkbox) {
 
-    /* var items = document.querySelectorAll(".containerPopover .form-check-input");
-
-    console.log(items)
-
-    items.forEach(item => {
-        console.log(item.value);
-    }); */
-
     var id_operador = checkbox.value
-
-    console.log(id_operador)
-    console.log(codigo_cliente)
-    console.log(checkbox.checked)
 
     if (checkbox.checked) {
         $.post("./Administrador/GruposPoblacionales/postAsignarOperadorACliente.php", { id_operador: id_operador, codigo_cliente: codigo_cliente }, function (data) {
-            console.log(data);
         });
     }
     else {
         $.post("./Administrador/GruposPoblacionales/deleteEliminarOperadorACliente.php", { id_operador: id_operador, codigo_cliente: codigo_cliente }, function (data) {
-            console.log(data);
         });
     }
+}
 
+function seleccionar_actual(id) {
+    let index = actuales.indexOf(id);
+    if (index == -1) {
+        actuales.push(id);
+    }
+    else {
+        actuales.splice(index, 1);
+    }
+}
+
+function seleccionar_nuevo(id) {
+    let index = nuevos.indexOf(id);
+    if (index == -1) {
+        nuevos.push(id);
+    }
+    else {
+        nuevos.splice(index, 1);
+    }
+}
+
+function seleccionar_oper_actual(id) {
+    let index = actuales_oper.indexOf(id);
+    if (index == -1) {
+        actuales_oper.push(id);
+    }
+    else {
+        actuales_oper.splice(index, 1);
+    }
+}
+
+function seleccionar_operador(id) {
+    let index = actuales_oper.indexOf(id);
+    if (index == -1) {
+        nuevos_oper.push(id);
+    }
+    else {
+        nuevos_oper.splice(index, 1);
+    }
+}
+
+function qTodos() {
+    sele = document.getElementById('qlpage').checked;
+    if (sele == true) {
+        $(qtable.rows({ page: 'current' }).nodes()).find(':checkbox').each(function () {
+            $this = $(this);
+            $this.prop("checked", true);
+            let index = actuales.indexOf($this.attr('id'));
+
+            if (index == -1) {
+                actuales.push($this.attr('id'));
+            }
+            else {
+                actuales.splice(index, 1);
+            }
+        });
+    }
+    else {
+        $(qtable.rows({ page: 'current' }).nodes()).find(':checkbox').each(function () {
+            $this = $(this);
+            $this.prop("checked", false);
+
+            let index = actuales.indexOf($this.attr('id'));
+            if (index == -1) {
+
+            }
+            else {
+                actuales.splice(index, 1);
+            }
+        });
+    }
+}
+
+function qTodosT() {
+    sele = document.getElementById('qlall').checked;
+    if (sele == true) {
+        $(qtable.rows({ page: 'all', search: 'applied' }).nodes()).find(':checkbox').each(function () {
+            $this = $(this);
+            $this.prop("checked", true);
+
+            let index = actuales.indexOf($this.attr('id'));
+
+            if (index == -1) {
+                actuales.push($this.attr('id'));
+            }
+            else {
+                actuales.splice(index, 1);
+            }
+        });
+    }
+    else {
+        $(qtable.rows({ page: 'all', search: 'applied' }).nodes()).find(':checkbox').each(function () {
+            $this = $(this);
+            $this.prop("checked", false);
+
+            let index = actuales.indexOf($this.attr('id'));
+            if (index == -1) {
+
+            }
+            else {
+                actuales.splice(index, 1);
+            }
+        });
+    }
+}
+
+async function subir_seleccionados(id) {
+    if (nuevos.length == 0) {
+        alert('Seleccione algun cliente para agregar.');
+    }
+    else {
+        await $.post("../php/subirGrupo.php", { idgrupo: id, tipo: 1, nuevos: nuevos }, function (data) {
+            nuevos = [];
+            goToEditarMiembrosDeGrupo(id);
+        });
+    }
+}
+
+function bajar_seleccionados(id) {
+    if (actuales.length == 0) {
+        alert('Seleccione algun cliente para retirar del grupo.');
+    }
+    else {
+        $.post("../php/bajarGrupo.php", { nuevos: actuales, idgrupo: id, tipo: 1 }, function (data) {
+            actuales = [];
+            goToEditarMiembrosDeGrupo(id);
+        });
+    }
+}
+
+function subir_operadores(id) {
+    if (nuevos_oper.length == 0) {
+        alert('Seleccione algun operador para agregar.');
+    }
+    else {
+        $.post("../php/subirGrupo.php", { nuevos: nuevos_oper, idgrupo: id, tipo: 2 }, function (data) {
+            nuevos_oper = [];
+            goToEditarMiembrosDeGrupo(id);
+
+        });
+    }
+}
+
+function bajar_oper(id) {
+    if (actuales_oper.length == 0) {
+        alert('Seleccione algun cliente para retirar del grupo.');
+    }
+    else {
+        $.post("../php/bajarGrupo.php", { nuevos: actuales_oper, idgrupo: id, tipo: 2 }, function (data) {
+            actuales_oper = [];
+            goToEditarMiembrosDeGrupo(id);
+        });
+    }
+}
+//#endregion
+
+
+//#region Pestaña Subir Clientes
+
+$("#SubirClientes").click(function () {
+
+    hideContainerSubMenu();
+
+    $("#PcrearU").addClass("active");
+    $("#containerClientes").toggle("slow", function () {
+        $("#containerClientes").css("display", "block");
+    });
+
+});
+
+function goToSubirClientes() {
+    $("#subirClientesHistorial").css("display", 'none');
+    $("#subirClientesMain").css("display", 'block');
+}
+
+function mostrarHistorialArchivosClientes() {
+    $("#subirClientesMain").css("display", 'none');
+    $("#subirClientesHistorial").css("display", 'block');
+}
+
+function eliminarArchivoCliente(id) {
+    Swal.fire({
+        title: "¿Está seguro de eliminar TODOS los clientes que se subió con este archivo ?",
+        icon: "question",
+        showDenyButton: true,
+        confirmButtonColor: "#0062cc",
+        confirmButtonText: "Confirmar",
+        denyButtonText: `Cancelar`
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $.post("./Administrador/SubirClientes/eliminarClienteDeArchivo.php", { id: id }, function () {
+                Swal.fire("Eliminación Exitosa.", "", "success", 1500);
+
+                Swal.fire({
+                    title: 'Eliminación Exitosa.',
+                    icon: 'success',
+                    timer: '2500'
+                }).then(() => {
+                    location.reload();
+                });
+            });
+        }
+    });
 }
 
 //#endregion
+
+
+//#region Pestaña Ver Clientes Nuevos
+
+$("#VerClientesNuevos").click(function () {
+
+    hideContainerSubMenu();
+
+    if ($("#containerVClientes").css("display") == "none") {
+        $("#containerVClientes").toggle("slow", function () {
+            $("#containerVClientes").css("display", "block");
+        });
+    }
+
+    goToClientesNuevos()
+
+});
+
+function eliminarCliente(id) {
+    var confird = confirm("¿Esta seguro de eliminar este cliente?, esta acción no puede deshacerse.");
+    if (confird == true) {
+        $.post("../php/eliminarCliente.php", { id: id }, function () {
+            location.reload();
+        });
+    }
+}
+
+function editar_nuevo(id) {
+    location.replace("Modulo_Administrador.php?editar_cliente=" + id);
+}
+
+function goToClientesNuevos() {
+    $("#divRepartirClientes").css("display", 'none');
+    $("#divClientesNuevos").css("display", 'block');
+}
+
+function goToRepartirClientes() {
+    $("#divClientesNuevos").css("display", 'none');
+    $("#divRepartirClientes").css("display", 'block');
+    getSelectRepartirClientes()
+}
+
+function getSelectRepartirClientes() {
+    $.post("./Administrador/ClientesNuevos/getSelectGrupoPoblacional.php", function (data) {
+        $("#formControlGrupoPoblacional").html(data);
+        $("#listGroupRepartirClientes").html("");
+    });
+}
+
+function getListGroupRepartirClientes() {
+    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
+    var filtroDisponible = document.getElementById('fitro_disponible').value;
+    var filtroAsignado = document.getElementById('filtro_asignado').value;
+
+
+    if (idGrupoPoblacional == "") {
+        document.getElementById('fitro_disponible').value = "";
+        document.getElementById('filtro_asignado').value = "";
+        $("#divFiltroRepartirClientes").css("display", 'none');
+        $("#listGroupRepartirClientes").css("display", 'none');
+    } else {
+        $("#divFiltroRepartirClientes").css("display", 'flex');
+        $("#listGroupRepartirClientes").css("display", 'block');
+
+        filtroDisponible = (filtroDisponible == null || filtroDisponible == undefined) ? "" : filtroDisponible
+        filtroAsignado = (filtroAsignado == null || filtroAsignado == undefined) ? "" : filtroAsignado
+        $.post("./Administrador/ClientesNuevos/getHTMLRepartirClientes.php", { id: idGrupoPoblacional, filtro_disponible: filtroDisponible, filtro_asignado: filtroAsignado }, function (data) {
+            $("#listGroupRepartirClientes").html(data);
+        });
+    }
+}
+
+function agregarClienteAGrupo(codigo) {
+
+    if (!loading) {
+        loading = true;
+        $.post("./Administrador/ClientesNuevos/postAsignarClienteAGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
+            getListGroupRepartirClientes(idGrupoPoblacional);
+            loading = false;
+        });
+    }
+}
+
+function retirarClienteDeGrupo(codigo) {
+
+    if (!loading) {
+        loading = true;
+        $.post("./Administrador/ClientesNuevos/deleteRetirarClienteDeGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
+            getListGroupRepartirClientes();
+            loading = false;
+        });
+    }
+}
+
+//#endregion
+

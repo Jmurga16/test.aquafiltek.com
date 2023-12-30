@@ -95,14 +95,14 @@ if ($_SESSION['TipoUsuario'] == 1) {
                 <li role="presentation" class="active"><a href="#containerRegister" style="text-decoration:none" id="CrearU1" aria-controls="home" role="tab" data-toggle="tab">Crear usuario</a></li>
                 <li role="presentation" style="margin-left:25px"><a href="#containerControl" style="text-decoration:none" id="ControlU" aria-controls="profile" role="tab" data-toggle="tab">Control de usuarios</a></li>
                 <li role="presentation" style="margin-left:25px"><a href="#containerCP" style="text-decoration:none" id="CambiarP" aria-controls="messages" role="tab" data-toggle="tab">Cambiar contraseñas</a></li>
-                <li role="presentation" style="margin-left:25px"><a href="#containerGrupo" style="text-decoration:none" id="GrupoP" aria-controls="messages" role="tab" data-toggle="tab">Grupos poblacionales</a></li>
+                <li role="presentation" style="margin-left:25px"><a href="#containerGrupo" style="text-decoration:none" id="GruposPoblacionales" aria-controls="messages" role="tab" data-toggle="tab">Grupos poblacionales</a></li>
                 <li role="presentation" style="margin-left:25px"><a href="#containerClientes" style="text-decoration:none" id="SubirClientes" aria-controls="messages" role="tab" data-toggle="tab">Subir Clientes</a></li>
                 <li role="presentation" style="margin-left:25px"><a href="#containerVClientes" style="text-decoration:none" id="VerClientesNuevos" aria-controls="messages" role="tab" data-toggle="tab">Ver Clientes nuevos</a></li>
             </ul>
         </div>
         <!-- Menu Usuarios -->
         <!-- Tab panes -->
-        <div class="tab-content">
+        <div class="tab-content" id="divTabUsuarios">
 
             <div role="tabpanel" class="tab-pane active" id="containerRegister">
                 <div class="container fondo">
@@ -314,7 +314,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
                                 ?>
                                     <input type='button' class='btn btn-info' value='Editar' onclick="editar_nuevo('<?PHP echo $res['codigo']; ?>')" />
                                     <br>
-                                    <input type='button' class='btn btn-danger' value='Eliminar' onclick="eliminar('<?PHP echo $res['codigo']; ?>')" />
+                                    <input type='button' class='btn btn-danger' value='Eliminar' onclick="eliminarCliente('<?PHP echo $res['codigo']; ?>')" />
                                 <?PHP echo "</td>
                                         </tr>";
                                 }
@@ -586,7 +586,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
                         $full = $fila['motivo'];
                         $fila['motivo'] = substr($fila['motivo'], 0, 30);
 
-                        echo "<tr><td>" . $fila['codigo'] . "</td><td>" . $fila['nombre_completo'] . "</td><td data-toggle='tooltip' data-placement='top' title='" . $full . "'>" . $fila['motivo'] . "</td><td>" . $tipo_in . "</td><td>" . $fila['fecha'] . " - " . $fila['hora'] . "</td><td>" . $res['user'] . "</td><td><input type='button' class='btn btn-success' onclick=desarchivar_cli('" . $fila['codigo'] . "') value='Desarchivar'><br/><br/><input type='button' class='btn btn-danger' value='Eliminar' onclick=eliminar('" . $fila['codigo'] . "')></td></tr>";
+                        echo "<tr><td>" . $fila['codigo'] . "</td><td>" . $fila['nombre_completo'] . "</td><td data-toggle='tooltip' data-placement='top' title='" . $full . "'>" . $fila['motivo'] . "</td><td>" . $tipo_in . "</td><td>" . $fila['fecha'] . " - " . $fila['hora'] . "</td><td>" . $res['user'] . "</td><td><input type='button' class='btn btn-success' onclick=desarchivar_cli('" . $fila['codigo'] . "') value='Desarchivar'><br/><br/><input type='button' class='btn btn-danger' value='Eliminar' onclick=eliminarCliente('" . $fila['codigo'] . "')></td></tr>";
                     }
 
 
@@ -801,69 +801,6 @@ if ($_SESSION['TipoUsuario'] == 1) {
         </div>
     </div>
     <!-- FIN MODAL GRUPOS -->
-
-
-    <!-- MODAL ASIGNAR NUEVOS -->
-    <div class="modal fade bs-example-modal-lg" id="n_grupo_asig" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Repartir clientes</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-                </div>
-
-                <div class="modal-body">
-                    <strong>Clientes pendientes de asignar: <?php
-                                                            include('connect.php');
-                                                            $num = mysqli_query($enlace, "SELECT * FROM DatosClientes LEFT JOIN grupo_asignacion on DatosClientes.codigo = grupo_asignacion.id_cliente WHERE actualizar_pendiente = 1 AND grupo_asignacion.id_cliente IS NULL");
-                                                            $num_all = mysqli_num_rows($num);
-                                                            echo "$num_all <input type='hidden' name='cps' id='cps' value='$num_all'/>";
-
-                                                            mysqli_close($enlace); ?></strong>
-                    <br>
-                    <br>
-                    <label>Cantidad de clientes a repartir:</label> <input type='number' style="width:100px" name='repartir' id='repartir'>
-                    <br>
-                    <br>
-                    <label>Seleccione los grupos entre los que se repartirán:</label>
-                    <br>
-                    <br>
-                    <table class="table table-bordered table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Operador</th>
-                                <th style='text-align:center'><small><strong>Seleccionar todos</strong><input type='checkbox' name='sel_all' onchange='sel_all()' id='sel_all' /></small></th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                            include('connect.php');
-                            $grupos = mysqli_query($enlace, "SELECT grupos.id idgrupo,  grupos.nombre, grupos.comentario, DatosIngreso.id, DatosIngreso.user  FROM grupos LEFT JOIN grupo_asignacion on grupos.id = grupo_asignacion.id_grupo LEFT JOIN DatosIngreso on grupo_asignacion.id_cliente = DatosIngreso.id WHERE grupo_asignacion.tipo = 2");
-                            while ($res = mysqli_fetch_array($grupos)) {
-                                echo "<tr>
-        <td>" . $res['nombre'] . " - " . $res['comentario'] . "</td>
-        <td>" . $res['user'] . "</td>
-        <td align=center><input type='checkbox' id='" . $res['idgrupo'] . "' onchange='grupos_rep(" . $res['idgrupo'] . ")'/></td>
-        </tr>";
-                            }
-                            mysqli_close($enlace);
-                            ?>
-                        </tbody>
-                    </table>
-
-                </div>
-                <div class="modal-footer">
-
-                    <button type="button" class="btn btn-primary" onclick='guardar_grupo_asig()'>Guardar cambios</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FIN MODAL ASIGNAR NUEVOS -->
 
 
     <!-- MODAL Modificar cliente -->
