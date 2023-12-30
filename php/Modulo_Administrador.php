@@ -340,7 +340,7 @@ if ($_SESSION['TipoUsuario'] == 1) {
 
                             </div>
 
-                            <div class='row mb-3' id='divFiltroRepartirClientes'>
+                            <div class='row mb-3' id='divFiltroRepartirClientes' style="display:none">
                                 <div class='col-md-6'>
                                     <div class='mb-2'>
                                         <strong class='mb-2'>Clientes disponibles</strong>
