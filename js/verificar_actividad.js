@@ -64,7 +64,7 @@ function verificar_inactividad() {
     tiempo_ausente += 5;
     
     //comentado 01022021 if (tiempo_ausente == 600) {
-    console.log('ausente:'+tiempo_ausente);
+    //console.log('ausente:'+tiempo_ausente);
 
 
 

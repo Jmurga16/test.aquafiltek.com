@@ -1,60 +1,73 @@
-var esta_aumentando = false;
-var cliente_actual;
-var nombre_cliente_actual;
-var inactivo_actual;
-var cliente_espacios;
-var cliente_urgente_actual;
-var esta_importante = false;
-//comentado 01022021 var tiempo_ausente = 0;
-var urge = false;
-var llamadas_hoy = [];
-var contador;
-var cantidad_clientes;
-var clientes_cookie_cargado = false;
-var clientes_cookie;
-var ultima_busqueda;
-var primer_enter = false;
+var all_clientes = [];//26082021
+var arr_codigos_tabla = [];
+var arr_filtros = [];
 var arr_id_gestionar = [];
 var arr_id_modals = [];
+var arr_id_urgente = []; //27082021
+var arr_nombre_urgente = []; //27082021
+
+var cantidad_clientes;
+var cantidad_gestionados = 0;
+var cambio_siguiente = false;//03092021
+var cambio_anterior = false;//03092021;
+var cerrado_automatico = false;//2108 sobreposicion
+var cliente_actual;
+var cliente_espacios;
+var cliente_urgente_actual;
+var clientes_cookie;
+var clientes_cookie_cargado = false;
+var codigo_seleccionado_aux = '';//2008 para problema de cliente seleccionado
+var codigo_de_sig = '';//21102021
+var codigo_de_ant = '';//21102021
+var contador;
+
+var esta_aumentando = false;
+var esta_cambiando = false;//21102021
+var esta_importante = false;
+
+var desde_postventa = false;//20082021 para cobros postventa
+
+var haciendo_llamada = false;
+var haciendo_gestion = false;//20102021
+var hizo_busqueda = false;//12102021
+
+var id_actual = '';
 var id_modal_actual = '';
+var id_nxt = -1, id_nxt2 = -1, id_nxt3 = -1;//28072021
+var inactivo_actual;
+var json_ocupados = null;
+var llamadas_hoy = [];
+
+//comentado 01022021 var tiempo_ausente = 0;
+
 var max_recordatorios = 6;
 var max_ancho = window.innerWidth;
 var margen_modal = (max_ancho / 6).toFixed(2);
-var vector = [];
-var arr_codigos_tabla = [];
-var arr_filtros = [];
-const GESTION_INSPECCION = 2;
-const GESTION_COBROS = 3;
-const GESTION_IMPORTANTE = 0;
-var obj_gestionados = [];
-var cantidad_gestionados = 0;
-var id_actual = '';
-var desde_postventa = false;//20082021 para cobros postventa
-var codigo_seleccionado_aux = '';//2008 para problema de cliente seleccionado
 var modal_abierto = '';//2108 sobreposicion
-var cerrado_automatico = false;//2108 sobreposicion
-var all_clientes = [];//26082021
-console.log('margen_modal:' + margen_modal);
+var nombre_buscado = '';
+var nombre_cliente_actual;
 
+var obj_gestionados = [];
+var obj_siguiente = { 'idx': -1, 'codigo': '' };//27082021
+
+var primer_enter = false;
 var tira_permanente = $('#tira_permanete').val();
 var tiempo_tira = parseInt($('#tiempo_tira').val()) * 60;//en segundos
-var arr_id_urgente = []; //27082021
-var arr_nombre_urgente = []; //27082021
-var json_ocupados = null;
-var obj_siguiente = { 'idx': -1, 'codigo': '' };//27082021
-var id_nxt = -1, id_nxt2 = -1, id_nxt3 = -1;//28072021
-var cambio_siguiente = false;//03092021
-var cambio_anterior = false;//03092021;
-var nombre_buscado = '';
-var hizo_busqueda = false;//12102021
-var haciendo_llamada = false;
-var haciendo_gestion = false;//20102021
-var esta_cambiando = false;//21102021
-var codigo_de_sig = '';//21102021
-var codigo_de_ant = '';//21102021
 
+var ultima_busqueda;
+var urge = false;
+var vector = [];
+
+const GESTION_IMPORTANTE = 0;
+const GESTION_INSPECCION = 2;
+const GESTION_COBROS = 3;
+
+console.log('margen_modal:' + margen_modal);
 console.log("Version::2.1");
 console.log(tira_permanente + '--tiempo_tira:' + tiempo_tira);
+
+
+
 
 //27082021
 function getItem(item) {
@@ -114,9 +127,9 @@ $("#Motivate").click(function () {
     });
   }
 
-  if ($("#containerPG").css("display") == "block") {
-    $("#containerPG").toggle("slow", function () {
-      $("#containerPG").css("display", "none");
+  if ($("#containerPorGestionar").css("display") == "block") {
+    $("#containerPorGestionar").toggle("slow", function () {
+      $("#containerPorGestionar").css("display", "none");
     });
   }
 
@@ -161,9 +174,9 @@ $("#Gllamada").click(function () {
       $("#ContainerGL").css("display", "block");
     });
   }
-  if ($("#containerPG").css("display") == "block") {
-    $("#containerPG").toggle("slow", function () {
-      $("#containerPG").css("display", "none");
+  if ($("#containerPorGestionar").css("display") == "block") {
+    $("#containerPorGestionar").toggle("slow", function () {
+      $("#containerPorGestionar").css("display", "none");
     });
   }
 
@@ -230,9 +243,9 @@ $("#Recordatorio").click(function () {
     });
   }
 
-  if ($("#containerPG").css("display") == "block") {
-    $("#containerPG").toggle("slow", function () {
-      $("#containerPG").css("display", "none");
+  if ($("#containerPorGestionar").css("display") == "block") {
+    $("#containerPorGestionar").toggle("slow", function () {
+      $("#containerPorGestionar").css("display", "none");
     });
   }
 
@@ -327,9 +340,9 @@ $("#Pventa").click(function () {
     });
   }
 
-  if ($("#containerPG").css("display") == "block") {
-    $("#containerPG").toggle("slow", function () {
-      $("#containerPG").css("display", "none");
+  if ($("#containerPorGestionar").css("display") == "block") {
+    $("#containerPorGestionar").toggle("slow", function () {
+      $("#containerPorGestionar").css("display", "none");
     });
   }
 
@@ -2264,20 +2277,34 @@ function showdata(id) {
   });
 }
 
-function gen_tabla() {
-  $.post('../php/gentablaPG.php', { clientes: selectedpg }, function (data) {
-    //27082021
-    document.getElementById('llenarPG').innerHTML = data;
-  });
+async function gen_tabla() {
+  if (selectedpg.length > 0) {
+    await $.post('../php/gentablaPG.php', { clientes: selectedpg }, function (data) {
+      document.getElementById('llenarPG').innerHTML = data;
+    });
+  }
+}
+
+var auxselectedpg = []
+
+async function selectRowUnicoCliente(id) {
+  selectedpg = []
+  selectedpg.push(id);
+  await gen_tabla()
+
+  if (auxselectedpg.length > 0) {
+    selectedpg = auxselectedpg
+  }
 }
 
 function selpg(id) {
+
   let dat = selectedpg.indexOf(id);
   let exten = selectedpg.length;
 
   if (dat == -1) {
-    if (exten > 6) {
-      alert('Ya ha seleccionado a 7 clientes.');
+    if (exten > 9) {
+      alert('Ya ha seleccionado a 10 clientes.');
       document.getElementById(id).checked = false;
     }
     else {
@@ -2291,6 +2318,8 @@ function selpg(id) {
     console.log(selectedpg);
 
   }
+
+  auxselectedpg = selectedpg
 
 }
 
@@ -3478,42 +3507,6 @@ function volverPG() {
 
 }
 
-
-/*
-$("#btn_Nresponde").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  ///$(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("nr");
-  reactivar_actividad();
-});
-
-$("#btn_equivocado").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("eq");
-  reactivar_actividad();
-});
-
-
-$("#btn_otro").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("ot");
-  reactivar_actividad();
-});
-
-$("#btn_averiado").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("av");
-  reactivar_actividad();
-});
-*/
-
 $("#btn_averiado").click(function () {
   if (inactivo_actual == 1) {
     alert('No puede gestionar a un cliente inactivo.');
@@ -3753,47 +3746,6 @@ $("#btn_rechazoU").click(function () {
   urge = true;
   reactivar_actividad();
 });
-
-/*
-
-$("#btn_NrespondeU").click(function() {
-  reactivar_actividad();
-  $("#idCliente").val(nombre_cliente_actual);
-  cliente_actual = cliente_urgente_actual;
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("nr");
-  urge = true;
-});
-$("#btn_otroU").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  cliente_actual = cliente_urgente_actual;
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("ot");
-  urge = true;
-  reactivar_actividad();
-});
-$("#btn_equivocadoU").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  cliente_actual = cliente_urgente_actual;
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("eq");
-  urge = true;
-  reactivar_actividad();
-});
-$("#btn_averiadoU").click(function() {
-  $("#idCliente").val(nombre_cliente_actual);
-  cliente_actual = cliente_urgente_actual;
-  $(".fechapicker").datepicker("open");
-  $("#ModalR").modal();
-  $("#tipoModal").html("av");
-  urge = true;
-  reactivar_actividad();
-});
-*/
-
 
 $("#btn_NrespondeU").click(function () {
   $("#idCliente").val(nombre_cliente_actual);
@@ -4886,7 +4838,9 @@ $("#ReprogramarLL").click(function () {
 
     var fecha, hora, cliente, comentario;
     var tipo = $("#tipoModal").html();
+
     console.log('reprogramar llamada :' + tipo);
+
     fecha = $("#fechaLlamada").val();
     hora = convertir_hora($("#hora").val(), $("#minuto").val());
     console.log('urge:' + urge);
@@ -5020,14 +4974,10 @@ $("#ReprogramarLL").click(function () {
         $("#" + ido).prop('title', 'FUERA DE HORA');
         $("#selec_resp").val('');
 
-
         $("#hora").val("");
         $("#minuto").val("");
         $("#hora_mos").val("");
         $("#minuto_mos").val("");
-
-
-
 
         $("#ReprogramarLL").removeClass('disabled');
         $("#ReprogramarLL").html("Reprogramar");
@@ -6598,50 +6548,6 @@ $("#btn_mantenimiento").click(function () {
   window.open('../php/calendario.php', "_blank");
 });
 
-$("#Gclientes").click(function () {
-  reactivar_actividad();
-  $("#PGclientes").addClass("active");
-  $("#PPventa").removeClass("active");
-  $("#PMotivate").removeClass("active");
-  $("#PGllamada").removeClass("active");
-  $("#PRecordatorio").removeClass("active");
-
-  if ($("#containerPG").css("display") == "none") {
-    $("#containerPG").toggle("slow", function () {
-      $("#containerPG").css("display", "block");
-    });
-  }
-
-  if ($("#containerGR").css("display") == "block") {
-    $("#containerGR").toggle("slow", function () {
-      $("#containerGR").css("display", "none");
-    });
-  }
-
-  if ($("#ContainerPV").css("display") == "block") {
-    $("#ContainerPV").toggle("slow", function () {
-      $("#ContainerPV").css("display", "none");
-    });
-  }
-
-  if ($("#ContainerVM").css('display') == "block") {
-    $("#ContainerVM").toggle("slow", function () {
-      $("#ContainerVM").css("display", 'none');
-    });
-  }
-  if ($("#ContainerR").css('display') == "block") {
-    $("#ContainerR").toggle("slow", function () {
-      $("#ContainerR").css("display", 'none');
-    });
-  }
-  if ($("#ContainerGL").css('display') == "block") {
-    $("#ContainerGL").toggle("slow", function () {
-      $("#ContainerGL").css("display", 'none');
-    });
-  }
-});
-
-
 $("#GenerarR").click(function () {
   reactivar_actividad();
   $("#PgenerarR").addClass("active");
@@ -6656,9 +6562,9 @@ $("#GenerarR").click(function () {
     });
   }
 
-  if ($("#containerPG").css("display") == "block") {
-    $("#containerPG").toggle("slow", function () {
-      $("#containerPG").css("display", "none");
+  if ($("#containerPorGestionar").css("display") == "block") {
+    $("#containerPorGestionar").toggle("slow", function () {
+      $("#containerPorGestionar").css("display", "none");
     });
   }
 
@@ -9970,3 +9876,55 @@ function compare(a, b) {
   return 0;
 }
 //end 10092021
+
+
+//#region Ocultar Container de Menus
+function hideContainers() {
+  console.clear();
+  reactivar_actividad();
+
+  $("#PMotivate").removeClass("active");
+  $("#PRecordatorio").removeClass("active");
+  $("#PGllamada").removeClass("active");
+  $("#navPorGestionar").removeClass("active");
+  $("#PPventa").removeClass("active");
+  $("#PgenerarR").removeClass("active");
+
+  if ($("#ContainerVM").css('display') == "block") {
+    $("#ContainerVM").toggle("slow", function () {
+      $("#ContainerVM").css("display", 'none');
+    });
+  }
+
+  if ($("#ContainerR").css('display') == "block") {
+    $("#ContainerR").toggle("slow", function () {
+      $("#ContainerR").css("display", 'none');
+    });
+  }
+
+  if ($("#ContainerGL").css('display') == "block") {
+    $("#ContainerGL").toggle("slow", function () {
+      $("#ContainerGL").css("display", 'none');
+    });
+  }
+
+  if ($("#containerPorGestionar").css("display") == "block") {
+    $("#containerPorGestionar").toggle("slow", function () {
+      $("#containerPorGestionar").css("display", "none");
+    });
+  }
+
+  if ($("#ContainerPV").css("display") == "block") {
+    $("#ContainerPV").toggle("slow", function () {
+      $("#ContainerPV").css("display", "none");
+    });
+  }
+
+  if ($("#containerGR").css("display") == "block") {
+    $("#containerGR").toggle("slow", function () {
+      $("#containerGR").css("display", "none");
+    });
+  }
+
+}
+//#endregion

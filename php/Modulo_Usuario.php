@@ -288,8 +288,8 @@ require "check_session.php";
                 <li class="nav-item" id="PGllamada">
                     <a class="nav-link" href="#" id="Gllamada">Gestion de llamadas</a>
                 </li>
-                <li class="nav-item" id="PGclientes">
-                    <a class="nav-link" href="#" id="Gclientes">Por gestionar</a>
+                <li class="nav-item" id="navPorGestionar">
+                    <a class="nav-link" href="#" id="linkPorGestionar">Por gestionar</a>
                 </li>
                 <li class="nav-item" id="PPventa">
                     <a class="nav-link" href="#" id="Pventa">Post-Venta</a>
@@ -319,59 +319,6 @@ require "check_session.php";
 
     <!--Nav bar --------->
     <div class="container hide" id="ContainerVM" style="margin-top: 20px;">
-    </div>
-
-    <div class="container hide" id="containerPG" style="margin-top: 20px;">
-        <div style="margin-top:20px;background-color:white">
-            <table class="table table-hover table-striped" id="tabla_pg">
-                <thead>
-                    <tr>
-                        <th>Seleccionar</th>
-                        <th>Código</th>
-                        <th>Nombre completo</th>
-                        <th>Dirección</th>
-                        <th>Fecha gestión</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php
-
-                    include "connect.php";
-
-                    //buscar 3 por gestionar por si acaso
-                    $hoy_dia = date('d');
-                    $hoy_mes = date('m');
-                    $hoy_anual = date('Y');
-                    $hoy_anual = $hoy_anual - 1;
-
-                    $n_script = "SELECT * FROM `DatosClientes` WHERE estado = 'Por gestionar' AND actual_gestion = 0 AND inactivo = 0 AND nombre_completo != '-CLIENTE REPETIDO-' AND fecha_gestion < '" . $hoy_anual . "-" . $hoy_mes . "-" . $hoy_dia . "'";
-                    $nuevo_script = mysqli_query($enlace, $n_script);
-                    $ia = 1;
-                    while ($pguser = mysqli_fetch_array($nuevo_script)) {
-
-                        echo "<tr id='" . $pguser['codigo'] . "tr'>
-	                        <td align=center> <input type='checkbox' id='" . $pguser['codigo'] . "' value='" . $pguser['codigo'] . "' onchange='selpg(this.value)'></td>
-	                        <td>" . $pguser['codigo'] . "</td>
-	                        <td>" . $pguser['nombre_completo'] . "</td>
-	                        <td><small>" . $pguser['direccion'] . "</small></td>
-	                        <td>" . $pguser['fecha_gestion'] . "</td>
-	                        </tr>";
-
-                        $ia++;
-                    }
-
-                    include("QuitDB.php");
-                    ?>
-                </tbody>
-
-            </table>
-            <br>
-            <br>
-            <input type='button' class='btn btn-success' onclick="gen_tabla()" value='Gestionar seleccionados'>
-        </div>
-
-        <div id='llenarPG' style='margin-top:15px'>
-        </div>
     </div>
 
     <div class="container hide" id="ContainerR" style="margin-top: 20px;">
@@ -735,6 +682,41 @@ require "check_session.php";
                 </div>
             </div>
         </div>-->
+    </div>
+
+    <div class="container hide" id="containerPorGestionar" style="margin-top: 20px;">
+        <div style="margin-top:20px;background-color:white">
+
+            <div class="form-group mb-4">
+                <label for="selectEstadosClientes">Filtro Estado Cliente</label>
+                <select class="form-control" id="selectEstadosClientes" name="estadoClientes[]" multiple="multiple">
+                    <option value="">Buscar por estado</option>
+                </select>
+            </div>
+
+            <table class="table table-hover table-striped" id="tabla_pg">
+                <thead>
+                    <tr>
+                        <th>Seleccionar</th>
+                        <th>Código</th>
+                        <th>Nombre completo</th>
+                        <th>Dirección</th>
+                        <th>Estado</th>
+                        <th>Fecha gestión</th>
+                    </tr>
+                </thead>
+                <tbody id='tableBodyPorGestionar'>
+
+                </tbody>
+
+            </table>
+            <br>
+            <br>
+            <input type='button' class='btn btn-success' onclick="gen_tabla()" value='Gestionar seleccionados'>
+        </div>
+
+        <div id='llenarPG' style='margin-top:15px'>
+        </div>
     </div>
     <!--   MODALES -->
     <!-- Modal gestion llamada -->
@@ -2222,6 +2204,7 @@ require "check_session.php";
     <script type="text/javascript" src="../js/auxiliares.js"></script>
     <script type="text/javascript" src="../js/verificar_actividad.js?v=<?php echo time() ?>"></script>
     <script type="text/javascript" src="../js/usuario.js?v=<?php echo time() ?>"></script>
+    <script type="text/javascript" src="../js/Usuario/porGestionar.js?v=<?php echo time() ?>"></script>
 
     <script>
         <?php
@@ -2430,8 +2413,41 @@ require "check_session.php";
                 minimumInputLength: 4
             });
 
+            $('#selectEstadosClientes').select2({
+                language: 'es',
+                ajax: {
+                    url: './Usuario/PorGestionar/getFiltrosEstadoCliente.php',
+                    dataType: 'json',
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    delay: 250,
+                    type: 'POST',
+                    data: function(params) {
+                        return {
+                            q: params.term, // search term
+                        };
+                    },
+                    processResults: function(data) {
+                        var arr = []
+                        $.each(data, function(index, value) {
+                            ///console.log(index);
+                            arr.push({
+                                id: value.id,
+                                text: value.text
+                            })
+                        })
+                        return {
+                            results: arr
+                        };
+                    },
+                    cache: true
+                },
+                escapeMarkup: function(markup) {
+                    return markup;
+                }
+            });
 
-            //fin buscar
 
             //recordatorios
 
@@ -2652,35 +2668,6 @@ require "check_session.php";
             </div>
         </div>
     </div>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            $('#tabla_pg').DataTable({
-                language: {
-                    "decimal": "",
-                    "emptyTable": "No hay información",
-                    "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
-                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
-                    "infoFiltered": "(Filtrado de _MAX_ total entradas)",
-                    "infoPostFix": "",
-                    "thousands": ",",
-                    "lengthMenu": "Mostrar _MENU_ Entradas",
-                    "loadingRecords": "Cargando...",
-                    "processing": "Procesando...",
-                    "search": "Buscar:",
-                    "zeroRecords": "Sin resultados encontrados",
-                    "paginate": {
-                        "first": "Primero",
-                        "last": "Ultimo",
-                        "next": "Siguiente",
-                        "previous": "Anterior"
-                    }
-                }
-            });
-
-        });
-    </script>
 
 </body>
 
