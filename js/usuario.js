@@ -2292,6 +2292,8 @@ async function selectRowUnicoCliente(id) {
   selectedpg.push(id);
   await gen_tabla()
 
+  showdata(id)
+
   if (auxselectedpg.length > 0) {
     selectedpg = auxselectedpg
   }
