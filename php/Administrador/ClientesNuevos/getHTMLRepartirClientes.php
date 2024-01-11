@@ -18,8 +18,7 @@ echo "
 $query = "SELECT * FROM DatosClientes 
             WHERE inactivo = 0 
             AND codigo NOT IN (SELECT id_cliente FROM grupo_asignacion LEFT JOIN DatosClientes on grupo_asignacion.id_cliente = DatosClientes.codigo WHERE DatosClientes.inactivo = 0)
-            AND nombre_completo LIKE '%$filtro_disponible%'
-            OR fecha_subida LIKE '%$filtro_disponible%'
+            AND  (nombre_completo LIKE '%$filtro_disponible%' OR fecha_subida LIKE '%$filtro_disponible%')
             ORDER BY fecha_subida DESC, nombre_completo ASC";
 $clientesNuevos = mysqli_query($enlace, $query);
 
@@ -52,8 +51,7 @@ echo "
 
 $query = "SELECT * FROM grupo_asignacion LEFT JOIN DatosClientes on grupo_asignacion.id_cliente = DatosClientes.codigo 
             WHERE id_grupo = '" . $id . "' AND DatosClientes.inactivo = 0
-            AND nombre_completo LIKE '%$filtro_asignado%'
-            OR fecha_subida LIKE '%$filtro_asignado%' 
+            AND (nombre_completo LIKE '%$filtro_asignado%' OR fecha_subida LIKE '%$filtro_asignado%') 
             ORDER BY `grupo_asignacion`.`fecha_asginacion` ASC";
 $clientesAsignados = mysqli_query($enlace, $query);
 

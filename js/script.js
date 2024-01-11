@@ -1877,16 +1877,20 @@ function getListGroupRepartirClientes() {
 
 function agregarClienteAGrupo(codigo) {
 
+    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
+
     if (!loading) {
         loading = true;
         $.post("./Administrador/ClientesNuevos/postAsignarClienteAGrupo.php", { idcliente: codigo, idgrupo: idGrupoPoblacional, tipo: 1 }, function (data) {
-            getListGroupRepartirClientes(idGrupoPoblacional);
+            getListGroupRepartirClientes();
             loading = false;
         });
     }
 }
 
 function retirarClienteDeGrupo(codigo) {
+
+    var idGrupoPoblacional = document.getElementById('IdGrupoPoblacional').value;
 
     if (!loading) {
         loading = true;

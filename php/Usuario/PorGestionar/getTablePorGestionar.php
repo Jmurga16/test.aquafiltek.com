@@ -11,7 +11,7 @@ $idUsuario = $_POST['idUsuario'];
 
 $query = "SELECT codigo, nombre_completo, direccion, estado, fecha_gestion  FROM `DatosClientes` 
             INNER JOIN `Grupo_Asignacion` ON (DatosClientes.codigo = Grupo_Asignacion.id_cliente AND tipo = 1)
-                AND  Grupo_Asignacion.id_grupo = (SELECT id_grupo FROM Grupo_Asignacion WHERE id_cliente = " . $idUsuario . " AND tipo = 2)
+                AND  Grupo_Asignacion.id_grupo IN (SELECT id_grupo FROM Grupo_Asignacion WHERE id_cliente = " . $idUsuario . " AND tipo = 2)
             WHERE estado = 'Por gestionar' OR estado = 'No responde' OR estado = 'Volver a llamar' OR estado LIKE '%Importante%'
             AND actual_gestion = 0 AND inactivo = 0 AND nombre_completo != '-CLIENTE REPETIDO-' 
 
@@ -21,9 +21,16 @@ $query = "SELECT codigo, nombre_completo, direccion, estado, fecha_gestion  FROM
 
             SELECT codigo, nombre_completo, direccion, estado, fecha_gestion  FROM `DatosClientes` 
             INNER JOIN `Grupo_Asignacion` ON (DatosClientes.codigo = Grupo_Asignacion.id_cliente AND tipo = 1)
-            AND  Grupo_Asignacion.id_grupo = (SELECT id_grupo FROM Grupo_Asignacion WHERE id_cliente = " . $idUsuario . " AND tipo = 2)
+            AND  Grupo_Asignacion.id_grupo IN (SELECT id_grupo FROM Grupo_Asignacion WHERE id_cliente = " . $idUsuario . " AND tipo = 2)
             INNER JOIN Operador_x_cliente ON DatosClientes.codigo = Operador_x_cliente.codigo_cliente AND Operador_x_cliente.id_operador != " . $idUsuario . "
             
+            UNION 
+
+            SELECT codigo, nombre_completo, direccion, estado, fecha_gestion  FROM `DatosClientes` 
+            INNER JOIN `Grupo_Asignacion` ON (DatosClientes.codigo = Grupo_Asignacion.id_cliente AND tipo = 1)
+            AND  Grupo_Asignacion.id_grupo IN (SELECT id_grupo FROM Grupo_Asignacion WHERE id_cliente = " . $idUsuario . " AND tipo = 2)
+            INNER JOIN Operador_x_cliente ON DatosClientes.codigo = Operador_x_cliente.codigo_cliente AND Operador_x_cliente.id_operador = " . $idUsuario . "
+
             ORDER BY fecha_gestion DESC 
             ";
 
